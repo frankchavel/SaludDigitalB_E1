@@ -1,1 +1,3001 @@
-id_paciente,nombre,edad,sexo,distrito,servicio,fecha_atencion,Saldo,monto
+id_paciente,nombre,edad,sexo,distrito,servicio,fecha_atencion,monto
+P0001,Sofía Castro,14,F,Jesús María,Odontología,2024-04-15,112
+P0002,María Díaz,89,M,La Molina,Oftalmología,2022-12-30,459
+P0003,Carlos Castro,58,F,La Molina,Traumatología,2020-02-15,351
+P0004,Andrés Rojas,70,F,Cajamarca,Cardiología,2021-08-29,389
+P0005,Luis Cabrera,7,F,La Molina,Pediatría,2025-07-19,377
+P0006,Sofía Rojas,88,M,Lince,Traumatología,2020-06-28,336
+P0007,Carlos Ramírez,38,F,Cajamarca,Oftalmología,2022-06-08,240
+P0008,Carmen Salazar,37,M,Cajamarca,Oftalmología,2025-12-11,411
+P0009,Luis Pérez,49,F,Callao,Cardiología,2025-01-29,381
+P0010,Luis Torres,62,M,La Molina,Odontología,2020-05-31,181
+P0011,Carmen Pérez,17,F,La Molina,Ginecología,2023-06-14,65
+P0012,María Ramírez,72,M,Surco,Odontología,2021-08-06,66
+P0013,Andrés Gómez,76,M,Jesús María,Ginecología,2024-02-20,186
+P0014,Ana Ramírez,90,M,Lince,Traumatología,2024-11-01,179
+P0015,Carmen Cabrera,14,F,San Isidro,Traumatología,2023-01-19,97
+P0016,Andrés Ramírez,51,M,Miraflores,Oftalmología,2022-05-28,440
+P0017,Carmen Pérez,85,F,Cajamarca,Dermatología,2025-12-29,442
+P0018,Luis Torres,15,M,Jesús María,Traumatología,2024-04-03,329
+P0019,Sofía Cabrera,9,M,Surco,Oftalmología,2025-07-15,285
+P0020,Lucía Salazar,14,M,Cajamarca,Dermatología,2022-11-29,391
+P0021,José Castro,89,F,Surco,Odontología,2022-01-15,82
+P0022,Miguel Fernández,77,F,Callao,Pediatría,2022-02-16,476
+P0023,María Gómez,34,M,Callao,Oftalmología,2022-02-23,486
+P0024,Luis Ramírez,87,M,Surco,Traumatología,2020-12-26,439
+P0025,Carmen Fernández,52,F,Miraflores,Oftalmología,2021-03-13,131
+P0026,Carmen Fernández,9,M,Cajamarca,Odontología,2020-06-22,231
+P0027,José Salazar,47,M,Surco,Ginecología,2024-02-17,470
+P0028,Carmen Torres,89,F,Jesús María,Pediatría,2022-07-05,291
+P0029,Carlos Fernández,63,F,Lince,Odontología,2024-10-08,145
+P0030,María Rojas,23,F,Surco,Traumatología,2022-03-06,77
+P0031,Carlos Salazar,60,F,Jesús María,Cardiología,2023-08-29,108
+P0032,Lucía Pérez,36,F,La Molina,Dermatología,2022-12-02,175
+P0033,José Ramírez,44,M,Miraflores,Dermatología,2021-10-15,412
+P0034,Miguel Salazar,35,M,La Molina,Odontología,2021-09-14,411
+P0035,Luis Gómez,75,M,Jesús María,Ginecología,2024-02-01,444
+P0036,Ana Castro,31,F,San Isidro,Oftalmología,2024-06-05,358
+P0037,Carlos Castro,87,F,La Molina,Ginecología,2021-05-16,54
+P0038,Ana Castro,46,M,San Isidro,Odontología,2025-11-12,104
+P0039,Luis Díaz,72,M,Lince,Dermatología,2020-09-28,394
+P0040,Luis Ramírez,6,M,Callao,Traumatología,2023-11-24,148
+P0041,Carlos Fernández,26,M,San Isidro,Cardiología,2024-12-18,354
+P0042,Sofía Díaz,30,F,Cajamarca,Cardiología,2021-06-29,88
+P0043,Carmen Gómez,69,M,Jesús María,Dermatología,2022-10-04,217
+P0044,José Ramírez,80,F,Callao,Traumatología,2020-12-15,324
+P0045,Ana Rojas,59,F,La Molina,Dermatología,2025-04-26,366
+P0046,Ana Rojas,4,M,Cajamarca,Odontología,2022-11-24,236
+P0047,Lucía Pérez,5,F,Jesús María,Traumatología,2021-10-06,203
+P0048,Carmen Fernández,64,M,Cajamarca,Pediatría,2025-09-14,172
+P0049,Andrés Torres,31,M,Miraflores,Pediatría,2025-09-24,144
+P0050,Lucía Pérez,88,F,Surco,Pediatría,2024-04-18,387
+P0051,José Salazar,75,F,Lince,Oftalmología,2021-10-17,136
+P0052,Ana Fernández,70,F,Cajamarca,Oftalmología,2023-01-02,130
+P0053,Luis Gómez,83,M,Jesús María,Dermatología,2025-03-25,262
+P0054,María Salazar,4,M,Jesús María,Oftalmología,2022-10-28,397
+P0055,José Díaz,76,M,Callao,Dermatología,2022-06-05,51
+P0056,Lucía Cabrera,14,M,Jesús María,Ginecología,2023-03-01,161
+P0057,Ana Ramírez,13,F,Jesús María,Dermatología,2025-05-23,208
+P0058,María Cabrera,64,M,La Molina,Pediatría,2021-05-18,367
+P0059,Carlos Fernández,51,M,Lince,Dermatología,2022-12-19,126
+P0060,José Salazar,37,M,Lince,Pediatría,2023-08-18,369
+P0061,María Gómez,24,F,San Isidro,Odontología,2024-08-04,207
+P0062,Andrés Ramírez,22,F,San Isidro,Oftalmología,2020-07-28,337
+P0063,Ana Torres,79,F,San Isidro,Cardiología,2025-06-17,206
+P0064,María Fernández,70,M,Cajamarca,Odontología,2021-07-31,373
+P0065,Sofía Pérez,72,M,La Molina,Dermatología,2023-09-12,482
+P0066,José Ramírez,68,M,La Molina,Pediatría,2021-01-02,495
+P0067,Lucía Castro,39,M,Cajamarca,Ginecología,2021-02-02,224
+P0068,Ana Ramírez,70,F,Cajamarca,Pediatría,2022-02-19,249
+P0069,María Torres,18,M,Lince,Cardiología,2020-01-05,76
+P0070,Andrés Castro,89,F,Lince,Ginecología,2020-11-18,412
+P0071,María Fernández,9,F,Surco,Pediatría,2023-05-28,198
+P0072,José Díaz,19,F,Callao,Ginecología,2022-09-22,479
+P0073,Carmen Díaz,33,F,Lince,Oftalmología,2025-03-24,298
+P0074,María Gómez,60,M,La Molina,Pediatría,2025-02-02,231
+P0075,Andrés Gómez,58,M,San Isidro,Oftalmología,2022-08-20,287
+P0076,Carmen Ramírez,63,F,La Molina,Pediatría,2024-12-05,338
+P0077,Miguel Torres,70,F,San Isidro,Oftalmología,2021-05-23,250
+P0078,Carlos Cabrera,16,M,Miraflores,Oftalmología,2020-07-20,377
+P0079,José Cabrera,13,F,La Molina,Ginecología,2025-07-06,457
+P0080,Carmen Díaz,18,M,Jesús María,Ginecología,2023-02-10,167
+P0081,Luis Torres,3,M,Surco,Dermatología,2021-02-13,432
+P0082,Carlos Rojas,90,F,Surco,Pediatría,2021-11-04,254
+P0083,Miguel Rojas,16,M,Surco,Dermatología,2024-02-14,249
+P0084,Sofía Cabrera,68,M,Cajamarca,Dermatología,2024-04-05,71
+P0085,Luis Gómez,87,M,Cajamarca,Oftalmología,2024-10-25,264
+P0086,Miguel Salazar,86,M,Cajamarca,Odontología,2020-08-04,309
+P0087,María Torres,88,M,La Molina,Traumatología,2023-08-02,245
+P0088,Carlos Cabrera,41,M,Callao,Odontología,2023-08-25,498
+P0089,Andrés Pérez,26,F,San Isidro,Oftalmología,2022-08-25,56
+P0090,José Ramírez,86,F,Surco,Oftalmología,2023-07-25,429
+P0091,Carlos Salazar,57,M,Cajamarca,Pediatría,2024-03-20,283
+P0092,Carmen Castro,32,F,Callao,Pediatría,2020-08-30,457
+P0093,Sofía Díaz,24,F,Lince,Pediatría,2023-01-05,87
+P0094,Andrés Ramírez,60,M,Jesús María,Pediatría,2021-05-14,418
+P0095,Luis Pérez,77,M,Miraflores,Ginecología,2023-11-04,185
+P0096,Sofía Gómez,10,F,Jesús María,Odontología,2024-08-22,69
+P0097,Andrés Castro,42,M,Jesús María,Oftalmología,2021-10-17,239
+P0098,Andrés Díaz,73,M,Lince,Oftalmología,2022-12-24,111
+P0099,Carlos Salazar,36,M,Surco,Odontología,2023-08-10,194
+P0100,José Castro,64,F,La Molina,Pediatría,2023-05-14,299
+P0101,Sofía Pérez,46,M,Cajamarca,Ginecología,2023-10-30,67
+P0102,Ana Fernández,14,M,Cajamarca,Odontología,2021-06-07,306
+P0103,Sofía Salazar,4,F,La Molina,Oftalmología,2021-04-22,299
+P0104,Andrés Torres,22,M,Lince,Cardiología,2023-01-31,90
+P0105,José Cabrera,87,F,Lince,Pediatría,2022-08-04,401
+P0106,Sofía Díaz,64,F,Callao,Oftalmología,2021-09-28,486
+P0107,Carlos Fernández,41,M,Jesús María,Ginecología,2025-02-02,130
+P0108,Andrés Pérez,25,F,Lince,Traumatología,2023-07-10,286
+P0109,Lucía Castro,48,M,Jesús María,Pediatría,2025-10-09,334
+P0110,Luis Rojas,21,F,San Isidro,Pediatría,2022-01-24,495
+P0111,Carmen Salazar,19,F,Lince,Traumatología,2023-06-21,116
+P0112,Ana Salazar,26,F,Callao,Traumatología,2024-03-31,469
+P0113,Carlos Torres,40,F,Miraflores,Ginecología,2022-10-20,347
+P0114,Lucía Fernández,70,M,Miraflores,Pediatría,2022-07-15,430
+P0115,Luis Cabrera,34,F,Jesús María,Dermatología,2024-04-03,360
+P0116,Carmen Torres,35,M,San Isidro,Cardiología,2024-06-24,493
+P0117,Lucía Gómez,53,F,San Isidro,Cardiología,2022-02-27,139
+P0118,Carmen Cabrera,40,M,Miraflores,Ginecología,2024-08-18,481
+P0119,María Salazar,30,M,San Isidro,Odontología,2025-05-02,390
+P0120,Lucía Ramírez,35,F,Miraflores,Cardiología,2021-11-08,224
+P0121,Lucía Cabrera,88,M,Cajamarca,Pediatría,2024-09-13,445
+P0122,Carlos Pérez,25,F,Surco,Pediatría,2023-07-19,484
+P0123,Ana Pérez,90,M,Jesús María,Oftalmología,2023-06-19,198
+P0124,José Cabrera,48,F,Cajamarca,Odontología,2023-01-01,418
+P0125,Lucía Díaz,85,M,Callao,Traumatología,2025-11-27,96
+P0126,José Castro,62,F,Miraflores,Pediatría,2021-09-19,118
+P0127,Carmen Cabrera,33,M,Lince,Dermatología,2020-10-23,389
+P0128,Andrés Rojas,86,M,Surco,Oftalmología,2022-03-04,435
+P0129,Carmen Fernández,76,F,Jesús María,Pediatría,2020-11-02,90
+P0130,Ana Pérez,21,M,Miraflores,Odontología,2023-02-07,409
+P0131,Carmen Gómez,83,F,Jesús María,Cardiología,2025-07-13,121
+P0132,Carmen Cabrera,88,M,Cajamarca,Pediatría,2020-02-21,266
+P0133,Luis Cabrera,69,M,Miraflores,Oftalmología,2025-09-28,289
+P0134,Miguel Cabrera,75,F,San Isidro,Pediatría,2024-11-04,390
+P0135,Miguel Fernández,43,M,Jesús María,Ginecología,2022-02-16,352
+P0136,Luis Castro,26,M,San Isidro,Oftalmología,2025-07-20,454
+P0137,Luis Ramírez,1,M,Lince,Oftalmología,2020-02-06,87
+P0138,Andrés Castro,78,M,Miraflores,Ginecología,2020-05-14,238
+P0139,José Salazar,35,F,Miraflores,Oftalmología,2020-02-21,443
+P0140,Luis Torres,35,F,La Molina,Ginecología,2020-08-24,398
+P0141,Luis Rojas,42,F,Cajamarca,Dermatología,2021-03-22,449
+P0142,Andrés Castro,5,M,Surco,Ginecología,2021-06-21,109
+P0143,Ana Rojas,25,M,Jesús María,Odontología,2021-10-07,353
+P0144,Andrés Pérez,56,M,Surco,Odontología,2022-01-26,264
+P0145,Sofía Castro,45,M,Surco,Ginecología,2023-11-04,295
+P0146,Andrés Ramírez,31,M,Callao,Oftalmología,2020-08-15,358
+P0147,Miguel Salazar,66,F,Callao,Ginecología,2024-11-10,208
+P0148,Ana Castro,77,F,Callao,Pediatría,2022-12-18,415
+P0149,Luis Pérez,54,F,Jesús María,Traumatología,2020-08-28,199
+P0150,Ana Pérez,64,F,Lince,Oftalmología,2025-03-31,118
+P0151,José Salazar,83,M,San Isidro,Odontología,2022-04-13,151
+P0152,Lucía Castro,88,F,Miraflores,Cardiología,2023-07-04,207
+P0153,Miguel Ramírez,27,F,La Molina,Oftalmología,2022-05-12,66
+P0154,María Ramírez,49,F,Miraflores,Pediatría,2025-12-29,65
+P0155,Carmen Torres,26,F,Surco,Pediatría,2024-01-07,371
+P0156,Lucía Fernández,39,F,Jesús María,Ginecología,2023-05-25,138
+P0157,María Ramírez,18,F,San Isidro,Pediatría,2022-03-07,296
+P0158,Lucía Rojas,68,F,Cajamarca,Oftalmología,2020-06-29,118
+P0159,Lucía Ramírez,44,M,Callao,Odontología,2021-11-19,483
+P0160,José Ramírez,10,M,Lince,Cardiología,2025-01-06,351
+P0161,Sofía Fernández,10,M,La Molina,Odontología,2023-09-12,248
+P0162,Andrés Ramírez,68,F,Surco,Traumatología,2023-12-15,50
+P0163,Sofía Gómez,17,M,Miraflores,Oftalmología,2023-02-10,367
+P0164,Lucía Díaz,87,M,Callao,Traumatología,2021-11-29,489
+P0165,Miguel Gómez,58,M,Surco,Dermatología,2024-11-25,174
+P0166,Carmen Pérez,83,M,Miraflores,Pediatría,2022-02-18,452
+P0167,Carmen Gómez,8,M,Callao,Pediatría,2020-08-01,462
+P0168,Sofía Cabrera,48,M,Surco,Pediatría,2025-12-01,436
+P0169,Luis Gómez,48,M,Callao,Pediatría,2025-01-03,176
+P0170,Luis Torres,13,F,Surco,Cardiología,2020-12-25,459
+P0171,Ana Gómez,77,F,Cajamarca,Traumatología,2021-03-18,392
+P0172,Luis Díaz,44,M,San Isidro,Odontología,2023-06-11,368
+P0173,José Rojas,44,F,Surco,Dermatología,2025-08-25,442
+P0174,María Díaz,7,M,Miraflores,Pediatría,2020-03-18,144
+P0175,Andrés Castro,9,F,Miraflores,Pediatría,2023-10-07,288
+P0176,Carmen Díaz,71,F,Cajamarca,Traumatología,2021-07-14,389
+P0177,Andrés Gómez,85,M,Surco,Odontología,2022-02-03,357
+P0178,José Torres,82,F,San Isidro,Odontología,2022-10-18,340
+P0179,Carmen Salazar,47,F,Cajamarca,Odontología,2023-09-03,300
+P0180,Ana Ramírez,38,M,Surco,Pediatría,2020-01-19,248
+P0181,Ana Torres,88,F,Miraflores,Ginecología,2023-01-09,455
+P0182,María Pérez,24,F,San Isidro,Odontología,2025-07-25,62
+P0183,Carlos Rojas,23,M,La Molina,Ginecología,2023-09-06,259
+P0184,Sofía Cabrera,58,F,Miraflores,Cardiología,2025-09-07,241
+P0185,Miguel Salazar,61,F,Cajamarca,Pediatría,2024-03-10,330
+P0186,María Ramírez,75,M,San Isidro,Oftalmología,2025-10-06,55
+P0187,María Salazar,46,F,Callao,Dermatología,2023-02-28,145
+P0188,Luis Pérez,34,M,Jesús María,Oftalmología,2023-07-28,167
+P0189,Ana Gómez,32,F,Lince,Cardiología,2020-10-09,70
+P0190,María Torres,68,M,Jesús María,Cardiología,2024-04-24,223
+P0191,Ana Gómez,6,M,La Molina,Ginecología,2024-01-16,125
+P0192,Andrés Castro,3,F,Miraflores,Odontología,2020-05-29,165
+P0193,Miguel Ramírez,25,M,Surco,Pediatría,2024-10-22,245
+P0194,María Pérez,87,F,Jesús María,Traumatología,2022-06-20,282
+P0195,Lucía Ramírez,5,F,Lince,Traumatología,2022-01-26,476
+P0196,Miguel Salazar,75,M,Cajamarca,Ginecología,2025-03-21,463
+P0197,Lucía Torres,13,F,Miraflores,Traumatología,2023-05-05,135
+P0198,Sofía Ramírez,68,M,Miraflores,Traumatología,2021-01-24,422
+P0199,Carmen Pérez,39,M,Miraflores,Odontología,2020-02-23,271
+P0200,María Díaz,12,M,Lince,Traumatología,2024-10-09,439
+P0201,Carlos Ramírez,82,M,Callao,Pediatría,2020-06-19,119
+P0202,José Fernández,30,M,Surco,Pediatría,2020-11-21,406
+P0203,Ana Fernández,24,F,Callao,Pediatría,2020-02-01,99
+P0204,Sofía Rojas,7,F,Lince,Odontología,2024-06-27,246
+P0205,Carmen Pérez,79,F,Callao,Pediatría,2020-04-08,380
+P0206,María Gómez,37,F,Cajamarca,Odontología,2023-01-13,485
+P0207,Carmen Pérez,25,M,Surco,Cardiología,2022-06-16,407
+P0208,Ana Torres,4,M,Surco,Dermatología,2021-11-14,86
+P0209,Carlos Salazar,78,F,Callao,Ginecología,2021-04-19,258
+P0210,María Fernández,45,M,Miraflores,Oftalmología,2023-01-28,399
+P0211,María Castro,10,F,Miraflores,Traumatología,2022-06-03,76
+P0212,Carlos Rojas,36,F,Lince,Odontología,2020-08-18,203
+P0213,Carmen Ramírez,85,F,Cajamarca,Pediatría,2020-12-24,330
+P0214,Lucía Pérez,57,M,La Molina,Pediatría,2024-01-19,241
+P0215,Lucía Cabrera,40,M,Surco,Ginecología,2025-10-11,189
+P0216,José Cabrera,15,M,San Isidro,Ginecología,2024-07-28,405
+P0217,José Salazar,16,F,Surco,Odontología,2022-05-01,101
+P0218,María Castro,67,M,Cajamarca,Odontología,2020-05-21,133
+P0219,Carmen Salazar,21,F,Jesús María,Odontología,2021-12-16,104
+P0220,María Gómez,20,F,Miraflores,Cardiología,2024-05-30,298
+P0221,Carlos Cabrera,89,F,Callao,Oftalmología,2021-12-31,387
+P0222,Carlos Cabrera,71,F,La Molina,Pediatría,2020-06-09,332
+P0223,Carlos Pérez,38,F,Miraflores,Dermatología,2022-07-24,186
+P0224,Lucía Díaz,4,M,La Molina,Cardiología,2021-04-01,341
+P0225,Sofía Fernández,77,M,Jesús María,Traumatología,2021-11-01,394
+P0226,Carlos Díaz,26,F,Miraflores,Traumatología,2023-01-17,112
+P0227,Sofía Salazar,27,M,Callao,Cardiología,2022-05-13,356
+P0228,Ana Rojas,30,F,San Isidro,Ginecología,2025-09-21,52
+P0229,José Torres,42,M,Callao,Oftalmología,2020-05-29,133
+P0230,Lucía Cabrera,89,F,Lince,Pediatría,2021-08-18,224
+P0231,Ana Ramírez,41,M,Callao,Odontología,2020-02-20,142
+P0232,Ana Díaz,25,M,Jesús María,Odontología,2022-12-13,330
+P0233,Lucía Salazar,37,F,Miraflores,Odontología,2020-04-14,379
+P0234,José Torres,9,M,Jesús María,Dermatología,2024-01-13,273
+P0235,José Gómez,36,M,Callao,Oftalmología,2022-04-01,146
+P0236,Andrés Ramírez,48,F,San Isidro,Cardiología,2025-03-27,110
+P0237,José Díaz,18,M,San Isidro,Cardiología,2025-06-17,423
+P0238,Sofía Gómez,33,M,Jesús María,Pediatría,2023-09-26,170
+P0239,Lucía Castro,90,M,Callao,Dermatología,2025-05-09,339
+P0240,Carlos Rojas,90,F,Callao,Traumatología,2022-12-18,183
+P0241,Miguel Torres,56,F,Callao,Traumatología,2022-12-30,419
+P0242,Carlos Ramírez,71,F,San Isidro,Odontología,2020-02-06,427
+P0243,Lucía Gómez,5,M,Jesús María,Cardiología,2025-05-21,76
+P0244,Lucía Rojas,47,M,Callao,Traumatología,2025-02-26,402
+P0245,Miguel Cabrera,52,F,La Molina,Dermatología,2022-04-28,137
+P0246,Andrés Pérez,3,F,La Molina,Traumatología,2024-11-09,95
+P0247,Miguel Ramírez,21,M,Cajamarca,Oftalmología,2024-07-01,367
+P0248,Luis Torres,32,M,Callao,Traumatología,2021-04-11,167
+P0249,Ana Fernández,30,F,Miraflores,Traumatología,2023-08-18,321
+P0250,Sofía Cabrera,27,F,Miraflores,Odontología,2021-11-12,56
+P0251,Sofía Castro,77,M,Cajamarca,Cardiología,2025-05-09,266
+P0252,Lucía Castro,78,F,Surco,Odontología,2020-05-04,491
+P0253,Miguel Salazar,64,F,Jesús María,Dermatología,2022-02-16,280
+P0254,Luis Torres,30,F,Cajamarca,Dermatología,2023-12-08,292
+P0255,Carmen Cabrera,1,M,Jesús María,Dermatología,2021-06-09,274
+P0256,Carmen Salazar,40,M,Miraflores,Cardiología,2022-01-25,52
+P0257,Ana Pérez,43,M,Cajamarca,Traumatología,2025-08-23,121
+P0258,Andrés Ramírez,82,M,Callao,Traumatología,2023-12-19,224
+P0259,José Torres,64,M,Jesús María,Cardiología,2024-10-27,59
+P0260,Carlos Ramírez,73,F,Lince,Cardiología,2023-06-27,378
+P0261,Lucía Gómez,18,M,San Isidro,Dermatología,2024-11-25,350
+P0262,Miguel Gómez,61,M,La Molina,Traumatología,2025-06-07,63
+P0263,Luis Rojas,90,M,Surco,Traumatología,2025-04-29,210
+P0264,Ana Gómez,74,M,Miraflores,Traumatología,2022-03-31,464
+P0265,María Castro,15,M,Surco,Dermatología,2023-07-20,463
+P0266,Ana Ramírez,58,M,La Molina,Traumatología,2022-07-24,393
+P0267,Carlos Pérez,64,F,Miraflores,Odontología,2023-02-24,468
+P0268,Miguel Cabrera,67,F,Jesús María,Traumatología,2021-01-05,223
+P0269,Carmen Díaz,88,M,La Molina,Oftalmología,2021-08-14,330
+P0270,María Díaz,17,M,Miraflores,Oftalmología,2024-05-12,174
+P0271,María Torres,22,F,Miraflores,Dermatología,2022-01-15,263
+P0272,Miguel Gómez,22,F,Jesús María,Pediatría,2020-09-26,153
+P0273,Carmen Gómez,65,M,Jesús María,Pediatría,2023-06-17,485
+P0274,Carlos Cabrera,45,F,Callao,Pediatría,2025-07-25,131
+P0275,Andrés Fernández,50,F,San Isidro,Pediatría,2020-12-16,281
+P0276,José Pérez,44,M,Lince,Oftalmología,2020-07-23,407
+P0277,Luis Gómez,46,F,Surco,Traumatología,2020-07-31,355
+P0278,Luis Fernández,87,M,Lince,Pediatría,2022-06-30,260
+P0279,Ana Ramírez,71,F,Cajamarca,Ginecología,2024-02-23,425
+P0280,Carmen Gómez,84,M,La Molina,Dermatología,2021-02-17,90
+P0281,Miguel Ramírez,46,M,Miraflores,Traumatología,2025-11-04,336
+P0282,José Rojas,15,F,Callao,Pediatría,2022-09-26,457
+P0283,Ana Gómez,84,M,La Molina,Dermatología,2023-10-28,178
+P0284,Miguel Torres,63,M,Callao,Pediatría,2023-02-27,146
+P0285,María Ramírez,12,M,Callao,Pediatría,2024-02-19,402
+P0286,María Torres,49,M,Lince,Cardiología,2021-04-17,233
+P0287,Luis Torres,41,M,Surco,Oftalmología,2020-10-25,428
+P0288,Andrés Torres,58,F,Cajamarca,Odontología,2023-04-13,380
+P0289,María Torres,21,F,Lince,Dermatología,2020-08-29,201
+P0290,José Fernández,15,F,San Isidro,Traumatología,2023-04-14,202
+P0291,José Torres,60,F,La Molina,Oftalmología,2023-01-13,229
+P0292,Andrés Gómez,82,F,Callao,Traumatología,2022-02-07,123
+P0293,Luis Fernández,55,M,La Molina,Cardiología,2025-07-15,214
+P0294,José Ramírez,1,M,Jesús María,Dermatología,2022-11-07,282
+P0295,Sofía Castro,8,M,Jesús María,Dermatología,2025-04-17,315
+P0296,María Salazar,25,M,Miraflores,Oftalmología,2022-12-11,418
+P0297,Ana Gómez,59,F,Cajamarca,Traumatología,2023-03-02,283
+P0298,José Cabrera,37,F,Surco,Odontología,2024-12-19,250
+P0299,Carmen Torres,34,M,Jesús María,Pediatría,2022-05-19,266
+P0300,Lucía Torres,75,F,San Isidro,Cardiología,2021-12-02,470
+P0301,Ana Díaz,59,M,Cajamarca,Cardiología,2024-02-11,334
+P0302,Carmen Torres,87,F,Surco,Ginecología,2020-03-27,364
+P0303,Luis Cabrera,77,F,Miraflores,Ginecología,2021-12-23,209
+P0304,Ana Cabrera,56,F,Callao,Cardiología,2025-04-30,60
+P0305,Lucía Rojas,54,M,Surco,Oftalmología,2023-02-17,217
+P0306,Sofía Ramírez,15,M,Cajamarca,Pediatría,2021-07-14,279
+P0307,José Salazar,88,F,La Molina,Traumatología,2021-04-29,195
+P0308,Sofía Rojas,40,F,La Molina,Ginecología,2021-10-01,114
+P0309,Carlos Salazar,52,F,Callao,Pediatría,2020-10-16,90
+P0310,Sofía Gómez,78,F,Miraflores,Oftalmología,2020-12-30,158
+P0311,Ana Torres,28,M,La Molina,Oftalmología,2021-02-14,90
+P0312,Luis Torres,35,F,San Isidro,Oftalmología,2025-01-16,412
+P0313,Miguel Torres,31,F,Miraflores,Odontología,2022-07-06,410
+P0314,Lucía Torres,67,F,Jesús María,Oftalmología,2023-11-23,489
+P0315,María Pérez,89,F,Surco,Cardiología,2021-05-20,467
+P0316,Andrés Torres,42,F,Callao,Oftalmología,2020-04-10,116
+P0317,Carlos Castro,57,M,Callao,Ginecología,2020-06-30,294
+P0318,Lucía Salazar,47,F,Surco,Odontología,2021-09-22,202
+P0319,José Ramírez,33,F,Cajamarca,Ginecología,2025-07-03,383
+P0320,Andrés Salazar,71,F,San Isidro,Pediatría,2025-07-15,431
+P0321,Ana Castro,16,F,Lince,Dermatología,2022-12-23,160
+P0322,Carlos Rojas,2,F,Cajamarca,Oftalmología,2024-09-20,236
+P0323,Luis Pérez,2,M,Jesús María,Oftalmología,2023-08-25,84
+P0324,María Fernández,69,M,Cajamarca,Dermatología,2020-06-17,98
+P0325,Carlos Torres,56,M,Jesús María,Cardiología,2024-04-15,234
+P0326,Sofía Torres,36,M,Miraflores,Cardiología,2020-10-09,305
+P0327,Ana Gómez,89,F,Callao,Cardiología,2025-11-29,313
+P0328,Miguel Díaz,56,F,Jesús María,Pediatría,2020-09-08,158
+P0329,Miguel Fernández,25,F,Jesús María,Traumatología,2023-10-19,305
+P0330,Luis Pérez,76,M,Surco,Odontología,2023-12-28,475
+P0331,Andrés Gómez,31,F,Miraflores,Oftalmología,2023-06-12,441
+P0332,Luis Fernández,85,F,Lince,Pediatría,2020-11-04,326
+P0333,Miguel Fernández,65,M,Miraflores,Oftalmología,2021-03-08,220
+P0334,Ana Fernández,61,M,Cajamarca,Cardiología,2023-02-13,144
+P0335,María Torres,12,M,Miraflores,Traumatología,2021-02-18,403
+P0336,Carlos Ramírez,68,M,Cajamarca,Odontología,2024-07-29,306
+P0337,José Gómez,34,F,Callao,Dermatología,2024-01-16,463
+P0338,José Fernández,84,F,Lince,Odontología,2023-11-22,350
+P0339,María Díaz,46,M,La Molina,Pediatría,2024-11-06,238
+P0340,Carlos Rojas,54,F,Surco,Cardiología,2025-03-08,463
+P0341,Miguel Díaz,48,M,Cajamarca,Dermatología,2022-05-27,454
+P0342,Carlos Salazar,88,M,Surco,Pediatría,2020-05-07,475
+P0343,Andrés Pérez,79,F,Callao,Odontología,2020-12-18,331
+P0344,Andrés Díaz,26,F,Miraflores,Dermatología,2025-12-18,362
+P0345,Carmen Cabrera,47,M,Surco,Oftalmología,2021-01-12,220
+P0346,Carmen Gómez,68,M,Jesús María,Cardiología,2024-01-26,326
+P0347,Miguel Torres,50,M,La Molina,Oftalmología,2025-02-08,108
+P0348,Miguel Salazar,57,M,Cajamarca,Ginecología,2023-08-08,177
+P0349,Lucía Cabrera,70,M,Surco,Cardiología,2020-05-24,160
+P0350,Luis Díaz,57,M,San Isidro,Odontología,2022-05-08,142
+P0351,José Rojas,65,F,San Isidro,Dermatología,2023-11-02,484
+P0352,Andrés Castro,64,M,Miraflores,Pediatría,2024-05-18,56
+P0353,Sofía Díaz,34,M,Callao,Traumatología,2020-03-07,290
+P0354,María Castro,8,F,La Molina,Cardiología,2024-11-26,355
+P0355,Carmen Rojas,40,F,La Molina,Cardiología,2022-04-22,215
+P0356,María Torres,11,F,San Isidro,Odontología,2024-02-11,75
+P0357,Luis Fernández,22,M,Lince,Traumatología,2022-06-03,131
+P0358,Lucía Gómez,6,F,Lince,Dermatología,2020-01-31,116
+P0359,Sofía Díaz,60,F,Cajamarca,Traumatología,2025-11-17,380
+P0360,Carmen Cabrera,31,M,Jesús María,Cardiología,2020-01-01,396
+P0361,Carlos Pérez,24,F,La Molina,Pediatría,2024-04-30,78
+P0362,María Díaz,56,F,Cajamarca,Oftalmología,2023-11-02,175
+P0363,Luis Rojas,33,M,Cajamarca,Traumatología,2020-05-23,164
+P0364,Andrés Gómez,65,F,La Molina,Odontología,2023-07-03,264
+P0365,Carmen Gómez,30,M,San Isidro,Dermatología,2024-10-21,443
+P0366,María Cabrera,81,F,Miraflores,Oftalmología,2020-11-07,290
+P0367,Ana Gómez,36,F,Jesús María,Dermatología,2020-12-10,89
+P0368,Miguel Díaz,31,F,Surco,Dermatología,2025-11-18,456
+P0369,Carmen Díaz,60,F,Callao,Dermatología,2023-12-23,202
+P0370,Andrés Pérez,65,M,Callao,Pediatría,2020-05-11,357
+P0371,María Torres,75,F,Miraflores,Dermatología,2022-10-28,68
+P0372,Andrés Díaz,21,F,San Isidro,Oftalmología,2022-01-30,341
+P0373,María Castro,62,M,San Isidro,Dermatología,2020-12-07,448
+P0374,Miguel Cabrera,43,F,Jesús María,Cardiología,2022-12-10,420
+P0375,Ana Torres,67,M,Callao,Dermatología,2023-12-18,467
+P0376,Sofía Torres,12,F,Miraflores,Pediatría,2025-06-21,59
+P0377,José Castro,47,F,Lince,Odontología,2021-02-07,254
+P0378,Carlos Ramírez,12,M,Cajamarca,Odontología,2025-10-03,173
+P0379,Luis Gómez,29,M,Jesús María,Traumatología,2022-04-12,408
+P0380,Carlos Ramírez,63,M,Lince,Cardiología,2025-02-16,112
+P0381,José Castro,87,M,Surco,Dermatología,2023-09-20,321
+P0382,Ana Ramírez,47,F,Lince,Cardiología,2024-06-28,409
+P0383,Miguel Rojas,75,M,Callao,Ginecología,2021-03-07,64
+P0384,María Salazar,17,F,Lince,Oftalmología,2021-01-14,276
+P0385,María Rojas,9,M,Cajamarca,Traumatología,2021-08-27,372
+P0386,Miguel Díaz,14,M,Callao,Oftalmología,2020-12-07,227
+P0387,Carmen Castro,1,M,Lince,Traumatología,2020-03-22,382
+P0388,María Pérez,88,F,Callao,Odontología,2022-01-10,439
+P0389,Luis Salazar,54,M,Miraflores,Ginecología,2020-09-05,147
+P0390,Carmen Salazar,6,M,Jesús María,Odontología,2023-02-23,180
+P0391,Carmen Ramírez,36,M,Jesús María,Cardiología,2023-04-23,147
+P0392,Sofía Torres,23,F,La Molina,Cardiología,2024-07-09,263
+P0393,Miguel Fernández,72,M,San Isidro,Cardiología,2024-07-13,378
+P0394,Carlos Cabrera,10,M,Lince,Odontología,2021-01-24,276
+P0395,Miguel Cabrera,54,M,Jesús María,Ginecología,2025-01-11,460
+P0396,Carmen Castro,73,M,La Molina,Pediatría,2021-11-14,497
+P0397,Andrés Cabrera,54,F,San Isidro,Pediatría,2021-10-07,481
+P0398,María Castro,14,F,Callao,Ginecología,2022-04-05,489
+P0399,Andrés Pérez,89,M,Surco,Oftalmología,2022-01-22,301
+P0400,Miguel Rojas,17,M,Surco,Dermatología,2024-12-29,483
+P0401,Lucía Fernández,31,M,San Isidro,Oftalmología,2025-02-14,410
+P0402,Sofía Pérez,34,M,Callao,Dermatología,2023-04-26,253
+P0403,José Fernández,73,F,Lince,Pediatría,2021-06-01,121
+P0404,Lucía Díaz,74,F,Surco,Ginecología,2023-01-29,243
+P0405,Miguel Salazar,68,F,Surco,Odontología,2020-07-26,210
+P0406,Andrés Cabrera,84,M,San Isidro,Dermatología,2025-09-12,248
+P0407,Carmen Ramírez,29,M,Cajamarca,Odontología,2022-08-11,359
+P0408,José Castro,10,M,Jesús María,Ginecología,2020-08-06,291
+P0409,Lucía Fernández,55,M,Jesús María,Ginecología,2025-07-04,409
+P0410,José Rojas,61,F,Surco,Cardiología,2022-04-03,273
+P0411,Luis Fernández,29,F,Lince,Dermatología,2022-10-28,161
+P0412,Ana Cabrera,50,M,Cajamarca,Oftalmología,2025-06-17,118
+P0413,Ana Salazar,78,F,Miraflores,Cardiología,2021-04-21,268
+P0414,Lucía Ramírez,57,M,Surco,Dermatología,2024-08-05,453
+P0415,María Torres,50,F,San Isidro,Traumatología,2025-10-30,146
+P0416,Lucía Salazar,64,M,Jesús María,Oftalmología,2025-02-18,151
+P0417,José Castro,77,M,Surco,Pediatría,2021-07-27,326
+P0418,Sofía Pérez,71,M,La Molina,Dermatología,2024-09-17,234
+P0419,Miguel Cabrera,24,M,Cajamarca,Traumatología,2020-05-14,268
+P0420,Carmen Gómez,57,F,Jesús María,Cardiología,2023-12-31,199
+P0421,Ana Salazar,65,M,Callao,Pediatría,2022-01-30,500
+P0422,Carmen Fernández,78,F,Cajamarca,Pediatría,2021-12-05,246
+P0423,Luis Cabrera,50,F,Cajamarca,Oftalmología,2025-10-23,446
+P0424,Ana Pérez,61,M,San Isidro,Cardiología,2021-09-06,247
+P0425,Luis Cabrera,63,F,La Molina,Oftalmología,2023-11-09,272
+P0426,Carlos Rojas,13,M,Miraflores,Dermatología,2024-01-13,488
+P0427,Lucía Cabrera,10,M,Surco,Pediatría,2025-11-17,194
+P0428,Sofía Pérez,21,M,Surco,Pediatría,2020-06-28,88
+P0429,María Cabrera,55,F,San Isidro,Dermatología,2021-11-17,234
+P0430,José Salazar,58,M,Jesús María,Oftalmología,2021-04-02,193
+P0431,Ana Pérez,49,F,San Isidro,Cardiología,2021-06-07,156
+P0432,Carlos Pérez,28,F,Surco,Ginecología,2020-01-14,310
+P0433,Carlos Díaz,46,M,Miraflores,Oftalmología,2020-04-23,248
+P0434,Carmen Salazar,67,M,San Isidro,Traumatología,2020-04-10,121
+P0435,María Gómez,90,M,Miraflores,Oftalmología,2024-12-12,192
+P0436,Lucía Rojas,67,M,Jesús María,Oftalmología,2021-12-06,147
+P0437,Andrés Rojas,13,M,Lince,Ginecología,2024-01-24,495
+P0438,José Gómez,1,M,La Molina,Traumatología,2021-04-09,482
+P0439,Carlos Castro,60,F,Lince,Pediatría,2021-10-28,360
+P0440,Carmen Pérez,89,F,Lince,Odontología,2024-02-26,67
+P0441,Andrés Salazar,29,F,Lince,Oftalmología,2022-07-04,339
+P0442,Andrés Fernández,23,F,San Isidro,Ginecología,2025-09-29,97
+P0443,Luis Ramírez,48,F,Callao,Dermatología,2024-04-10,412
+P0444,Lucía Pérez,77,F,Lince,Ginecología,2023-08-29,350
+P0445,María Pérez,88,F,La Molina,Dermatología,2025-09-23,271
+P0446,Carlos Castro,31,F,Cajamarca,Pediatría,2022-11-30,487
+P0447,Lucía Pérez,51,F,San Isidro,Odontología,2025-07-29,160
+P0448,Luis Torres,84,F,Surco,Pediatría,2025-12-25,78
+P0449,Lucía Gómez,53,F,La Molina,Dermatología,2025-12-17,190
+P0450,Andrés Castro,4,F,Cajamarca,Cardiología,2021-03-19,419
+P0451,Carmen Cabrera,29,F,Callao,Dermatología,2021-11-10,190
+P0452,Andrés Cabrera,65,F,Surco,Cardiología,2022-04-19,345
+P0453,Miguel Díaz,26,M,Surco,Odontología,2025-08-03,258
+P0454,Lucía Gómez,82,F,Cajamarca,Traumatología,2025-02-13,101
+P0455,José Díaz,18,F,Jesús María,Dermatología,2022-06-27,137
+P0456,Carmen Cabrera,49,M,San Isidro,Dermatología,2025-08-02,481
+P0457,Luis Gómez,68,M,San Isidro,Dermatología,2023-12-26,192
+P0458,María Ramírez,70,M,Miraflores,Traumatología,2024-08-26,119
+P0459,Sofía Fernández,12,M,Cajamarca,Cardiología,2024-04-03,409
+P0460,Carlos Castro,60,M,Miraflores,Pediatría,2025-08-25,151
+P0461,Luis Pérez,9,F,Surco,Cardiología,2021-04-07,109
+P0462,José Salazar,52,F,Jesús María,Odontología,2020-01-05,104
+P0463,Carmen Ramírez,53,F,Jesús María,Cardiología,2022-08-06,422
+P0464,Luis Cabrera,26,F,Jesús María,Ginecología,2020-12-27,134
+P0465,Ana Pérez,51,M,Lince,Traumatología,2022-08-01,475
+P0466,Lucía Gómez,43,M,San Isidro,Dermatología,2023-05-15,145
+P0467,Sofía Torres,32,M,Jesús María,Oftalmología,2021-08-25,53
+P0468,Carlos Castro,37,F,Callao,Traumatología,2023-09-08,396
+P0469,Carmen Pérez,35,F,San Isidro,Traumatología,2023-06-30,446
+P0470,Ana Díaz,60,M,La Molina,Traumatología,2025-09-04,249
+P0471,Carlos Torres,38,F,Miraflores,Dermatología,2025-01-06,402
+P0472,María Rojas,41,F,Surco,Pediatría,2020-10-04,186
+P0473,Ana Pérez,9,M,La Molina,Odontología,2023-04-14,301
+P0474,Luis Castro,28,F,Miraflores,Pediatría,2025-12-22,207
+P0475,Carlos Torres,2,F,Cajamarca,Pediatría,2024-06-26,160
+P0476,Carlos Castro,56,F,Cajamarca,Oftalmología,2021-06-10,61
+P0477,Ana Rojas,12,F,Callao,Dermatología,2023-02-20,339
+P0478,María Torres,3,M,La Molina,Ginecología,2025-11-18,350
+P0479,Sofía Fernández,51,F,La Molina,Cardiología,2021-07-19,432
+P0480,Luis Fernández,56,M,Callao,Odontología,2023-03-11,266
+P0481,Carmen Salazar,3,M,Lince,Pediatría,2025-02-09,488
+P0482,Miguel Gómez,36,F,Miraflores,Oftalmología,2024-07-13,212
+P0483,Andrés Rojas,52,F,Callao,Pediatría,2022-07-13,89
+P0484,Sofía Castro,61,M,Jesús María,Ginecología,2020-03-04,347
+P0485,María Fernández,22,M,Lince,Traumatología,2020-10-08,119
+P0486,Sofía Rojas,58,F,Miraflores,Odontología,2021-01-23,202
+P0487,Sofía Ramírez,64,M,Lince,Oftalmología,2024-02-15,425
+P0488,Carlos Salazar,67,F,Surco,Odontología,2025-12-02,100
+P0489,Sofía Fernández,88,F,La Molina,Oftalmología,2020-11-05,202
+P0490,Ana Castro,62,M,Jesús María,Cardiología,2022-06-18,190
+P0491,Carlos Salazar,83,F,Callao,Pediatría,2022-07-12,156
+P0492,Carlos Fernández,89,M,Jesús María,Traumatología,2021-06-18,79
+P0493,Luis Fernández,80,M,Jesús María,Dermatología,2020-08-25,498
+P0494,Carmen Castro,82,F,Surco,Oftalmología,2023-12-18,403
+P0495,Andrés Ramírez,48,F,Callao,Ginecología,2020-08-22,222
+P0496,Miguel Ramírez,74,M,Callao,Traumatología,2023-03-17,337
+P0497,Sofía Salazar,81,F,Miraflores,Ginecología,2023-04-19,253
+P0498,Carlos Castro,61,F,Miraflores,Dermatología,2023-11-28,229
+P0499,María Ramírez,80,M,Miraflores,Odontología,2020-07-20,94
+P0500,Carlos Torres,81,F,Jesús María,Dermatología,2024-02-17,261
+P0501,Carmen Díaz,64,F,Callao,Pediatría,2021-02-10,57
+P0502,Carmen Torres,29,F,San Isidro,Dermatología,2022-07-29,380
+P0503,Ana Ramírez,82,F,La Molina,Cardiología,2024-05-31,131
+P0504,María Ramírez,33,F,Cajamarca,Pediatría,2023-08-14,389
+P0505,Ana Fernández,83,M,Callao,Ginecología,2022-03-04,113
+P0506,Andrés Cabrera,70,F,La Molina,Traumatología,2023-09-05,249
+P0507,Miguel Rojas,11,M,La Molina,Traumatología,2021-09-23,60
+P0508,Sofía Cabrera,78,M,Lince,Dermatología,2021-09-04,198
+P0509,Lucía Ramírez,87,M,La Molina,Cardiología,2025-01-06,381
+P0510,Ana Díaz,9,M,La Molina,Pediatría,2022-09-30,69
+P0511,Andrés Pérez,60,F,Lince,Cardiología,2025-09-16,224
+P0512,José Gómez,35,M,Jesús María,Ginecología,2025-12-14,141
+P0513,Carlos Ramírez,11,F,Lince,Oftalmología,2024-07-31,399
+P0514,María Fernández,26,F,Miraflores,Pediatría,2021-01-10,174
+P0515,María Gómez,8,F,San Isidro,Dermatología,2022-04-24,121
+P0516,Miguel Castro,57,M,Cajamarca,Traumatología,2025-09-19,74
+P0517,Carlos Pérez,59,M,Lince,Dermatología,2022-03-01,474
+P0518,Miguel Cabrera,32,M,Callao,Cardiología,2025-04-04,381
+P0519,Miguel Díaz,16,F,San Isidro,Traumatología,2024-01-26,340
+P0520,María Díaz,20,M,San Isidro,Cardiología,2025-11-10,155
+P0521,Lucía Salazar,40,M,Lince,Cardiología,2022-01-26,443
+P0522,Ana Cabrera,48,F,Surco,Traumatología,2021-07-03,94
+P0523,Carlos Díaz,78,F,Miraflores,Cardiología,2020-07-23,446
+P0524,José Castro,5,F,San Isidro,Cardiología,2022-12-11,88
+P0525,Andrés Rojas,26,F,La Molina,Pediatría,2020-06-09,73
+P0526,José Pérez,53,F,Surco,Odontología,2020-04-01,90
+P0527,Carlos Fernández,81,M,La Molina,Dermatología,2024-10-25,167
+P0528,José Fernández,7,M,Miraflores,Pediatría,2021-08-31,123
+P0529,Ana Salazar,70,F,La Molina,Oftalmología,2020-12-06,172
+P0530,Sofía Fernández,15,M,San Isidro,Dermatología,2020-01-25,414
+P0531,Luis Díaz,16,M,Surco,Ginecología,2023-06-05,61
+P0532,Lucía Fernández,22,F,La Molina,Pediatría,2024-10-10,212
+P0533,Carlos Cabrera,43,M,San Isidro,Cardiología,2024-12-23,110
+P0534,Luis Díaz,73,M,San Isidro,Traumatología,2020-10-19,243
+P0535,Carlos Pérez,5,M,Surco,Cardiología,2024-09-11,129
+P0536,Lucía Díaz,30,M,San Isidro,Traumatología,2022-10-24,253
+P0537,Andrés Ramírez,42,F,Surco,Pediatría,2022-06-27,376
+P0538,Andrés Rojas,53,M,Lince,Cardiología,2021-03-11,192
+P0539,José Torres,69,M,Cajamarca,Odontología,2023-03-24,139
+P0540,José Castro,46,M,La Molina,Dermatología,2025-02-04,261
+P0541,Lucía Castro,19,M,Cajamarca,Odontología,2023-01-14,75
+P0542,Miguel Ramírez,35,F,Callao,Traumatología,2024-04-29,122
+P0543,Carmen Torres,83,M,Cajamarca,Traumatología,2023-05-06,153
+P0544,Andrés Pérez,6,F,Callao,Ginecología,2024-11-13,154
+P0545,Lucía Pérez,41,F,Surco,Oftalmología,2022-10-02,415
+P0546,María Fernández,52,M,San Isidro,Pediatría,2023-05-31,268
+P0547,Carlos Fernández,17,F,Callao,Dermatología,2024-01-11,363
+P0548,Carlos Ramírez,79,M,San Isidro,Dermatología,2022-08-30,207
+P0549,Carlos Salazar,24,F,Cajamarca,Pediatría,2023-06-03,269
+P0550,José Fernández,81,M,Callao,Cardiología,2025-10-03,197
+P0551,José Fernández,40,F,Cajamarca,Pediatría,2021-11-06,319
+P0552,José Salazar,41,F,Callao,Odontología,2021-05-20,180
+P0553,Luis Castro,65,M,Miraflores,Dermatología,2023-02-01,165
+P0554,Luis Rojas,42,M,Miraflores,Odontología,2023-10-03,443
+P0555,Andrés Torres,87,F,Lince,Cardiología,2020-01-16,492
+P0556,Carmen Rojas,35,M,San Isidro,Odontología,2020-06-18,162
+P0557,Miguel Ramírez,77,F,San Isidro,Pediatría,2025-11-19,476
+P0558,Carmen Pérez,64,M,Callao,Cardiología,2020-07-21,491
+P0559,Lucía Salazar,13,M,Lince,Dermatología,2020-06-28,110
+P0560,Carmen Gómez,33,M,Miraflores,Oftalmología,2020-12-30,137
+P0561,Miguel Fernández,52,M,La Molina,Odontología,2022-01-18,287
+P0562,Sofía Cabrera,46,M,Miraflores,Ginecología,2024-10-07,319
+P0563,Carmen Pérez,68,F,Lince,Traumatología,2020-12-15,59
+P0564,Carlos Salazar,28,M,La Molina,Ginecología,2022-07-01,113
+P0565,Ana Castro,4,F,Miraflores,Cardiología,2025-05-01,87
+P0566,Ana Fernández,24,F,La Molina,Traumatología,2021-01-17,224
+P0567,Andrés Fernández,30,F,Miraflores,Traumatología,2021-06-28,148
+P0568,Sofía Torres,3,F,La Molina,Cardiología,2024-02-06,341
+P0569,Luis Fernández,27,F,Cajamarca,Pediatría,2023-08-23,161
+P0570,Lucía Pérez,29,M,Cajamarca,Cardiología,2024-11-05,414
+P0571,Miguel Castro,64,M,Miraflores,Oftalmología,2024-03-08,257
+P0572,José Díaz,48,F,San Isidro,Oftalmología,2023-01-01,321
+P0573,María Salazar,2,M,Lince,Dermatología,2024-10-06,405
+P0574,Carmen Gómez,85,F,Callao,Pediatría,2022-12-13,333
+P0575,Andrés Pérez,39,F,San Isidro,Ginecología,2023-03-11,131
+P0576,Miguel Díaz,39,F,Callao,Traumatología,2021-03-28,146
+P0577,Lucía Cabrera,50,M,Lince,Traumatología,2024-05-06,131
+P0578,Sofía Ramírez,3,F,Jesús María,Pediatría,2024-09-14,341
+P0579,Ana Ramírez,42,F,San Isidro,Cardiología,2023-10-20,314
+P0580,María Ramírez,25,M,San Isidro,Cardiología,2023-10-09,152
+P0581,Sofía Díaz,9,M,Lince,Oftalmología,2024-05-25,444
+P0582,María Gómez,9,F,Callao,Odontología,2023-03-29,257
+P0583,Carlos Gómez,73,F,Surco,Dermatología,2023-01-04,446
+P0584,María Ramírez,65,M,Callao,Pediatría,2024-06-15,491
+P0585,Miguel Pérez,38,F,Lince,Oftalmología,2020-10-30,143
+P0586,Carmen Castro,45,F,Callao,Odontología,2021-04-30,191
+P0587,María Salazar,52,M,Surco,Traumatología,2021-04-20,310
+P0588,Ana Fernández,4,M,Jesús María,Dermatología,2024-08-13,328
+P0589,Luis Pérez,4,M,Callao,Oftalmología,2024-05-29,176
+P0590,Andrés Pérez,13,M,Callao,Oftalmología,2021-03-13,247
+P0591,José Cabrera,71,F,Cajamarca,Cardiología,2024-09-19,484
+P0592,Ana Gómez,14,F,Surco,Pediatría,2021-10-09,206
+P0593,Carmen Salazar,72,M,San Isidro,Traumatología,2025-07-04,148
+P0594,María Gómez,65,M,Jesús María,Odontología,2020-03-08,116
+P0595,Lucía Rojas,31,F,La Molina,Traumatología,2024-06-23,111
+P0596,Sofía Salazar,45,M,Jesús María,Cardiología,2020-07-20,453
+P0597,Luis Torres,73,F,Cajamarca,Traumatología,2022-01-19,331
+P0598,Andrés Ramírez,58,F,San Isidro,Cardiología,2024-09-16,395
+P0599,Sofía Rojas,68,F,Jesús María,Odontología,2024-02-14,314
+P0600,Ana Torres,32,F,Cajamarca,Cardiología,2023-04-05,269
+P0601,Ana Fernández,72,M,Lince,Dermatología,2020-08-24,190
+P0602,Carlos Gómez,70,F,Surco,Odontología,2023-05-25,403
+P0603,Luis Salazar,81,F,San Isidro,Cardiología,2021-11-05,300
+P0604,Ana Torres,7,F,Cajamarca,Cardiología,2025-07-14,388
+P0605,Carmen Castro,27,M,Cajamarca,Traumatología,2020-04-30,66
+P0606,Miguel Castro,77,M,Surco,Pediatría,2023-04-12,426
+P0607,Andrés Díaz,19,F,Miraflores,Dermatología,2023-04-14,182
+P0608,Sofía Castro,36,M,Miraflores,Odontología,2023-11-29,141
+P0609,Ana Ramírez,25,M,Lince,Oftalmología,2025-02-16,384
+P0610,José Torres,69,M,Cajamarca,Traumatología,2021-11-04,376
+P0611,Miguel Fernández,35,F,Surco,Ginecología,2022-05-14,75
+P0612,Miguel Díaz,10,M,Lince,Odontología,2025-08-19,184
+P0613,Luis Salazar,18,F,Lince,Oftalmología,2023-12-23,464
+P0614,María Ramírez,85,F,Lince,Traumatología,2020-07-10,459
+P0615,José Torres,2,M,Miraflores,Dermatología,2024-04-04,237
+P0616,Luis Pérez,11,F,Lince,Oftalmología,2021-02-23,110
+P0617,Carlos Rojas,74,F,Cajamarca,Traumatología,2024-11-17,139
+P0618,Luis Cabrera,39,F,Surco,Cardiología,2021-05-17,199
+P0619,Luis Castro,62,F,La Molina,Odontología,2023-06-21,453
+P0620,Ana Torres,15,M,Miraflores,Ginecología,2023-09-09,490
+P0621,Ana Ramírez,70,F,Surco,Dermatología,2020-10-15,426
+P0622,Sofía Fernández,9,F,Jesús María,Odontología,2024-03-29,389
+P0623,Miguel Cabrera,86,M,San Isidro,Dermatología,2022-01-12,206
+P0624,José Cabrera,50,M,San Isidro,Odontología,2024-11-30,443
+P0625,Miguel Cabrera,27,F,Cajamarca,Oftalmología,2022-10-22,222
+P0626,Miguel Pérez,10,M,San Isidro,Ginecología,2022-04-06,347
+P0627,Lucía Pérez,59,M,San Isidro,Ginecología,2020-01-24,208
+P0628,Lucía Díaz,7,F,Miraflores,Pediatría,2025-11-29,434
+P0629,Andrés Salazar,9,F,Callao,Cardiología,2023-11-19,197
+P0630,María Rojas,46,M,La Molina,Ginecología,2022-06-24,146
+P0631,Andrés Cabrera,56,F,Jesús María,Oftalmología,2022-03-21,390
+P0632,Miguel Ramírez,31,M,Cajamarca,Traumatología,2022-10-26,268
+P0633,María Salazar,73,F,Cajamarca,Traumatología,2025-10-02,415
+P0634,Luis Díaz,31,M,Cajamarca,Cardiología,2022-02-23,304
+P0635,Lucía Rojas,40,F,Cajamarca,Ginecología,2024-06-03,354
+P0636,Andrés Fernández,51,F,Cajamarca,Dermatología,2024-10-16,379
+P0637,Luis Díaz,62,M,La Molina,Traumatología,2023-08-13,63
+P0638,Miguel Gómez,80,M,Cajamarca,Cardiología,2023-12-03,171
+P0639,Carlos Rojas,33,F,Cajamarca,Traumatología,2022-12-22,137
+P0640,Ana Pérez,11,F,San Isidro,Traumatología,2024-10-19,127
+P0641,Sofía Salazar,16,F,Miraflores,Dermatología,2024-06-23,249
+P0642,María Rojas,81,F,Lince,Cardiología,2024-01-14,183
+P0643,Andrés Díaz,1,M,San Isidro,Oftalmología,2023-07-17,54
+P0644,Miguel Cabrera,25,M,Jesús María,Ginecología,2021-07-19,456
+P0645,José Gómez,31,M,Surco,Traumatología,2022-01-19,411
+P0646,Luis Cabrera,20,M,Callao,Dermatología,2025-10-30,197
+P0647,Miguel Castro,29,F,Miraflores,Oftalmología,2021-03-07,242
+P0648,Miguel Gómez,71,F,Jesús María,Dermatología,2021-09-25,262
+P0649,Miguel Rojas,79,M,Callao,Odontología,2024-06-29,338
+P0650,Carmen Díaz,11,F,San Isidro,Dermatología,2020-02-29,430
+P0651,Miguel Díaz,67,F,La Molina,Cardiología,2020-04-22,161
+P0652,Carlos Fernández,90,F,Miraflores,Dermatología,2020-02-14,479
+P0653,Andrés Salazar,2,F,La Molina,Odontología,2022-03-28,485
+P0654,Carmen Ramírez,9,F,La Molina,Oftalmología,2024-01-04,425
+P0655,Carmen Gómez,86,M,Cajamarca,Ginecología,2021-09-18,428
+P0656,Luis Salazar,24,M,Surco,Ginecología,2020-11-02,343
+P0657,María Ramírez,19,F,Callao,Cardiología,2022-03-06,99
+P0658,Andrés Pérez,64,F,La Molina,Cardiología,2020-10-03,127
+P0659,Miguel Pérez,54,F,Lince,Ginecología,2021-01-24,182
+P0660,Ana Pérez,85,F,La Molina,Cardiología,2022-05-16,209
+P0661,José Gómez,11,M,Cajamarca,Cardiología,2024-01-27,333
+P0662,Miguel Torres,90,F,Surco,Cardiología,2024-06-21,131
+P0663,Andrés Cabrera,24,M,Miraflores,Ginecología,2023-09-22,444
+P0664,María Ramírez,30,F,Cajamarca,Cardiología,2021-08-02,472
+P0665,Ana Gómez,63,M,Callao,Oftalmología,2021-01-27,456
+P0666,María Gómez,32,M,Lince,Pediatría,2021-08-13,251
+P0667,José Pérez,62,M,Callao,Oftalmología,2024-02-13,306
+P0668,Carlos Gómez,76,F,La Molina,Oftalmología,2022-11-03,466
+P0669,Luis Pérez,54,F,Callao,Dermatología,2022-04-01,204
+P0670,Miguel Salazar,62,F,San Isidro,Pediatría,2022-12-22,497
+P0671,Ana Salazar,33,F,Callao,Ginecología,2022-06-25,289
+P0672,Lucía Díaz,64,M,Cajamarca,Dermatología,2021-08-23,366
+P0673,Miguel Cabrera,18,M,Callao,Dermatología,2023-07-05,94
+P0674,José Torres,62,M,Surco,Pediatría,2020-08-19,140
+P0675,Ana Rojas,5,F,Jesús María,Dermatología,2024-11-28,109
+P0676,María Díaz,27,F,Jesús María,Ginecología,2025-03-15,206
+P0677,Carlos Gómez,88,M,San Isidro,Traumatología,2022-04-12,347
+P0678,Luis Rojas,4,M,Surco,Pediatría,2025-08-23,212
+P0679,Andrés Rojas,67,F,San Isidro,Pediatría,2020-12-16,275
+P0680,Luis Torres,5,M,Cajamarca,Odontología,2024-10-21,264
+P0681,Carlos Pérez,46,F,Cajamarca,Cardiología,2023-12-27,133
+P0682,Carmen Castro,83,F,Lince,Ginecología,2025-12-29,116
+P0683,Ana Díaz,81,M,La Molina,Cardiología,2021-12-03,201
+P0684,Carlos Gómez,2,M,Cajamarca,Pediatría,2023-02-24,168
+P0685,Miguel Ramírez,70,F,Surco,Ginecología,2021-05-26,194
+P0686,Sofía Salazar,77,F,Jesús María,Ginecología,2025-02-17,270
+P0687,Andrés Salazar,74,F,La Molina,Odontología,2023-10-16,484
+P0688,Carlos Ramírez,76,F,Miraflores,Traumatología,2021-03-07,76
+P0689,Lucía Castro,15,F,Jesús María,Oftalmología,2025-02-16,387
+P0690,José Cabrera,5,F,Callao,Traumatología,2023-11-22,376
+P0691,Carmen Cabrera,81,F,Cajamarca,Oftalmología,2025-10-04,452
+P0692,Miguel Ramírez,58,M,Callao,Cardiología,2024-09-24,64
+P0693,María Ramírez,85,M,Cajamarca,Odontología,2024-03-02,100
+P0694,José Díaz,75,M,San Isidro,Dermatología,2020-06-26,303
+P0695,José Salazar,54,M,Callao,Cardiología,2025-05-29,123
+P0696,Carlos Torres,51,M,Miraflores,Odontología,2020-12-17,270
+P0697,José Cabrera,35,M,Cajamarca,Oftalmología,2022-12-28,286
+P0698,María Fernández,27,F,Jesús María,Cardiología,2022-07-07,283
+P0699,Sofía Gómez,62,M,Jesús María,Oftalmología,2025-07-20,488
+P0700,Ana Fernández,12,M,San Isidro,Ginecología,2025-11-21,483
+P0701,José Salazar,74,F,San Isidro,Dermatología,2020-10-19,382
+P0702,Carlos Ramírez,68,F,La Molina,Cardiología,2024-08-03,218
+P0703,Ana Torres,11,M,San Isidro,Odontología,2024-12-06,255
+P0704,Lucía Salazar,3,M,La Molina,Cardiología,2023-02-26,450
+P0705,Lucía Fernández,13,F,Surco,Oftalmología,2025-08-29,358
+P0706,Carmen Salazar,86,M,Cajamarca,Cardiología,2022-04-05,204
+P0707,Miguel Rojas,39,M,La Molina,Odontología,2022-09-06,347
+P0708,Sofía Cabrera,45,M,Cajamarca,Traumatología,2023-07-31,482
+P0709,Ana Rojas,46,F,La Molina,Oftalmología,2023-09-10,52
+P0710,José Pérez,27,M,La Molina,Cardiología,2023-05-30,414
+P0711,Lucía Salazar,8,F,Miraflores,Oftalmología,2025-01-30,167
+P0712,Andrés Fernández,17,M,Lince,Pediatría,2024-06-26,327
+P0713,José Fernández,89,F,Cajamarca,Ginecología,2022-08-07,208
+P0714,Ana Díaz,42,F,San Isidro,Cardiología,2022-10-14,274
+P0715,Lucía Pérez,71,M,Callao,Cardiología,2021-06-11,262
+P0716,Carlos Fernández,79,M,San Isidro,Oftalmología,2023-09-06,121
+P0717,María Pérez,68,M,Jesús María,Cardiología,2020-01-04,368
+P0718,Miguel Pérez,56,M,Lince,Cardiología,2020-02-12,327
+P0719,Luis Pérez,70,F,San Isidro,Oftalmología,2020-05-26,157
+P0720,Carlos Torres,46,F,Surco,Dermatología,2023-06-23,200
+P0721,Sofía Cabrera,73,F,La Molina,Odontología,2025-04-16,396
+P0722,José Ramírez,87,M,Miraflores,Ginecología,2024-11-16,300
+P0723,Ana Pérez,39,F,Miraflores,Traumatología,2025-10-29,338
+P0724,Ana Ramírez,68,M,San Isidro,Pediatría,2025-08-05,460
+P0725,Ana Salazar,84,F,San Isidro,Odontología,2022-02-04,339
+P0726,Carlos Pérez,1,F,Surco,Traumatología,2024-03-01,385
+P0727,Lucía Fernández,47,M,Callao,Ginecología,2021-11-26,484
+P0728,Miguel Díaz,51,M,San Isidro,Pediatría,2022-05-10,270
+P0729,Carmen Pérez,40,M,Lince,Pediatría,2020-08-03,327
+P0730,Miguel Pérez,23,M,La Molina,Oftalmología,2024-10-10,409
+P0731,Lucía Díaz,41,M,Surco,Pediatría,2022-11-16,96
+P0732,Sofía Fernández,27,F,La Molina,Odontología,2023-11-10,389
+P0733,José Ramírez,30,M,San Isidro,Odontología,2020-05-21,144
+P0734,María Cabrera,56,M,Lince,Pediatría,2023-04-17,97
+P0735,Ana Ramírez,23,M,Lince,Odontología,2024-02-20,369
+P0736,María Salazar,74,M,San Isidro,Dermatología,2024-07-14,349
+P0737,José Pérez,48,M,Surco,Dermatología,2021-05-17,113
+P0738,Ana Cabrera,88,M,La Molina,Dermatología,2021-12-05,205
+P0739,Carmen Díaz,48,F,Jesús María,Traumatología,2025-03-12,56
+P0740,Carmen Salazar,59,M,Callao,Oftalmología,2024-02-18,158
+P0741,Andrés Castro,34,F,Callao,Odontología,2023-06-27,281
+P0742,Carmen Cabrera,42,M,Cajamarca,Odontología,2021-05-11,180
+P0743,José Salazar,68,F,Miraflores,Dermatología,2025-10-14,61
+P0744,Ana Rojas,46,M,Lince,Cardiología,2024-03-13,171
+P0745,María Gómez,29,F,San Isidro,Odontología,2025-12-28,389
+P0746,Ana Gómez,38,F,Lince,Ginecología,2023-02-22,471
+P0747,Lucía Salazar,52,M,San Isidro,Ginecología,2024-03-28,324
+P0748,Miguel Cabrera,58,F,Jesús María,Ginecología,2025-10-14,201
+P0749,José Díaz,63,M,Surco,Pediatría,2025-08-11,388
+P0750,Sofía Fernández,29,M,Callao,Traumatología,2020-04-14,364
+P0751,Luis Torres,21,M,Jesús María,Pediatría,2022-12-02,313
+P0752,Carmen Gómez,70,F,La Molina,Pediatría,2020-12-21,228
+P0753,Ana Castro,14,M,Miraflores,Oftalmología,2024-02-27,397
+P0754,Sofía Rojas,12,F,Cajamarca,Pediatría,2023-05-02,276
+P0755,José Castro,31,F,Surco,Pediatría,2021-06-08,254
+P0756,Miguel Gómez,37,F,Surco,Ginecología,2025-10-03,323
+P0757,Ana Rojas,15,M,Jesús María,Traumatología,2020-10-17,110
+P0758,Lucía Pérez,85,M,Surco,Pediatría,2023-03-16,98
+P0759,Carlos Torres,32,F,Jesús María,Traumatología,2024-05-13,161
+P0760,María Salazar,46,F,Callao,Oftalmología,2022-07-13,460
+P0761,Carmen Ramírez,84,M,Lince,Ginecología,2020-12-23,407
+P0762,Carlos Salazar,46,F,Cajamarca,Cardiología,2021-10-15,245
+P0763,José Castro,38,M,Lince,Traumatología,2020-01-25,132
+P0764,Sofía Gómez,68,F,Surco,Traumatología,2021-09-11,229
+P0765,Sofía Gómez,53,M,Jesús María,Oftalmología,2024-10-23,183
+P0766,José Torres,50,M,San Isidro,Traumatología,2023-12-16,83
+P0767,María Díaz,25,F,Miraflores,Traumatología,2023-11-08,471
+P0768,Carmen Fernández,63,F,La Molina,Ginecología,2024-03-27,392
+P0769,Carlos Gómez,67,F,San Isidro,Pediatría,2023-04-28,233
+P0770,Carlos Fernández,8,M,La Molina,Cardiología,2022-07-03,302
+P0771,Lucía Fernández,85,M,Miraflores,Cardiología,2020-07-27,486
+P0772,María Gómez,90,F,Lince,Pediatría,2025-09-15,130
+P0773,Carmen Fernández,49,M,La Molina,Oftalmología,2023-12-22,69
+P0774,Sofía Castro,84,F,Surco,Odontología,2022-04-30,302
+P0775,María Torres,88,F,Surco,Pediatría,2023-11-25,73
+P0776,María Salazar,79,M,Miraflores,Ginecología,2025-05-05,359
+P0777,Ana Pérez,40,F,Miraflores,Pediatría,2021-04-16,360
+P0778,Lucía Gómez,37,M,Callao,Oftalmología,2022-06-23,50
+P0779,Carmen Castro,74,F,Surco,Oftalmología,2024-08-10,293
+P0780,Luis Rojas,6,F,La Molina,Oftalmología,2022-01-27,276
+P0781,Ana Gómez,24,F,La Molina,Dermatología,2025-05-26,447
+P0782,José Cabrera,88,F,La Molina,Dermatología,2021-01-25,59
+P0783,Miguel Díaz,22,F,Lince,Cardiología,2023-06-17,173
+P0784,Sofía Cabrera,35,M,San Isidro,Pediatría,2020-03-12,344
+P0785,Sofía Pérez,21,M,Jesús María,Oftalmología,2022-07-11,363
+P0786,Luis Salazar,62,F,San Isidro,Traumatología,2020-11-13,155
+P0787,Carmen Ramírez,47,M,Surco,Traumatología,2023-09-22,268
+P0788,Lucía Pérez,60,F,Callao,Dermatología,2022-12-14,248
+P0789,María Rojas,18,F,Callao,Dermatología,2022-06-01,327
+P0790,Andrés Pérez,79,M,La Molina,Traumatología,2022-06-18,229
+P0791,Miguel Díaz,12,F,Lince,Ginecología,2020-03-18,377
+P0792,Ana Rojas,8,F,Lince,Ginecología,2023-08-07,315
+P0793,Miguel Pérez,46,M,Surco,Traumatología,2023-12-23,102
+P0794,Carlos Castro,82,F,Jesús María,Oftalmología,2023-12-01,322
+P0795,José Ramírez,15,F,Cajamarca,Oftalmología,2024-08-29,246
+P0796,Carmen Pérez,53,M,Jesús María,Ginecología,2023-02-03,328
+P0797,María Pérez,4,F,Jesús María,Traumatología,2025-04-10,240
+P0798,Sofía Gómez,61,M,San Isidro,Pediatría,2020-01-08,500
+P0799,Lucía Salazar,15,M,Jesús María,Odontología,2023-11-14,244
+P0800,Carlos Salazar,21,F,Miraflores,Cardiología,2020-04-13,361
+P0801,Luis Gómez,52,M,Surco,Cardiología,2023-02-01,312
+P0802,Lucía Díaz,54,F,Jesús María,Pediatría,2023-03-12,489
+P0803,José Cabrera,39,F,San Isidro,Odontología,2024-07-24,331
+P0804,María Ramírez,8,F,Surco,Ginecología,2023-04-16,394
+P0805,Sofía Fernández,48,F,La Molina,Cardiología,2024-08-18,51
+P0806,Sofía Rojas,34,F,Cajamarca,Oftalmología,2022-11-22,165
+P0807,José Ramírez,13,F,San Isidro,Dermatología,2024-09-04,226
+P0808,Ana Gómez,11,F,Jesús María,Dermatología,2025-10-12,418
+P0809,José Fernández,82,F,Cajamarca,Dermatología,2020-07-22,51
+P0810,Sofía Gómez,5,M,Jesús María,Pediatría,2024-10-19,325
+P0811,María Gómez,29,M,Cajamarca,Ginecología,2021-05-12,468
+P0812,José Fernández,37,F,Cajamarca,Pediatría,2022-10-02,440
+P0813,Andrés Pérez,28,F,Callao,Cardiología,2025-03-23,264
+P0814,María Rojas,60,M,Callao,Dermatología,2023-09-22,209
+P0815,Carmen Fernández,37,F,Callao,Pediatría,2021-09-07,459
+P0816,Carlos Díaz,67,F,Surco,Traumatología,2021-01-23,324
+P0817,Carmen Torres,61,F,Jesús María,Traumatología,2020-11-25,420
+P0818,Andrés Castro,60,F,Miraflores,Pediatría,2025-01-04,131
+P0819,Sofía Rojas,41,F,Surco,Odontología,2023-07-27,132
+P0820,Carlos Díaz,66,F,Callao,Traumatología,2020-05-17,88
+P0821,Sofía Fernández,12,M,Miraflores,Ginecología,2021-01-23,230
+P0822,Luis Castro,74,M,Lince,Odontología,2023-04-18,403
+P0823,Sofía Torres,90,M,Lince,Cardiología,2024-06-17,133
+P0824,María Pérez,69,M,Miraflores,Oftalmología,2024-12-03,202
+P0825,Sofía Cabrera,66,F,Jesús María,Oftalmología,2021-09-25,115
+P0826,Carmen Torres,14,M,Miraflores,Oftalmología,2021-01-19,57
+P0827,José Gómez,76,F,Callao,Ginecología,2024-09-18,435
+P0828,Miguel Rojas,9,M,Miraflores,Ginecología,2021-12-18,137
+P0829,Ana Fernández,64,M,Surco,Pediatría,2025-10-25,368
+P0830,Sofía Ramírez,10,F,Lince,Odontología,2021-11-19,195
+P0831,Miguel Fernández,39,M,Callao,Pediatría,2021-11-04,380
+P0832,Andrés Castro,67,F,La Molina,Dermatología,2021-10-25,226
+P0833,Carlos Díaz,54,M,Surco,Ginecología,2023-07-29,56
+P0834,María Cabrera,90,M,Callao,Cardiología,2025-04-29,107
+P0835,José Cabrera,62,M,Callao,Traumatología,2020-06-13,342
+P0836,Ana Cabrera,58,M,Miraflores,Traumatología,2021-09-13,465
+P0837,Miguel Díaz,15,F,Cajamarca,Traumatología,2021-01-09,182
+P0838,Luis Torres,12,M,Callao,Oftalmología,2021-11-08,244
+P0839,Miguel Fernández,60,M,Callao,Dermatología,2024-06-06,102
+P0840,Andrés Ramírez,32,F,Cajamarca,Traumatología,2024-05-24,346
+P0841,Lucía Cabrera,70,M,Lince,Pediatría,2022-07-06,288
+P0842,Andrés Castro,13,F,Cajamarca,Cardiología,2021-02-27,135
+P0843,Lucía Díaz,12,M,Jesús María,Traumatología,2020-03-05,391
+P0844,María Ramírez,29,F,Lince,Traumatología,2023-04-21,285
+P0845,Sofía Fernández,11,M,Jesús María,Traumatología,2021-08-12,284
+P0846,Luis Ramírez,15,F,Surco,Pediatría,2020-03-28,487
+P0847,Lucía Castro,46,F,San Isidro,Cardiología,2020-07-28,270
+P0848,Ana Rojas,16,F,Miraflores,Dermatología,2021-08-22,197
+P0849,José Pérez,40,M,Cajamarca,Dermatología,2024-05-09,439
+P0850,Carlos Ramírez,84,F,Miraflores,Dermatología,2021-04-13,135
+P0851,Andrés Cabrera,78,F,Miraflores,Oftalmología,2024-08-21,202
+P0852,María Cabrera,54,M,Surco,Pediatría,2025-05-27,461
+P0853,Ana Cabrera,24,M,Cajamarca,Pediatría,2025-09-06,100
+P0854,José Pérez,25,M,Callao,Ginecología,2021-06-12,255
+P0855,Ana Rojas,69,M,Surco,Oftalmología,2020-10-01,322
+P0856,Luis Torres,84,F,Surco,Odontología,2023-07-08,485
+P0857,Lucía Fernández,46,F,Callao,Traumatología,2022-05-13,75
+P0858,María Rojas,61,M,Cajamarca,Oftalmología,2021-01-31,143
+P0859,Carmen Ramírez,56,F,Miraflores,Dermatología,2025-02-15,422
+P0860,Carlos Fernández,77,M,Cajamarca,Oftalmología,2020-12-31,103
+P0861,Miguel Castro,72,F,Jesús María,Traumatología,2020-01-16,377
+P0862,Andrés Fernández,11,F,Callao,Cardiología,2023-07-21,240
+P0863,José Cabrera,80,M,La Molina,Dermatología,2021-10-17,446
+P0864,Miguel Salazar,2,F,San Isidro,Pediatría,2023-05-21,465
+P0865,Andrés Pérez,10,F,Surco,Odontología,2020-10-16,332
+P0866,Carlos Pérez,42,M,La Molina,Ginecología,2024-12-25,378
+P0867,Miguel Fernández,55,M,La Molina,Oftalmología,2023-11-04,417
+P0868,José Pérez,20,F,Miraflores,Traumatología,2023-04-04,405
+P0869,Lucía Salazar,69,F,Callao,Dermatología,2025-02-14,125
+P0870,Carmen Rojas,33,F,Surco,Pediatría,2020-05-28,119
+P0871,Carlos Salazar,30,F,Jesús María,Traumatología,2024-11-06,297
+P0872,Miguel Fernández,87,F,La Molina,Pediatría,2025-11-30,329
+P0873,Lucía Cabrera,33,M,Jesús María,Cardiología,2020-02-24,162
+P0874,Luis Salazar,64,F,La Molina,Pediatría,2023-07-21,205
+P0875,José Salazar,33,F,Lince,Oftalmología,2020-01-15,66
+P0876,José Rojas,42,M,Miraflores,Oftalmología,2022-02-12,193
+P0877,Lucía Ramírez,57,M,Surco,Ginecología,2022-12-20,345
+P0878,María Cabrera,18,F,Miraflores,Oftalmología,2024-10-01,492
+P0879,María Salazar,53,F,Surco,Cardiología,2020-12-05,74
+P0880,Luis Pérez,56,M,San Isidro,Dermatología,2020-07-02,475
+P0881,Andrés Pérez,29,F,San Isidro,Traumatología,2022-03-15,436
+P0882,Sofía Castro,84,F,Cajamarca,Ginecología,2021-12-31,58
+P0883,Luis Torres,9,M,Jesús María,Traumatología,2020-01-03,479
+P0884,Carmen Castro,57,M,Jesús María,Odontología,2022-11-23,79
+P0885,María Fernández,79,M,Surco,Cardiología,2022-12-23,386
+P0886,Ana Díaz,49,F,Callao,Pediatría,2025-12-01,108
+P0887,Carlos Torres,78,M,Callao,Cardiología,2023-05-07,394
+P0888,María Salazar,67,M,San Isidro,Pediatría,2020-06-14,166
+P0889,Carmen Rojas,35,M,Callao,Cardiología,2022-01-16,108
+P0890,Miguel Salazar,24,M,Miraflores,Pediatría,2025-05-05,335
+P0891,Carlos Castro,56,M,Cajamarca,Odontología,2020-09-23,374
+P0892,José Fernández,38,F,Cajamarca,Ginecología,2023-01-15,247
+P0893,Carmen Ramírez,23,M,Lince,Pediatría,2020-06-06,98
+P0894,Luis Salazar,40,M,Cajamarca,Ginecología,2022-12-14,128
+P0895,Ana Fernández,3,F,La Molina,Dermatología,2020-06-28,438
+P0896,Andrés Castro,85,M,Surco,Cardiología,2021-03-26,92
+P0897,Lucía Pérez,44,M,La Molina,Traumatología,2024-12-10,361
+P0898,Ana Pérez,49,M,San Isidro,Oftalmología,2020-08-21,482
+P0899,José Ramírez,6,M,La Molina,Oftalmología,2024-02-27,483
+P0900,Lucía Salazar,27,M,San Isidro,Dermatología,2020-03-05,318
+P0901,María Cabrera,64,M,Miraflores,Dermatología,2023-07-30,451
+P0902,Sofía Cabrera,16,M,Callao,Pediatría,2025-01-19,131
+P0903,Ana Castro,34,F,Surco,Pediatría,2025-11-20,121
+P0904,Carmen Gómez,58,M,Lince,Cardiología,2022-06-28,242
+P0905,Luis Gómez,13,M,San Isidro,Pediatría,2025-10-14,483
+P0906,María Fernández,28,M,San Isidro,Traumatología,2025-10-27,336
+P0907,Sofía Torres,90,F,Miraflores,Ginecología,2022-02-26,288
+P0908,Miguel Torres,64,M,Jesús María,Odontología,2020-02-05,245
+P0909,Luis Pérez,65,F,Jesús María,Dermatología,2020-12-24,380
+P0910,Ana Gómez,20,M,Callao,Traumatología,2025-08-17,403
+P0911,Luis Cabrera,31,M,Callao,Traumatología,2024-02-23,433
+P0912,Luis Cabrera,33,M,La Molina,Cardiología,2025-06-02,493
+P0913,Lucía Gómez,36,F,Miraflores,Ginecología,2020-04-09,103
+P0914,Lucía Castro,81,F,La Molina,Cardiología,2021-11-09,341
+P0915,Miguel Castro,30,F,Jesús María,Dermatología,2022-10-26,119
+P0916,Luis Cabrera,66,M,Jesús María,Odontología,2024-01-03,286
+P0917,Luis Cabrera,33,F,Jesús María,Traumatología,2025-04-18,351
+P0918,Lucía Torres,52,F,Surco,Dermatología,2020-04-17,200
+P0919,Ana Cabrera,14,F,Jesús María,Odontología,2021-05-25,214
+P0920,María Torres,5,M,Callao,Odontología,2023-07-04,259
+P0921,Sofía Rojas,33,M,Miraflores,Cardiología,2023-06-21,52
+P0922,Sofía Cabrera,50,M,Callao,Ginecología,2024-11-28,168
+P0923,Andrés Torres,25,F,Lince,Traumatología,2023-05-06,184
+P0924,Ana Díaz,30,M,San Isidro,Cardiología,2021-09-26,426
+P0925,Lucía Díaz,57,F,La Molina,Ginecología,2021-10-17,448
+P0926,Carlos Díaz,81,F,Miraflores,Pediatría,2024-11-29,250
+P0927,Andrés Castro,78,F,Surco,Pediatría,2020-08-09,413
+P0928,José Gómez,87,M,Miraflores,Ginecología,2025-04-23,153
+P0929,Carmen Ramírez,21,M,Jesús María,Traumatología,2024-01-05,477
+P0930,Sofía Gómez,76,M,Callao,Pediatría,2024-05-04,278
+P0931,María Gómez,14,F,Miraflores,Pediatría,2021-07-11,453
+P0932,Lucía Pérez,38,M,San Isidro,Cardiología,2022-07-07,249
+P0933,Miguel Gómez,18,F,Lince,Odontología,2021-06-28,376
+P0934,Luis Pérez,16,F,La Molina,Pediatría,2020-10-31,442
+P0935,Luis Pérez,2,F,San Isidro,Pediatría,2020-03-05,396
+P0936,Andrés Salazar,54,F,Surco,Pediatría,2024-06-20,304
+P0937,Ana Rojas,28,F,Callao,Oftalmología,2024-05-29,449
+P0938,Lucía Castro,58,M,Miraflores,Dermatología,2020-01-07,415
+P0939,Lucía Ramírez,82,M,Surco,Ginecología,2023-06-03,202
+P0940,María Torres,72,M,Cajamarca,Oftalmología,2022-10-06,59
+P0941,Luis Torres,44,F,Callao,Pediatría,2021-08-22,199
+P0942,María Fernández,70,F,Lince,Pediatría,2023-01-15,486
+P0943,Miguel Castro,51,M,Jesús María,Traumatología,2021-08-09,236
+P0944,Ana Fernández,41,F,Jesús María,Cardiología,2020-09-15,448
+P0945,José Torres,74,M,La Molina,Ginecología,2022-11-04,105
+P0946,Sofía Castro,1,F,Surco,Dermatología,2021-08-23,119
+P0947,Andrés Salazar,42,M,Miraflores,Cardiología,2021-08-25,498
+P0948,Sofía Pérez,3,M,Lince,Odontología,2020-09-09,407
+P0949,Carmen Fernández,1,F,Jesús María,Oftalmología,2020-06-26,461
+P0950,Miguel Castro,8,M,Cajamarca,Oftalmología,2024-11-25,235
+P0951,José Ramírez,41,F,Miraflores,Dermatología,2023-01-28,105
+P0952,Sofía Fernández,7,F,Jesús María,Dermatología,2022-10-20,238
+P0953,Ana Ramírez,8,M,Miraflores,Pediatría,2025-07-16,222
+P0954,Andrés Pérez,2,F,Surco,Oftalmología,2025-04-06,280
+P0955,Sofía Pérez,1,M,Callao,Dermatología,2024-05-27,249
+P0956,Lucía Salazar,7,F,San Isidro,Pediatría,2023-04-04,311
+P0957,Andrés Pérez,88,M,La Molina,Traumatología,2025-08-18,123
+P0958,Ana Castro,81,M,Surco,Dermatología,2023-11-23,93
+P0959,Carmen Pérez,19,F,Miraflores,Ginecología,2025-03-19,201
+P0960,Carmen Salazar,7,M,San Isidro,Traumatología,2022-09-23,190
+P0961,Sofía Torres,90,F,Jesús María,Ginecología,2020-02-14,375
+P0962,Andrés Fernández,18,F,Miraflores,Odontología,2021-01-16,53
+P0963,Sofía Cabrera,21,F,La Molina,Ginecología,2023-09-07,470
+P0964,Ana Salazar,16,F,San Isidro,Dermatología,2022-07-14,368
+P0965,Ana Pérez,45,F,Cajamarca,Odontología,2021-05-05,278
+P0966,Carmen Torres,72,F,La Molina,Pediatría,2021-02-28,227
+P0967,Carmen Pérez,31,M,Miraflores,Pediatría,2022-03-22,254
+P0968,Carlos Pérez,30,F,La Molina,Traumatología,2020-07-03,286
+P0969,José Torres,84,M,La Molina,Traumatología,2023-07-19,131
+P0970,María Rojas,54,M,Lince,Odontología,2023-12-20,187
+P0971,Carlos Pérez,32,M,Lince,Traumatología,2021-04-04,419
+P0972,Sofía Cabrera,26,M,Callao,Traumatología,2023-05-23,282
+P0973,María Cabrera,52,M,San Isidro,Ginecología,2024-10-30,356
+P0974,Carlos Salazar,14,M,Lince,Oftalmología,2024-08-27,117
+P0975,José Rojas,32,M,Cajamarca,Odontología,2024-02-10,125
+P0976,Sofía Torres,21,F,La Molina,Ginecología,2020-07-09,328
+P0977,José Torres,15,F,San Isidro,Oftalmología,2025-06-09,69
+P0978,Carmen Gómez,11,F,La Molina,Pediatría,2025-05-11,421
+P0979,Luis Díaz,10,F,Callao,Dermatología,2020-07-04,73
+P0980,Carlos Castro,82,M,La Molina,Traumatología,2025-08-30,460
+P0981,Carlos Castro,25,F,San Isidro,Oftalmología,2020-05-14,361
+P0982,Lucía Ramírez,77,M,Cajamarca,Pediatría,2020-09-08,92
+P0983,Ana Pérez,49,M,La Molina,Ginecología,2023-12-13,408
+P0984,Andrés Pérez,1,M,Callao,Oftalmología,2023-03-03,348
+P0985,Lucía Castro,6,F,La Molina,Oftalmología,2021-05-02,340
+P0986,Carlos Fernández,22,F,San Isidro,Traumatología,2025-10-28,117
+P0987,Carlos Ramírez,47,M,Jesús María,Ginecología,2021-12-12,262
+P0988,José Rojas,51,F,San Isidro,Odontología,2024-12-07,267
+P0989,Carlos Cabrera,89,M,Surco,Oftalmología,2024-11-05,385
+P0990,Carlos Gómez,41,F,Lince,Dermatología,2021-03-02,289
+P0991,Carmen Fernández,37,F,Miraflores,Pediatría,2020-08-08,99
+P0992,Luis Gómez,52,M,Surco,Cardiología,2021-02-07,117
+P0993,Ana Pérez,41,M,Miraflores,Ginecología,2025-10-25,282
+P0994,Carlos Castro,57,F,Callao,Oftalmología,2023-08-07,80
+P0995,Miguel Castro,10,F,Miraflores,Dermatología,2025-08-23,125
+P0996,María Díaz,77,M,Cajamarca,Dermatología,2022-07-31,396
+P0997,Luis Ramírez,52,F,Lince,Oftalmología,2025-03-13,410
+P0998,Andrés Ramírez,34,M,Callao,Dermatología,2024-12-16,170
+P0999,José Pérez,54,M,Surco,Odontología,2025-01-16,373
+P1000,José Gómez,24,F,Jesús María,Oftalmología,2021-03-23,316
+P1001,Lucía Cabrera,26,F,La Molina,Traumatología,2021-03-31,361
+P1002,Andrés Pérez,49,F,Surco,Dermatología,2020-11-02,418
+P1003,María Castro,43,F,Jesús María,Ginecología,2024-06-20,357
+P1004,Carmen Salazar,40,M,Surco,Ginecología,2020-06-22,285
+P1005,Miguel Pérez,46,M,Miraflores,Traumatología,2023-01-10,486
+P1006,Carlos Rojas,74,F,Miraflores,Odontología,2025-10-06,245
+P1007,Carmen Ramírez,35,F,Miraflores,Oftalmología,2025-07-02,247
+P1008,Lucía Torres,27,M,Cajamarca,Oftalmología,2021-07-30,411
+P1009,Miguel Castro,39,F,Surco,Cardiología,2024-09-14,441
+P1010,Lucía Salazar,3,M,Miraflores,Oftalmología,2020-01-22,182
+P1011,Ana Pérez,86,F,San Isidro,Pediatría,2022-12-01,462
+P1012,José Ramírez,63,F,Cajamarca,Traumatología,2024-12-16,421
+P1013,Luis Díaz,64,F,Jesús María,Dermatología,2020-03-11,170
+P1014,Ana Pérez,70,F,Callao,Pediatría,2021-09-08,291
+P1015,María Ramírez,83,M,La Molina,Cardiología,2022-05-06,83
+P1016,Sofía Torres,16,M,Miraflores,Traumatología,2022-02-04,184
+P1017,Andrés Fernández,2,M,La Molina,Traumatología,2020-12-20,253
+P1018,Carmen Fernández,21,M,Callao,Oftalmología,2020-05-13,269
+P1019,Sofía Fernández,84,F,Miraflores,Oftalmología,2024-03-14,146
+P1020,José Fernández,11,M,Miraflores,Traumatología,2024-01-12,289
+P1021,Andrés Gómez,36,F,Lince,Odontología,2023-07-24,439
+P1022,María Díaz,71,F,Callao,Oftalmología,2020-03-26,78
+P1023,Carlos Díaz,63,F,Cajamarca,Pediatría,2022-06-05,439
+P1024,María Castro,14,M,San Isidro,Dermatología,2024-07-06,96
+P1025,Ana Torres,8,F,Surco,Pediatría,2021-10-13,489
+P1026,Lucía Gómez,3,F,Callao,Oftalmología,2025-12-08,321
+P1027,Andrés Díaz,10,M,San Isidro,Dermatología,2022-02-12,352
+P1028,María Cabrera,46,M,San Isidro,Pediatría,2025-11-18,203
+P1029,Lucía Castro,2,M,Jesús María,Odontología,2025-03-28,176
+P1030,Carmen Pérez,89,F,San Isidro,Oftalmología,2023-06-16,474
+P1031,Carlos Díaz,25,M,Lince,Pediatría,2025-04-11,423
+P1032,Andrés Rojas,60,F,La Molina,Ginecología,2020-07-23,58
+P1033,Miguel Rojas,49,M,San Isidro,Cardiología,2023-08-29,305
+P1034,Sofía Torres,5,F,La Molina,Dermatología,2020-09-24,457
+P1035,Lucía Pérez,9,F,La Molina,Traumatología,2024-12-26,361
+P1036,Carlos Pérez,62,F,La Molina,Cardiología,2020-10-05,106
+P1037,Miguel Gómez,53,M,Callao,Traumatología,2022-07-09,480
+P1038,Carmen Torres,6,F,La Molina,Pediatría,2022-06-03,55
+P1039,Sofía Pérez,58,M,Lince,Oftalmología,2022-04-09,402
+P1040,Ana Rojas,12,F,Surco,Odontología,2025-05-28,58
+P1041,Sofía Pérez,50,F,Surco,Pediatría,2021-09-09,320
+P1042,Ana Ramírez,31,M,Jesús María,Cardiología,2025-02-24,338
+P1043,Sofía Fernández,2,F,Surco,Cardiología,2023-01-02,497
+P1044,Ana Torres,51,M,Surco,Pediatría,2023-12-05,94
+P1045,Ana Ramírez,85,F,Miraflores,Traumatología,2020-10-04,401
+P1046,Ana Pérez,67,F,Miraflores,Pediatría,2023-11-04,220
+P1047,María Castro,9,M,La Molina,Odontología,2022-07-24,142
+P1048,Miguel Gómez,41,M,Cajamarca,Pediatría,2021-12-12,487
+P1049,Ana Ramírez,61,M,Miraflores,Dermatología,2021-12-28,50
+P1050,Ana Gómez,4,F,Callao,Ginecología,2021-04-22,349
+P1051,Carmen Pérez,58,F,Lince,Traumatología,2020-11-17,88
+P1052,Ana Fernández,74,M,Miraflores,Ginecología,2020-06-10,398
+P1053,José Rojas,21,F,Miraflores,Odontología,2021-11-23,84
+P1054,María Gómez,12,M,Lince,Oftalmología,2020-11-09,381
+P1055,Ana Ramírez,84,M,San Isidro,Dermatología,2025-09-13,260
+P1056,Luis Rojas,30,F,Miraflores,Ginecología,2020-07-04,499
+P1057,Andrés Díaz,34,M,Cajamarca,Traumatología,2021-03-21,145
+P1058,Carmen Salazar,29,M,Cajamarca,Pediatría,2025-03-23,205
+P1059,Carlos Salazar,28,M,Callao,Oftalmología,2023-07-17,446
+P1060,María Torres,82,F,Cajamarca,Odontología,2023-01-28,249
+P1061,Andrés Rojas,25,F,Callao,Oftalmología,2024-08-15,147
+P1062,José Rojas,2,M,Lince,Cardiología,2023-01-04,106
+P1063,Luis Ramírez,21,F,Lince,Odontología,2024-08-21,458
+P1064,Carlos Cabrera,61,F,San Isidro,Odontología,2025-01-02,363
+P1065,Carlos Fernández,54,F,San Isidro,Odontología,2025-07-29,108
+P1066,José Salazar,58,M,Lince,Oftalmología,2021-10-11,457
+P1067,María Gómez,48,M,Callao,Oftalmología,2021-09-06,307
+P1068,Sofía Salazar,44,F,Lince,Traumatología,2024-06-28,205
+P1069,Miguel Torres,87,M,San Isidro,Oftalmología,2024-12-13,73
+P1070,Luis Díaz,49,M,Lince,Ginecología,2025-12-01,211
+P1071,María Cabrera,18,M,Callao,Traumatología,2022-06-02,401
+P1072,Andrés Torres,2,F,Surco,Dermatología,2023-02-21,70
+P1073,Andrés Díaz,22,F,Miraflores,Cardiología,2020-06-01,495
+P1074,Carlos Gómez,89,F,Callao,Traumatología,2023-12-24,343
+P1075,Carlos Pérez,50,F,La Molina,Ginecología,2021-02-18,338
+P1076,Lucía Torres,47,F,Cajamarca,Pediatría,2023-03-26,61
+P1077,Andrés Gómez,39,F,Miraflores,Oftalmología,2021-10-01,111
+P1078,Andrés Castro,61,F,La Molina,Oftalmología,2025-07-15,269
+P1079,Sofía Castro,12,F,Surco,Pediatría,2022-05-03,148
+P1080,Lucía Rojas,14,M,Callao,Oftalmología,2023-10-22,348
+P1081,Lucía Torres,36,M,Lince,Traumatología,2024-12-23,254
+P1082,Andrés Fernández,10,M,Miraflores,Ginecología,2020-08-05,363
+P1083,Miguel Ramírez,2,M,Miraflores,Traumatología,2025-09-12,433
+P1084,José Ramírez,7,F,Miraflores,Odontología,2025-11-24,219
+P1085,Miguel Ramírez,15,M,Miraflores,Oftalmología,2025-10-08,374
+P1086,Luis Gómez,62,F,Callao,Dermatología,2024-12-17,472
+P1087,Andrés Torres,66,F,La Molina,Traumatología,2023-04-07,234
+P1088,María Salazar,20,F,Surco,Dermatología,2021-06-13,403
+P1089,Carmen Pérez,79,F,Cajamarca,Ginecología,2023-03-24,449
+P1090,Miguel Ramírez,37,F,Lince,Cardiología,2022-03-30,281
+P1091,Carlos Rojas,13,M,Lince,Traumatología,2024-06-11,195
+P1092,Miguel Salazar,7,M,La Molina,Dermatología,2020-11-08,372
+P1093,Andrés Castro,90,M,Lince,Oftalmología,2020-05-23,207
+P1094,Miguel Díaz,36,M,Jesús María,Dermatología,2022-02-01,479
+P1095,Luis Cabrera,4,M,San Isidro,Oftalmología,2023-09-17,147
+P1096,María Torres,16,M,Lince,Traumatología,2022-08-03,347
+P1097,Luis Cabrera,52,M,Cajamarca,Oftalmología,2023-02-07,315
+P1098,Ana Castro,8,M,La Molina,Cardiología,2022-05-27,299
+P1099,Andrés Díaz,67,M,Miraflores,Dermatología,2021-01-30,229
+P1100,María Rojas,26,F,Miraflores,Traumatología,2025-12-24,384
+P1101,Andrés Cabrera,80,F,Jesús María,Ginecología,2024-10-01,186
+P1102,Carmen Salazar,77,M,Miraflores,Cardiología,2025-07-27,438
+P1103,Lucía Gómez,23,F,Miraflores,Ginecología,2024-11-14,281
+P1104,Ana Fernández,90,M,Cajamarca,Ginecología,2021-07-07,207
+P1105,Andrés Cabrera,50,M,Surco,Traumatología,2024-08-20,242
+P1106,Andrés Gómez,71,F,San Isidro,Ginecología,2022-12-06,447
+P1107,María Fernández,10,F,Cajamarca,Pediatría,2025-07-29,68
+P1108,Carlos Cabrera,33,M,Lince,Ginecología,2025-01-09,123
+P1109,María Ramírez,34,F,Lince,Traumatología,2023-11-30,325
+P1110,Luis Salazar,80,F,Miraflores,Traumatología,2020-02-26,175
+P1111,Sofía Díaz,11,M,Callao,Pediatría,2021-03-18,320
+P1112,Carmen Pérez,80,M,San Isidro,Ginecología,2022-02-05,283
+P1113,Luis Ramírez,87,M,Miraflores,Dermatología,2023-03-16,295
+P1114,María Rojas,12,M,Lince,Odontología,2020-09-05,313
+P1115,Carlos Gómez,60,M,Jesús María,Pediatría,2025-12-12,230
+P1116,Lucía Salazar,3,M,Surco,Pediatría,2025-07-16,62
+P1117,Lucía Cabrera,69,F,Callao,Oftalmología,2025-10-23,345
+P1118,Sofía Castro,5,F,Miraflores,Cardiología,2022-07-06,186
+P1119,Luis Salazar,7,M,San Isidro,Ginecología,2025-04-04,298
+P1120,Carlos Gómez,78,F,Surco,Cardiología,2024-04-30,87
+P1121,Andrés Díaz,60,F,San Isidro,Cardiología,2022-08-29,283
+P1122,Miguel Díaz,29,F,Cajamarca,Ginecología,2024-01-24,75
+P1123,Ana Fernández,12,M,Surco,Pediatría,2023-08-31,194
+P1124,José Rojas,39,F,Surco,Ginecología,2021-07-07,265
+P1125,Lucía Fernández,63,M,Lince,Cardiología,2025-02-16,189
+P1126,Luis Castro,48,M,Miraflores,Oftalmología,2022-03-28,339
+P1127,Ana Castro,49,F,Surco,Oftalmología,2022-12-06,443
+P1128,José Pérez,87,F,Jesús María,Cardiología,2020-12-21,481
+P1129,Carmen Ramírez,33,M,Lince,Traumatología,2024-07-13,351
+P1130,María Gómez,51,F,San Isidro,Dermatología,2024-06-02,244
+P1131,Carlos Cabrera,30,M,San Isidro,Oftalmología,2021-02-13,368
+P1132,Luis Pérez,11,M,Miraflores,Traumatología,2024-06-27,419
+P1133,María Salazar,69,M,La Molina,Traumatología,2025-03-09,123
+P1134,Carlos Rojas,43,M,Miraflores,Traumatología,2023-12-12,263
+P1135,Sofía Salazar,61,M,Surco,Cardiología,2023-05-26,94
+P1136,Andrés Fernández,10,F,Surco,Ginecología,2025-09-23,83
+P1137,Sofía Salazar,19,F,La Molina,Oftalmología,2020-10-15,379
+P1138,Carlos Castro,19,F,Jesús María,Traumatología,2025-04-03,84
+P1139,Ana Rojas,47,F,Callao,Oftalmología,2024-07-08,335
+P1140,José Cabrera,69,F,Cajamarca,Ginecología,2024-09-07,176
+P1141,Luis Pérez,64,F,Lince,Cardiología,2021-05-04,213
+P1142,Carlos Cabrera,69,F,San Isidro,Pediatría,2023-04-20,325
+P1143,Luis Salazar,52,F,Jesús María,Odontología,2020-05-20,198
+P1144,Ana Torres,53,F,San Isidro,Ginecología,2024-07-05,497
+P1145,Luis Cabrera,79,M,Surco,Traumatología,2023-01-06,82
+P1146,Miguel Gómez,20,M,San Isidro,Ginecología,2025-08-13,383
+P1147,Ana Ramírez,69,F,San Isidro,Dermatología,2023-09-07,70
+P1148,María Cabrera,25,M,Miraflores,Oftalmología,2021-05-03,459
+P1149,José Cabrera,52,F,Lince,Oftalmología,2022-04-26,285
+P1150,Carmen Ramírez,83,F,Miraflores,Odontología,2021-11-28,53
+P1151,José Ramírez,78,M,San Isidro,Pediatría,2022-08-30,450
+P1152,Sofía Díaz,36,M,La Molina,Oftalmología,2022-10-02,253
+P1153,Carmen Cabrera,16,M,Miraflores,Odontología,2024-03-18,65
+P1154,Lucía Díaz,10,F,Callao,Odontología,2022-04-13,195
+P1155,Carlos Pérez,2,M,La Molina,Cardiología,2025-07-31,79
+P1156,Lucía Torres,44,M,Cajamarca,Dermatología,2024-09-21,171
+P1157,Miguel Torres,50,F,Lince,Traumatología,2021-01-23,235
+P1158,Andrés Torres,67,F,Miraflores,Ginecología,2022-07-05,201
+P1159,Carmen Díaz,13,F,Surco,Oftalmología,2025-03-24,453
+P1160,Carlos Torres,23,M,Cajamarca,Cardiología,2024-02-16,380
+P1161,Ana Rojas,39,F,Lince,Traumatología,2021-09-19,154
+P1162,Luis Díaz,38,F,Callao,Traumatología,2024-02-28,446
+P1163,Sofía Díaz,90,F,Cajamarca,Cardiología,2023-10-11,396
+P1164,María Pérez,23,F,Miraflores,Dermatología,2024-12-17,148
+P1165,Carmen Castro,10,M,San Isidro,Odontología,2024-08-14,349
+P1166,Ana Fernández,67,F,La Molina,Odontología,2021-04-11,113
+P1167,Carlos Cabrera,75,F,Miraflores,Dermatología,2022-06-24,318
+P1168,José Díaz,4,F,Jesús María,Ginecología,2020-08-23,287
+P1169,José Pérez,73,M,Jesús María,Ginecología,2024-08-18,436
+P1170,Carlos Salazar,82,F,Miraflores,Dermatología,2024-09-18,256
+P1171,Carmen Rojas,10,M,La Molina,Odontología,2020-06-01,222
+P1172,Carmen Torres,60,M,Cajamarca,Pediatría,2021-12-02,275
+P1173,Carmen Salazar,23,F,Cajamarca,Odontología,2021-05-21,75
+P1174,Sofía Gómez,43,M,Callao,Traumatología,2020-04-22,476
+P1175,María Ramírez,25,F,La Molina,Odontología,2023-04-10,452
+P1176,José Pérez,19,M,La Molina,Ginecología,2023-06-03,229
+P1177,Sofía Gómez,67,M,Callao,Odontología,2025-10-30,309
+P1178,Sofía Torres,61,M,Jesús María,Odontología,2020-11-20,481
+P1179,Andrés Salazar,41,M,Callao,Dermatología,2023-11-16,200
+P1180,Miguel Díaz,37,M,Callao,Cardiología,2025-04-03,186
+P1181,María Pérez,74,F,San Isidro,Traumatología,2021-03-01,190
+P1182,María Pérez,1,M,Surco,Cardiología,2025-06-24,58
+P1183,Luis Cabrera,46,F,La Molina,Ginecología,2020-12-16,216
+P1184,Lucía Torres,43,F,San Isidro,Cardiología,2025-10-29,432
+P1185,Carlos Cabrera,44,F,Jesús María,Pediatría,2022-01-24,176
+P1186,Miguel Díaz,60,M,Cajamarca,Cardiología,2025-09-13,130
+P1187,Carlos Castro,70,F,Surco,Oftalmología,2021-12-14,392
+P1188,Miguel Salazar,65,M,San Isidro,Pediatría,2024-05-20,388
+P1189,Carlos Castro,22,M,San Isidro,Dermatología,2021-01-15,333
+P1190,María Díaz,17,F,La Molina,Ginecología,2023-06-28,379
+P1191,Lucía Cabrera,28,F,La Molina,Oftalmología,2023-07-31,357
+P1192,Ana Cabrera,40,M,Miraflores,Pediatría,2024-10-04,234
+P1193,María Cabrera,36,F,Jesús María,Pediatría,2021-06-22,452
+P1194,José Rojas,50,F,Cajamarca,Dermatología,2021-01-08,227
+P1195,Miguel Salazar,1,F,Surco,Ginecología,2024-06-05,393
+P1196,Andrés Castro,62,F,Miraflores,Odontología,2021-07-14,472
+P1197,Carlos Castro,61,F,Jesús María,Cardiología,2025-07-13,447
+P1198,José Torres,78,M,Jesús María,Dermatología,2022-09-26,291
+P1199,José Rojas,89,F,San Isidro,Odontología,2021-03-25,184
+P1200,Miguel Ramírez,43,F,Jesús María,Dermatología,2024-08-14,197
+P1201,Sofía Salazar,58,M,Miraflores,Odontología,2021-03-06,153
+P1202,Carlos Torres,2,F,Cajamarca,Dermatología,2021-06-12,306
+P1203,María Ramírez,22,M,Callao,Oftalmología,2020-08-13,486
+P1204,Ana Cabrera,43,M,Lince,Cardiología,2024-02-25,299
+P1205,Lucía Ramírez,50,M,Miraflores,Oftalmología,2020-07-25,370
+P1206,José Castro,76,M,La Molina,Traumatología,2020-11-28,63
+P1207,Carmen Gómez,50,F,San Isidro,Oftalmología,2022-04-07,342
+P1208,Sofía Rojas,75,F,Cajamarca,Traumatología,2020-08-20,124
+P1209,Andrés Fernández,30,F,Miraflores,Traumatología,2020-09-05,68
+P1210,Lucía Torres,41,M,Miraflores,Cardiología,2023-05-29,323
+P1211,Carmen Fernández,36,M,Cajamarca,Cardiología,2022-09-20,50
+P1212,Miguel Torres,37,F,Miraflores,Cardiología,2021-11-15,368
+P1213,Andrés Fernández,60,F,Miraflores,Oftalmología,2021-12-12,165
+P1214,Andrés Díaz,3,F,Miraflores,Dermatología,2025-03-13,117
+P1215,Ana Castro,75,F,La Molina,Dermatología,2020-12-25,89
+P1216,José Torres,35,M,Callao,Traumatología,2021-06-05,448
+P1217,José Fernández,53,F,Jesús María,Ginecología,2020-08-19,399
+P1218,Luis Fernández,48,M,Callao,Pediatría,2024-04-02,111
+P1219,Luis Castro,80,F,Surco,Odontología,2023-12-28,361
+P1220,Carmen Cabrera,38,M,Miraflores,Pediatría,2024-10-31,467
+P1221,Andrés Salazar,55,F,Callao,Ginecología,2023-08-16,299
+P1222,Carlos Ramírez,27,M,Miraflores,Ginecología,2020-07-14,463
+P1223,Carmen Fernández,14,M,Lince,Ginecología,2024-05-10,278
+P1224,María Rojas,53,M,Callao,Ginecología,2025-12-14,443
+P1225,Carlos Cabrera,59,F,Surco,Odontología,2023-04-27,286
+P1226,Sofía Castro,24,F,Cajamarca,Dermatología,2025-01-22,57
+P1227,Miguel Castro,76,M,Callao,Dermatología,2023-07-09,252
+P1228,Ana Torres,27,F,San Isidro,Odontología,2024-11-23,391
+P1229,Ana Gómez,65,F,San Isidro,Dermatología,2020-02-25,140
+P1230,Ana Castro,17,M,Cajamarca,Traumatología,2024-04-02,394
+P1231,Sofía Salazar,65,F,Callao,Dermatología,2025-09-25,411
+P1232,José Ramírez,41,F,Miraflores,Odontología,2022-06-28,357
+P1233,María Gómez,82,F,San Isidro,Ginecología,2024-11-05,218
+P1234,Andrés Fernández,55,F,Callao,Cardiología,2020-02-11,357
+P1235,Lucía Cabrera,26,M,Jesús María,Odontología,2023-02-22,372
+P1236,Miguel Cabrera,52,F,Jesús María,Dermatología,2025-03-09,426
+P1237,María Cabrera,50,F,Jesús María,Cardiología,2023-01-02,202
+P1238,Carlos Fernández,41,F,San Isidro,Odontología,2024-02-10,230
+P1239,Sofía Rojas,53,M,Lince,Odontología,2024-10-07,345
+P1240,Luis Castro,50,M,Lince,Odontología,2023-01-09,259
+P1241,Ana Ramírez,62,F,Miraflores,Cardiología,2021-07-14,260
+P1242,María Cabrera,72,M,La Molina,Pediatría,2021-04-02,251
+P1243,Ana Fernández,44,F,Lince,Ginecología,2023-10-29,444
+P1244,Lucía Fernández,4,M,Jesús María,Odontología,2020-10-12,100
+P1245,Carmen Fernández,41,F,Jesús María,Pediatría,2021-05-02,388
+P1246,José Rojas,43,F,Cajamarca,Odontología,2024-10-07,463
+P1247,Carmen Fernández,45,M,Jesús María,Dermatología,2020-06-27,374
+P1248,Sofía Gómez,51,M,Cajamarca,Cardiología,2023-12-18,345
+P1249,Luis Cabrera,6,F,Miraflores,Pediatría,2025-06-06,115
+P1250,Ana Fernández,34,F,Miraflores,Ginecología,2020-05-17,131
+P1251,Sofía Pérez,23,F,San Isidro,Pediatría,2024-09-19,336
+P1252,Carmen Castro,2,M,Cajamarca,Traumatología,2022-02-23,57
+P1253,Carmen Gómez,53,F,La Molina,Odontología,2023-08-22,51
+P1254,Ana Salazar,54,F,La Molina,Ginecología,2022-04-09,206
+P1255,José Gómez,61,F,La Molina,Odontología,2025-07-16,207
+P1256,María Salazar,67,F,La Molina,Oftalmología,2023-07-17,390
+P1257,Carlos Castro,90,F,Cajamarca,Odontología,2020-06-17,488
+P1258,Andrés Cabrera,50,M,Callao,Traumatología,2021-08-15,217
+P1259,Carmen Salazar,59,F,Cajamarca,Dermatología,2022-03-17,443
+P1260,Lucía Díaz,36,F,Surco,Pediatría,2025-12-08,235
+P1261,Luis Castro,25,F,La Molina,Traumatología,2020-04-27,151
+P1262,Carmen Ramírez,78,F,La Molina,Traumatología,2023-02-27,450
+P1263,Carmen Gómez,62,M,Cajamarca,Odontología,2022-03-10,235
+P1264,Carlos Pérez,59,M,San Isidro,Pediatría,2025-03-07,309
+P1265,Andrés Pérez,47,F,San Isidro,Odontología,2020-05-20,182
+P1266,Carlos Salazar,16,F,Miraflores,Dermatología,2021-10-06,380
+P1267,Lucía Ramírez,84,M,San Isidro,Dermatología,2022-12-01,497
+P1268,Lucía Pérez,23,M,La Molina,Ginecología,2023-07-16,120
+P1269,Lucía Gómez,23,M,Cajamarca,Cardiología,2022-07-27,255
+P1270,Andrés Díaz,56,M,Cajamarca,Cardiología,2020-02-23,139
+P1271,Lucía Díaz,63,F,Callao,Cardiología,2022-11-17,214
+P1272,Ana Díaz,49,M,Jesús María,Ginecología,2021-11-28,167
+P1273,José Díaz,72,M,La Molina,Dermatología,2024-06-13,133
+P1274,Carlos Rojas,12,M,Jesús María,Odontología,2023-11-20,465
+P1275,Sofía Ramírez,69,M,Miraflores,Oftalmología,2021-07-31,137
+P1276,Carmen Ramírez,8,M,Surco,Odontología,2025-02-27,389
+P1277,Sofía Fernández,88,M,La Molina,Pediatría,2023-06-08,154
+P1278,Sofía Fernández,12,M,Cajamarca,Dermatología,2022-03-22,155
+P1279,María Castro,88,M,La Molina,Odontología,2025-12-24,407
+P1280,Andrés Salazar,6,M,Jesús María,Cardiología,2021-05-11,267
+P1281,José Salazar,36,M,La Molina,Traumatología,2023-01-29,123
+P1282,Ana Díaz,21,M,Cajamarca,Dermatología,2022-07-13,231
+P1283,José Salazar,29,F,Surco,Odontología,2022-05-12,267
+P1284,María Gómez,39,M,Jesús María,Pediatría,2021-03-04,118
+P1285,Carmen Rojas,52,F,Jesús María,Oftalmología,2022-09-19,448
+P1286,Lucía Rojas,76,M,Lince,Oftalmología,2022-06-18,171
+P1287,Carmen Salazar,68,M,Callao,Traumatología,2025-04-10,198
+P1288,Carlos Gómez,59,M,Jesús María,Pediatría,2023-08-09,253
+P1289,José Castro,1,F,Surco,Pediatría,2020-05-27,251
+P1290,Sofía Díaz,33,F,Cajamarca,Traumatología,2023-03-09,123
+P1291,José Castro,70,F,Miraflores,Pediatría,2022-06-15,270
+P1292,Andrés Fernández,31,M,Jesús María,Cardiología,2021-08-19,227
+P1293,Lucía Pérez,9,F,La Molina,Traumatología,2023-08-04,255
+P1294,Carmen Torres,86,M,Lince,Ginecología,2021-01-26,309
+P1295,Miguel Pérez,6,F,La Molina,Oftalmología,2020-01-05,438
+P1296,Sofía Díaz,73,M,Surco,Oftalmología,2025-11-22,255
+P1297,María Torres,11,M,San Isidro,Traumatología,2022-03-11,469
+P1298,Luis Castro,73,F,San Isidro,Pediatría,2021-09-18,406
+P1299,Sofía Ramírez,75,F,Jesús María,Ginecología,2021-03-09,229
+P1300,Carlos Salazar,36,F,Surco,Cardiología,2025-12-04,434
+P1301,María Castro,5,F,Jesús María,Oftalmología,2020-03-08,377
+P1302,Sofía Ramírez,5,M,Cajamarca,Dermatología,2021-09-13,63
+P1303,María Castro,2,M,Lince,Oftalmología,2024-05-08,434
+P1304,Ana Castro,79,F,Callao,Dermatología,2024-08-24,66
+P1305,Andrés Ramírez,29,F,Jesús María,Cardiología,2021-10-11,56
+P1306,Miguel Díaz,47,F,Callao,Oftalmología,2025-04-13,77
+P1307,Carmen Cabrera,27,M,Callao,Dermatología,2023-06-22,155
+P1308,Carlos Torres,66,F,Jesús María,Odontología,2023-05-10,471
+P1309,Andrés Rojas,5,M,Cajamarca,Pediatría,2020-03-02,71
+P1310,Sofía Salazar,13,F,Cajamarca,Cardiología,2022-10-01,219
+P1311,Ana Castro,44,M,La Molina,Ginecología,2020-02-18,144
+P1312,Lucía Rojas,89,M,La Molina,Ginecología,2023-03-05,458
+P1313,Andrés Castro,70,M,Lince,Dermatología,2022-05-15,301
+P1314,Miguel Díaz,71,F,Lince,Cardiología,2021-10-07,271
+P1315,María Rojas,53,F,La Molina,Traumatología,2020-04-05,236
+P1316,Miguel Salazar,58,F,Surco,Odontología,2025-11-12,322
+P1317,Miguel Pérez,69,F,Miraflores,Odontología,2020-12-29,333
+P1318,José Gómez,72,M,La Molina,Cardiología,2020-08-16,325
+P1319,Andrés Rojas,82,F,Lince,Oftalmología,2022-02-13,256
+P1320,Miguel Ramírez,84,M,Jesús María,Dermatología,2023-06-30,408
+P1321,Ana Ramírez,43,M,La Molina,Pediatría,2021-01-01,130
+P1322,Lucía Díaz,75,F,San Isidro,Cardiología,2022-02-27,474
+P1323,Lucía Ramírez,7,F,Surco,Odontología,2021-04-10,235
+P1324,Ana Díaz,76,F,La Molina,Pediatría,2020-06-12,267
+P1325,Luis Cabrera,46,F,Miraflores,Oftalmología,2024-10-21,240
+P1326,José Cabrera,85,F,Cajamarca,Cardiología,2023-10-18,375
+P1327,José Cabrera,18,F,Miraflores,Pediatría,2024-01-08,65
+P1328,José Pérez,9,F,San Isidro,Oftalmología,2020-09-04,277
+P1329,Luis Salazar,81,F,Cajamarca,Cardiología,2024-07-04,471
+P1330,María Salazar,1,M,Jesús María,Pediatría,2022-04-25,266
+P1331,Carmen Díaz,13,F,Cajamarca,Pediatría,2023-07-14,191
+P1332,Miguel Fernández,24,M,San Isidro,Oftalmología,2024-01-09,402
+P1333,Lucía Fernández,5,M,Surco,Traumatología,2023-08-18,386
+P1334,Miguel Díaz,52,F,La Molina,Oftalmología,2020-08-10,265
+P1335,Carlos Díaz,87,F,Miraflores,Pediatría,2025-03-08,229
+P1336,José Gómez,54,M,Lince,Cardiología,2025-03-10,262
+P1337,Sofía Torres,62,F,Callao,Ginecología,2023-04-18,102
+P1338,Andrés Castro,84,M,Cajamarca,Cardiología,2025-06-22,320
+P1339,Lucía Díaz,30,M,La Molina,Cardiología,2023-10-12,423
+P1340,Ana Ramírez,36,F,Miraflores,Ginecología,2020-03-12,242
+P1341,Andrés Ramírez,15,F,Cajamarca,Pediatría,2021-08-27,215
+P1342,Andrés Ramírez,69,F,Callao,Ginecología,2025-09-20,313
+P1343,Carmen Castro,34,F,Callao,Odontología,2022-03-04,168
+P1344,Carmen Díaz,35,M,Surco,Odontología,2024-10-20,249
+P1345,Carlos Díaz,45,M,Jesús María,Odontología,2024-09-29,120
+P1346,Carmen Gómez,13,F,Jesús María,Pediatría,2020-07-15,258
+P1347,Miguel Díaz,62,F,La Molina,Cardiología,2021-01-07,262
+P1348,Luis Díaz,61,M,Miraflores,Oftalmología,2024-11-06,462
+P1349,José Gómez,75,M,Callao,Traumatología,2022-05-09,350
+P1350,Ana Castro,37,F,Callao,Traumatología,2021-10-01,474
+P1351,Luis Torres,38,F,Surco,Cardiología,2022-02-05,402
+P1352,Luis Fernández,17,M,Lince,Dermatología,2025-11-13,77
+P1353,Carmen Ramírez,43,F,La Molina,Traumatología,2020-07-24,287
+P1354,Ana Torres,19,F,Cajamarca,Odontología,2020-01-28,362
+P1355,Lucía Ramírez,65,M,Cajamarca,Cardiología,2025-05-03,452
+P1356,María Fernández,10,M,Jesús María,Dermatología,2020-12-10,308
+P1357,Miguel Rojas,27,F,Miraflores,Cardiología,2020-02-28,192
+P1358,Lucía Pérez,85,M,Jesús María,Oftalmología,2021-06-25,78
+P1359,Carmen Castro,72,M,San Isidro,Cardiología,2022-04-16,146
+P1360,Ana Pérez,79,F,San Isidro,Cardiología,2025-12-22,52
+P1361,María Rojas,60,M,Callao,Cardiología,2024-01-19,444
+P1362,Ana Pérez,47,M,San Isidro,Oftalmología,2025-03-13,242
+P1363,Luis Pérez,68,F,Cajamarca,Cardiología,2020-06-08,431
+P1364,Carmen Pérez,56,M,Callao,Pediatría,2023-04-28,50
+P1365,Ana Fernández,60,F,Lince,Dermatología,2023-04-30,414
+P1366,María Castro,61,M,Jesús María,Odontología,2023-09-25,129
+P1367,Luis Pérez,52,M,San Isidro,Traumatología,2022-09-04,497
+P1368,José Castro,36,F,La Molina,Traumatología,2020-11-23,143
+P1369,José Gómez,37,M,Miraflores,Traumatología,2023-09-13,169
+P1370,María Cabrera,20,M,Cajamarca,Oftalmología,2022-10-29,307
+P1371,Miguel Rojas,58,F,Surco,Pediatría,2022-10-03,442
+P1372,Carmen Torres,90,F,Lince,Ginecología,2025-03-22,290
+P1373,María Cabrera,33,F,San Isidro,Ginecología,2023-01-31,492
+P1374,José Rojas,47,F,Cajamarca,Pediatría,2022-10-12,256
+P1375,Sofía Ramírez,65,F,San Isidro,Traumatología,2021-05-24,52
+P1376,Ana Torres,43,F,La Molina,Ginecología,2021-01-05,211
+P1377,José Rojas,17,M,La Molina,Cardiología,2024-08-23,87
+P1378,María Cabrera,39,M,Lince,Ginecología,2023-03-03,115
+P1379,Andrés Salazar,25,F,Miraflores,Oftalmología,2020-03-10,170
+P1380,Luis Salazar,68,M,Surco,Odontología,2025-12-22,75
+P1381,Miguel Cabrera,83,M,Surco,Traumatología,2021-01-19,347
+P1382,José Ramírez,66,F,San Isidro,Pediatría,2025-01-05,206
+P1383,Carlos Pérez,21,M,Jesús María,Oftalmología,2024-12-14,307
+P1384,Ana Salazar,51,F,Miraflores,Odontología,2022-03-04,153
+P1385,Luis Fernández,76,M,La Molina,Traumatología,2023-03-16,108
+P1386,Carlos Rojas,21,M,Callao,Oftalmología,2021-01-26,135
+P1387,Miguel Gómez,67,M,San Isidro,Ginecología,2022-05-30,227
+P1388,Luis Gómez,23,M,Surco,Dermatología,2025-11-01,182
+P1389,Miguel Gómez,7,M,Cajamarca,Pediatría,2022-06-16,225
+P1390,Miguel Salazar,15,F,Miraflores,Pediatría,2022-08-22,442
+P1391,Miguel Salazar,28,F,Miraflores,Pediatría,2023-06-04,405
+P1392,Lucía Castro,28,M,Callao,Cardiología,2020-08-11,351
+P1393,Ana Castro,21,F,Jesús María,Cardiología,2020-06-15,50
+P1394,Carmen Díaz,66,F,Callao,Ginecología,2022-04-05,429
+P1395,María Torres,48,M,San Isidro,Ginecología,2021-09-08,217
+P1396,Luis Torres,60,M,Cajamarca,Pediatría,2020-07-03,303
+P1397,María Rojas,4,M,Miraflores,Traumatología,2022-08-30,325
+P1398,Carlos Salazar,72,M,Surco,Traumatología,2025-08-05,71
+P1399,Carmen Gómez,44,M,San Isidro,Oftalmología,2020-08-04,217
+P1400,Carlos Fernández,9,M,Cajamarca,Pediatría,2023-04-22,418
+P1401,Luis Díaz,85,F,Surco,Traumatología,2025-11-05,183
+P1402,Ana Pérez,42,M,San Isidro,Traumatología,2025-10-12,89
+P1403,María Ramírez,68,F,Miraflores,Traumatología,2020-03-19,216
+P1404,Luis Ramírez,68,M,San Isidro,Dermatología,2024-02-19,210
+P1405,María Rojas,39,M,Miraflores,Oftalmología,2021-11-29,196
+P1406,Luis Cabrera,43,F,Jesús María,Odontología,2020-06-30,338
+P1407,Sofía Fernández,26,M,La Molina,Odontología,2023-05-02,447
+P1408,José Salazar,69,F,Cajamarca,Ginecología,2025-05-30,175
+P1409,Luis Castro,53,M,Surco,Pediatría,2022-01-07,125
+P1410,Luis Salazar,83,F,Callao,Ginecología,2020-04-26,314
+P1411,Sofía Ramírez,31,F,Miraflores,Traumatología,2020-03-01,73
+P1412,Andrés Díaz,42,F,Callao,Traumatología,2025-08-20,431
+P1413,Andrés Fernández,45,M,Surco,Traumatología,2024-05-30,69
+P1414,José Salazar,73,F,Cajamarca,Oftalmología,2020-09-21,271
+P1415,Luis Fernández,59,M,Lince,Cardiología,2022-03-04,394
+P1416,Ana Pérez,37,M,Surco,Oftalmología,2023-02-14,138
+P1417,Carlos Ramírez,4,M,Cajamarca,Dermatología,2021-05-06,143
+P1418,Carmen Rojas,31,M,Callao,Dermatología,2024-06-20,66
+P1419,Carlos Gómez,6,F,Surco,Oftalmología,2022-04-27,325
+P1420,Carlos Salazar,42,F,Cajamarca,Pediatría,2023-02-09,276
+P1421,Lucía Díaz,65,M,La Molina,Pediatría,2024-08-12,436
+P1422,José Fernández,38,F,Surco,Traumatología,2022-06-23,106
+P1423,Miguel Rojas,62,F,Callao,Traumatología,2021-11-30,402
+P1424,Andrés Pérez,42,M,Surco,Pediatría,2023-08-24,157
+P1425,Lucía Díaz,63,F,Callao,Cardiología,2025-09-05,176
+P1426,Carmen Gómez,38,F,San Isidro,Oftalmología,2022-01-23,133
+P1427,Luis Torres,60,M,Jesús María,Dermatología,2025-02-13,55
+P1428,José Gómez,56,M,Cajamarca,Pediatría,2024-12-22,105
+P1429,Lucía Rojas,51,F,Surco,Dermatología,2025-12-27,315
+P1430,Miguel Pérez,54,M,Lince,Pediatría,2021-09-28,314
+P1431,Luis Rojas,24,M,Jesús María,Oftalmología,2021-12-16,327
+P1432,María Torres,77,M,La Molina,Ginecología,2022-11-30,379
+P1433,José Salazar,61,M,Miraflores,Odontología,2022-09-08,175
+P1434,José Fernández,70,F,Lince,Oftalmología,2025-07-21,279
+P1435,Carlos Díaz,34,M,Surco,Oftalmología,2023-07-27,471
+P1436,Lucía Ramírez,24,F,San Isidro,Pediatría,2022-06-02,361
+P1437,Ana Salazar,19,F,La Molina,Cardiología,2021-04-14,156
+P1438,Luis Torres,36,F,La Molina,Dermatología,2022-04-13,363
+P1439,Andrés Fernández,39,F,Cajamarca,Cardiología,2024-05-08,93
+P1440,Miguel Castro,71,F,Jesús María,Odontología,2021-03-13,327
+P1441,Carmen Pérez,9,F,Lince,Traumatología,2025-12-24,255
+P1442,Miguel Fernández,79,F,Jesús María,Oftalmología,2024-04-25,444
+P1443,Carmen Díaz,27,F,San Isidro,Oftalmología,2025-02-27,430
+P1444,María Díaz,61,F,Lince,Odontología,2024-11-17,104
+P1445,Andrés Gómez,16,F,Surco,Ginecología,2023-09-06,152
+P1446,Lucía Pérez,85,F,Callao,Dermatología,2024-01-15,63
+P1447,Carmen Fernández,12,M,Miraflores,Ginecología,2023-08-03,351
+P1448,Andrés Díaz,51,M,San Isidro,Cardiología,2020-03-31,314
+P1449,Ana Díaz,79,M,San Isidro,Cardiología,2025-04-26,487
+P1450,Miguel Torres,61,F,La Molina,Oftalmología,2022-05-29,201
+P1451,Lucía Salazar,76,M,La Molina,Dermatología,2021-11-28,115
+P1452,Miguel Díaz,45,F,Cajamarca,Dermatología,2023-02-20,475
+P1453,Carlos Torres,44,M,Surco,Dermatología,2025-05-18,248
+P1454,Luis Rojas,46,M,Cajamarca,Ginecología,2021-06-16,429
+P1455,Andrés Salazar,15,M,Cajamarca,Ginecología,2020-07-08,368
+P1456,Lucía Díaz,24,M,San Isidro,Cardiología,2021-05-20,458
+P1457,Andrés Rojas,34,M,Cajamarca,Traumatología,2023-04-15,102
+P1458,Carlos Cabrera,66,F,Callao,Cardiología,2023-12-03,424
+P1459,Luis Díaz,41,F,Callao,Pediatría,2025-10-23,314
+P1460,Ana Cabrera,5,F,Cajamarca,Dermatología,2021-03-15,384
+P1461,Carlos Pérez,19,M,Miraflores,Pediatría,2025-05-19,215
+P1462,Ana Gómez,46,F,Lince,Cardiología,2021-07-15,293
+P1463,José Pérez,63,M,Jesús María,Pediatría,2022-06-15,110
+P1464,Sofía Ramírez,40,M,Miraflores,Ginecología,2021-01-18,401
+P1465,Lucía Rojas,78,M,Lince,Traumatología,2021-02-10,467
+P1466,Andrés Gómez,7,M,Cajamarca,Traumatología,2020-01-10,127
+P1467,Carmen Fernández,86,F,Cajamarca,Pediatría,2023-03-25,387
+P1468,María Rojas,55,F,La Molina,Odontología,2024-07-28,52
+P1469,José Salazar,29,F,Jesús María,Cardiología,2021-06-13,210
+P1470,Carlos Torres,56,F,Callao,Dermatología,2022-11-03,297
+P1471,Carlos Rojas,52,M,Lince,Pediatría,2025-04-15,361
+P1472,Sofía Torres,1,M,Miraflores,Traumatología,2025-08-21,383
+P1473,Lucía Torres,86,F,Jesús María,Oftalmología,2025-09-13,75
+P1474,Miguel Rojas,22,M,Callao,Ginecología,2023-11-17,321
+P1475,Carlos Díaz,73,M,Cajamarca,Oftalmología,2021-12-23,480
+P1476,Carlos Cabrera,10,M,Jesús María,Ginecología,2020-08-20,378
+P1477,Ana Rojas,60,M,Callao,Pediatría,2024-02-16,136
+P1478,Lucía Torres,83,F,La Molina,Dermatología,2021-04-25,308
+P1479,Sofía Pérez,44,F,Jesús María,Dermatología,2024-05-04,307
+P1480,Carlos Díaz,10,M,Lince,Traumatología,2023-05-27,253
+P1481,José Díaz,52,F,Cajamarca,Pediatría,2024-09-29,112
+P1482,Luis Ramírez,4,M,San Isidro,Oftalmología,2021-12-11,228
+P1483,Carlos Torres,28,F,Jesús María,Dermatología,2022-05-07,113
+P1484,María Ramírez,74,M,Cajamarca,Pediatría,2025-09-15,247
+P1485,Sofía Gómez,66,F,Lince,Pediatría,2025-03-06,472
+P1486,Miguel Castro,48,F,Jesús María,Cardiología,2022-06-22,134
+P1487,Lucía Rojas,38,M,Surco,Pediatría,2021-09-30,433
+P1488,Miguel Ramírez,25,M,Surco,Pediatría,2023-06-10,280
+P1489,Lucía Rojas,2,F,San Isidro,Odontología,2025-12-05,457
+P1490,Carlos Díaz,65,F,Lince,Cardiología,2023-03-26,444
+P1491,Luis Rojas,3,M,Surco,Ginecología,2021-09-14,257
+P1492,Carlos Castro,82,F,Callao,Traumatología,2024-11-11,329
+P1493,Carmen Torres,26,F,Jesús María,Oftalmología,2023-05-17,186
+P1494,Luis Rojas,9,F,Surco,Odontología,2023-11-11,147
+P1495,José Ramírez,16,F,Lince,Traumatología,2023-03-10,93
+P1496,María Salazar,23,M,Lince,Dermatología,2025-01-28,101
+P1497,José Torres,55,F,San Isidro,Odontología,2021-12-29,230
+P1498,Carlos Fernández,82,M,Callao,Cardiología,2024-08-30,330
+P1499,María Salazar,45,F,Cajamarca,Odontología,2022-05-15,165
+P1500,Sofía Fernández,41,F,Surco,Dermatología,2022-05-07,397
+P1501,Carmen Ramírez,69,F,Surco,Cardiología,2025-04-13,282
+P1502,Ana Salazar,70,M,Callao,Cardiología,2022-01-14,112
+P1503,Sofía Torres,61,M,Cajamarca,Pediatría,2022-04-20,408
+P1504,Sofía Cabrera,29,F,Lince,Cardiología,2020-05-25,166
+P1505,Luis Díaz,12,F,Surco,Traumatología,2022-06-27,361
+P1506,Lucía Castro,40,M,San Isidro,Oftalmología,2022-07-26,210
+P1507,Lucía Pérez,25,F,Jesús María,Ginecología,2020-11-22,158
+P1508,Ana Rojas,87,M,San Isidro,Odontología,2022-02-17,423
+P1509,Sofía Ramírez,79,F,Cajamarca,Odontología,2025-08-06,113
+P1510,María Cabrera,51,M,Callao,Dermatología,2024-01-16,158
+P1511,María Fernández,82,M,Jesús María,Dermatología,2022-09-10,348
+P1512,Ana Ramírez,48,F,Miraflores,Ginecología,2023-01-04,483
+P1513,José Castro,84,F,Jesús María,Pediatría,2024-04-18,454
+P1514,Luis Torres,85,F,Cajamarca,Pediatría,2024-03-07,417
+P1515,María Ramírez,49,M,Jesús María,Pediatría,2021-10-02,52
+P1516,José Fernández,12,M,Jesús María,Ginecología,2024-06-18,99
+P1517,Lucía Castro,6,M,Miraflores,Pediatría,2023-01-05,60
+P1518,Andrés Castro,58,F,La Molina,Dermatología,2023-01-06,246
+P1519,Lucía Gómez,90,M,La Molina,Pediatría,2022-12-24,373
+P1520,Sofía Castro,81,F,Surco,Traumatología,2024-05-06,244
+P1521,Carmen Castro,5,M,Miraflores,Odontología,2022-08-02,374
+P1522,Luis Pérez,72,F,Miraflores,Cardiología,2025-02-24,358
+P1523,Sofía Cabrera,39,F,Cajamarca,Pediatría,2020-01-11,68
+P1524,Miguel Salazar,6,F,Lince,Odontología,2023-09-12,166
+P1525,José Pérez,44,F,Callao,Cardiología,2021-04-16,205
+P1526,Andrés Rojas,87,M,Jesús María,Odontología,2024-10-06,230
+P1527,Luis Cabrera,46,M,La Molina,Traumatología,2021-07-29,341
+P1528,Sofía Fernández,60,M,Lince,Dermatología,2022-05-19,326
+P1529,Carmen Fernández,73,M,Surco,Odontología,2025-12-12,104
+P1530,María Rojas,51,M,Miraflores,Ginecología,2023-05-01,380
+P1531,María Fernández,16,M,San Isidro,Oftalmología,2025-06-12,171
+P1532,Ana Castro,83,M,Callao,Traumatología,2021-08-01,171
+P1533,Carlos Pérez,47,F,Lince,Oftalmología,2020-01-12,321
+P1534,José Castro,86,F,Cajamarca,Oftalmología,2020-02-13,179
+P1535,Ana Pérez,88,M,La Molina,Oftalmología,2025-03-25,210
+P1536,Miguel Díaz,12,M,San Isidro,Cardiología,2025-02-14,205
+P1537,Miguel Ramírez,70,M,Miraflores,Ginecología,2025-08-17,339
+P1538,Ana Salazar,37,M,Callao,Dermatología,2022-09-18,389
+P1539,Miguel Ramírez,1,F,La Molina,Traumatología,2025-07-31,284
+P1540,Lucía Torres,81,F,San Isidro,Dermatología,2025-09-10,117
+P1541,Luis Rojas,11,M,Callao,Ginecología,2024-11-24,498
+P1542,María Fernández,50,F,La Molina,Oftalmología,2025-09-02,183
+P1543,Miguel Cabrera,78,M,Miraflores,Oftalmología,2021-07-19,208
+P1544,Ana Fernández,25,F,Jesús María,Ginecología,2023-09-08,442
+P1545,Carlos Rojas,27,M,La Molina,Cardiología,2023-10-08,283
+P1546,Lucía Cabrera,33,F,Jesús María,Traumatología,2020-01-18,274
+P1547,Ana Pérez,4,M,Cajamarca,Cardiología,2024-11-05,218
+P1548,Luis Ramírez,56,M,Cajamarca,Cardiología,2023-05-20,255
+P1549,José Castro,77,M,La Molina,Ginecología,2025-03-21,192
+P1550,Carmen Ramírez,35,M,Cajamarca,Ginecología,2024-02-07,456
+P1551,José Ramírez,82,F,La Molina,Ginecología,2025-09-28,288
+P1552,Andrés Rojas,36,M,Lince,Ginecología,2023-05-27,253
+P1553,María Gómez,29,M,Cajamarca,Dermatología,2021-02-17,63
+P1554,Miguel Fernández,49,F,Surco,Odontología,2023-01-26,174
+P1555,María Rojas,29,F,Cajamarca,Oftalmología,2021-01-27,176
+P1556,Lucía Cabrera,18,M,Callao,Traumatología,2024-07-08,235
+P1557,Carmen Gómez,82,F,La Molina,Ginecología,2022-08-28,325
+P1558,María Ramírez,36,M,Jesús María,Traumatología,2023-10-19,209
+P1559,Andrés Ramírez,16,M,Surco,Odontología,2020-05-11,66
+P1560,María Castro,62,F,Callao,Dermatología,2023-12-08,373
+P1561,Andrés Gómez,32,F,San Isidro,Ginecología,2020-10-14,436
+P1562,Lucía Torres,50,M,San Isidro,Ginecología,2023-09-10,319
+P1563,Carmen Salazar,32,F,La Molina,Cardiología,2023-12-09,359
+P1564,Sofía Torres,47,M,Surco,Ginecología,2023-12-11,318
+P1565,Lucía Castro,64,M,Cajamarca,Cardiología,2025-06-23,230
+P1566,María Fernández,76,F,San Isidro,Ginecología,2024-09-15,163
+P1567,Sofía Gómez,5,F,Cajamarca,Oftalmología,2020-07-20,135
+P1568,Ana Fernández,69,F,Surco,Ginecología,2023-08-30,457
+P1569,María Gómez,32,M,Jesús María,Cardiología,2022-08-23,344
+P1570,Carlos Rojas,16,F,Cajamarca,Ginecología,2025-01-19,64
+P1571,José Salazar,77,M,La Molina,Pediatría,2024-01-22,345
+P1572,Carlos Rojas,27,M,San Isidro,Oftalmología,2022-02-07,160
+P1573,Luis Ramírez,33,M,Lince,Traumatología,2023-08-10,435
+P1574,José Pérez,78,M,Callao,Cardiología,2025-09-12,110
+P1575,María Díaz,33,M,La Molina,Pediatría,2022-03-30,136
+P1576,Carmen Salazar,20,F,San Isidro,Cardiología,2020-08-27,473
+P1577,Andrés Castro,17,F,Miraflores,Odontología,2021-09-24,352
+P1578,Lucía Gómez,59,M,Lince,Odontología,2023-01-01,444
+P1579,Carlos Salazar,70,F,San Isidro,Pediatría,2024-05-30,136
+P1580,Lucía Rojas,28,M,La Molina,Odontología,2021-11-07,442
+P1581,Andrés Salazar,54,M,San Isidro,Pediatría,2024-05-26,187
+P1582,Ana Cabrera,23,M,Jesús María,Cardiología,2024-07-13,120
+P1583,Ana Cabrera,40,M,Cajamarca,Oftalmología,2021-05-28,489
+P1584,María Fernández,76,M,Surco,Oftalmología,2025-12-11,61
+P1585,José Pérez,67,F,Surco,Pediatría,2021-02-05,201
+P1586,Andrés Torres,60,F,Miraflores,Cardiología,2023-10-18,343
+P1587,Luis Salazar,2,M,Surco,Dermatología,2022-03-29,301
+P1588,Carlos Cabrera,57,M,Cajamarca,Ginecología,2022-10-03,460
+P1589,Lucía Gómez,75,F,Surco,Ginecología,2022-10-31,410
+P1590,José Castro,21,M,San Isidro,Cardiología,2022-09-08,319
+P1591,Carmen Díaz,75,F,Cajamarca,Odontología,2021-05-27,447
+P1592,Ana Salazar,6,F,Lince,Pediatría,2021-05-28,407
+P1593,Miguel Salazar,48,M,Jesús María,Oftalmología,2024-01-30,141
+P1594,Ana Torres,65,F,San Isidro,Ginecología,2025-04-21,271
+P1595,Miguel Gómez,35,M,San Isidro,Traumatología,2024-12-04,374
+P1596,Carlos Cabrera,24,F,Surco,Odontología,2020-10-10,194
+P1597,José Rojas,48,M,San Isidro,Oftalmología,2024-11-07,168
+P1598,Carlos Ramírez,23,M,Cajamarca,Cardiología,2023-09-25,456
+P1599,Miguel Díaz,20,M,Cajamarca,Dermatología,2022-11-27,216
+P1600,Carmen Gómez,7,M,La Molina,Cardiología,2025-04-06,414
+P1601,Sofía Ramírez,16,F,Lince,Pediatría,2021-02-03,55
+P1602,José Salazar,8,F,Jesús María,Ginecología,2023-07-02,401
+P1603,Miguel Castro,50,F,Miraflores,Dermatología,2022-11-11,376
+P1604,Andrés Castro,58,M,La Molina,Oftalmología,2021-02-24,238
+P1605,José Castro,6,F,Cajamarca,Cardiología,2020-11-06,166
+P1606,Andrés Pérez,35,M,Cajamarca,Traumatología,2022-04-18,306
+P1607,Luis Díaz,81,F,Callao,Traumatología,2025-12-25,330
+P1608,Sofía Cabrera,24,F,Miraflores,Dermatología,2025-06-28,497
+P1609,Carmen Pérez,65,M,Cajamarca,Odontología,2025-01-12,407
+P1610,Sofía Salazar,76,M,Surco,Odontología,2024-12-08,130
+P1611,Carlos Ramírez,59,F,Surco,Odontología,2022-06-19,275
+P1612,Andrés Gómez,59,F,Miraflores,Pediatría,2021-12-02,236
+P1613,María Pérez,48,M,La Molina,Pediatría,2021-09-06,147
+P1614,Carlos Ramírez,52,F,Cajamarca,Cardiología,2022-07-17,118
+P1615,Andrés Salazar,14,M,Miraflores,Cardiología,2023-12-19,330
+P1616,Carlos Rojas,80,M,Callao,Pediatría,2020-05-31,362
+P1617,Lucía Castro,13,M,Surco,Dermatología,2023-08-24,470
+P1618,Carlos Cabrera,53,M,San Isidro,Ginecología,2020-09-16,146
+P1619,Andrés Fernández,67,M,Surco,Dermatología,2022-04-27,152
+P1620,Carmen Cabrera,15,M,Miraflores,Traumatología,2021-03-11,273
+P1621,Luis Rojas,69,M,Lince,Oftalmología,2022-03-18,314
+P1622,Andrés Díaz,90,F,Cajamarca,Ginecología,2023-06-23,254
+P1623,Andrés Ramírez,68,F,La Molina,Pediatría,2020-08-31,253
+P1624,José Gómez,70,F,Cajamarca,Odontología,2025-12-26,498
+P1625,Sofía Gómez,68,F,Miraflores,Traumatología,2025-01-01,268
+P1626,Andrés Pérez,22,M,Jesús María,Pediatría,2020-03-30,470
+P1627,Ana Castro,24,M,Surco,Pediatría,2022-06-09,340
+P1628,Carlos Fernández,25,F,Jesús María,Dermatología,2022-12-05,149
+P1629,Lucía Torres,41,F,Cajamarca,Pediatría,2021-03-14,405
+P1630,Andrés Salazar,90,F,Callao,Cardiología,2022-02-22,283
+P1631,José Gómez,17,M,Surco,Pediatría,2022-07-19,448
+P1632,Ana Pérez,55,F,Cajamarca,Dermatología,2021-11-17,395
+P1633,Andrés Cabrera,66,M,Miraflores,Cardiología,2021-10-01,281
+P1634,José Cabrera,25,F,La Molina,Pediatría,2022-02-10,483
+P1635,Carlos Cabrera,16,M,Jesús María,Dermatología,2021-01-20,254
+P1636,Miguel Rojas,56,M,Callao,Dermatología,2025-10-20,386
+P1637,María Castro,66,F,La Molina,Ginecología,2020-01-20,152
+P1638,Luis Gómez,65,F,La Molina,Ginecología,2023-06-09,402
+P1639,Sofía Salazar,5,M,La Molina,Oftalmología,2021-09-12,346
+P1640,Miguel Cabrera,58,M,Miraflores,Ginecología,2021-01-11,115
+P1641,Luis Pérez,70,M,Callao,Cardiología,2024-06-15,85
+P1642,Miguel Díaz,64,F,Lince,Traumatología,2022-12-28,414
+P1643,Lucía Torres,60,M,Jesús María,Ginecología,2025-10-28,73
+P1644,María Torres,3,M,Cajamarca,Dermatología,2023-05-01,307
+P1645,Sofía Ramírez,20,M,Cajamarca,Oftalmología,2025-02-14,283
+P1646,Luis Cabrera,7,F,Surco,Ginecología,2023-04-20,443
+P1647,Miguel Fernández,35,F,La Molina,Dermatología,2021-08-20,422
+P1648,María Castro,90,M,La Molina,Odontología,2023-04-20,188
+P1649,Andrés Castro,66,F,Lince,Dermatología,2021-06-03,443
+P1650,Ana Fernández,59,F,La Molina,Dermatología,2023-07-11,208
+P1651,José Ramírez,8,F,Surco,Dermatología,2022-11-20,192
+P1652,Andrés Rojas,8,F,Miraflores,Pediatría,2022-09-13,284
+P1653,Carlos Ramírez,8,F,Cajamarca,Ginecología,2020-11-04,428
+P1654,José Gómez,37,M,San Isidro,Traumatología,2021-04-01,480
+P1655,Carmen Díaz,82,M,Miraflores,Ginecología,2021-07-24,422
+P1656,Lucía Cabrera,31,M,La Molina,Pediatría,2022-06-08,493
+P1657,Luis Castro,87,F,Lince,Cardiología,2022-10-10,281
+P1658,María Gómez,60,F,Cajamarca,Dermatología,2021-12-23,136
+P1659,Carmen Gómez,56,M,San Isidro,Dermatología,2025-08-16,455
+P1660,Ana Fernández,46,M,Lince,Cardiología,2021-03-26,391
+P1661,Carlos Fernández,44,F,Callao,Traumatología,2021-08-06,285
+P1662,Luis Díaz,14,F,San Isidro,Dermatología,2025-05-28,388
+P1663,Luis Ramírez,18,F,Lince,Cardiología,2023-08-09,345
+P1664,José Pérez,86,M,Miraflores,Pediatría,2021-12-17,353
+P1665,Sofía Salazar,59,F,Callao,Dermatología,2020-07-12,372
+P1666,Sofía Castro,13,F,Surco,Pediatría,2020-04-17,447
+P1667,José Ramírez,25,F,San Isidro,Odontología,2025-09-09,261
+P1668,José Pérez,51,F,San Isidro,Ginecología,2021-01-23,446
+P1669,Luis Gómez,30,M,Jesús María,Odontología,2021-08-05,261
+P1670,Ana Rojas,60,M,Lince,Dermatología,2022-01-11,419
+P1671,Sofía Fernández,72,M,Surco,Dermatología,2021-07-31,283
+P1672,María Castro,48,M,Jesús María,Ginecología,2023-02-27,274
+P1673,Lucía Díaz,76,F,Surco,Cardiología,2025-01-19,57
+P1674,Carlos Gómez,90,M,Jesús María,Oftalmología,2024-07-30,54
+P1675,Andrés Salazar,33,M,Jesús María,Cardiología,2023-12-30,245
+P1676,Andrés Ramírez,55,F,Cajamarca,Traumatología,2022-03-29,444
+P1677,Andrés Castro,40,M,Callao,Cardiología,2025-12-22,117
+P1678,Carlos Gómez,70,M,Miraflores,Traumatología,2020-03-17,323
+P1679,José Salazar,7,F,Surco,Traumatología,2021-02-07,238
+P1680,Ana Torres,37,F,San Isidro,Ginecología,2025-03-20,498
+P1681,Andrés Ramírez,6,M,Callao,Oftalmología,2020-10-04,414
+P1682,Andrés Torres,51,M,Jesús María,Odontología,2024-10-13,253
+P1683,Lucía Castro,22,M,San Isidro,Oftalmología,2023-01-13,362
+P1684,Miguel Fernández,53,M,San Isidro,Oftalmología,2024-12-02,465
+P1685,María Gómez,2,F,La Molina,Pediatría,2021-10-25,365
+P1686,Carlos Gómez,71,F,Callao,Ginecología,2021-12-21,362
+P1687,Carmen Castro,18,M,Callao,Ginecología,2024-01-19,391
+P1688,Miguel Pérez,80,M,Jesús María,Odontología,2025-07-16,217
+P1689,Luis Pérez,73,M,Callao,Ginecología,2023-02-03,446
+P1690,Lucía Cabrera,86,F,San Isidro,Traumatología,2022-08-08,200
+P1691,Carmen Rojas,30,M,Lince,Dermatología,2020-11-17,131
+P1692,Carlos Torres,48,F,Cajamarca,Odontología,2021-10-12,213
+P1693,José Torres,31,F,Miraflores,Pediatría,2025-05-19,317
+P1694,Miguel Fernández,34,F,Surco,Pediatría,2021-06-15,465
+P1695,Carmen Díaz,62,M,La Molina,Traumatología,2024-04-16,461
+P1696,Luis Cabrera,48,M,Jesús María,Cardiología,2023-07-05,178
+P1697,Sofía Pérez,44,M,San Isidro,Cardiología,2024-03-23,246
+P1698,Luis Cabrera,60,M,San Isidro,Pediatría,2024-08-13,380
+P1699,Carlos Ramírez,42,M,Miraflores,Traumatología,2022-05-14,368
+P1700,Ana Salazar,28,M,San Isidro,Odontología,2022-08-13,105
+P1701,Carmen Ramírez,72,F,Cajamarca,Ginecología,2020-08-26,182
+P1702,Lucía Salazar,37,F,Miraflores,Dermatología,2021-12-06,310
+P1703,Miguel Castro,15,M,Miraflores,Ginecología,2021-03-22,451
+P1704,Lucía Gómez,15,F,Miraflores,Pediatría,2020-06-01,372
+P1705,Luis Díaz,51,F,Callao,Pediatría,2023-09-06,113
+P1706,Carlos Pérez,24,F,Miraflores,Pediatría,2022-01-12,413
+P1707,Lucía Gómez,81,F,Callao,Dermatología,2021-06-03,144
+P1708,Andrés Salazar,31,F,Surco,Traumatología,2022-09-24,219
+P1709,Carmen Salazar,88,M,La Molina,Odontología,2024-12-21,194
+P1710,Carlos Salazar,87,F,La Molina,Odontología,2025-09-19,329
+P1711,Luis Salazar,10,F,Surco,Ginecología,2024-09-07,444
+P1712,Andrés Rojas,65,M,San Isidro,Dermatología,2024-10-16,225
+P1713,Sofía Pérez,69,M,La Molina,Odontología,2024-03-10,284
+P1714,Carlos Gómez,81,F,San Isidro,Dermatología,2025-02-12,459
+P1715,Andrés Castro,51,M,Cajamarca,Ginecología,2023-11-30,367
+P1716,Andrés Torres,27,M,La Molina,Oftalmología,2022-08-01,349
+P1717,María Castro,47,F,Cajamarca,Odontología,2021-09-26,108
+P1718,Ana Cabrera,71,F,San Isidro,Ginecología,2023-05-15,401
+P1719,Carlos Ramírez,5,F,Cajamarca,Cardiología,2024-04-07,480
+P1720,Sofía Gómez,70,M,La Molina,Traumatología,2023-04-20,397
+P1721,Andrés Pérez,74,M,La Molina,Cardiología,2024-09-08,323
+P1722,Miguel Castro,63,F,Miraflores,Ginecología,2022-02-24,104
+P1723,Andrés Ramírez,36,M,La Molina,Traumatología,2025-09-21,495
+P1724,Carlos Fernández,63,M,Lince,Traumatología,2025-11-25,284
+P1725,María Rojas,19,M,La Molina,Oftalmología,2023-04-07,271
+P1726,Carlos Pérez,27,F,Jesús María,Ginecología,2021-09-11,369
+P1727,Carlos Díaz,27,M,San Isidro,Odontología,2022-04-04,301
+P1728,Luis Díaz,68,M,Callao,Odontología,2023-06-07,423
+P1729,Carmen Torres,55,F,Callao,Ginecología,2024-06-16,452
+P1730,María Torres,47,M,Cajamarca,Odontología,2020-02-29,195
+P1731,María Díaz,43,M,Cajamarca,Oftalmología,2020-06-29,205
+P1732,Andrés Pérez,86,F,Lince,Dermatología,2021-02-05,266
+P1733,Andrés Fernández,15,M,San Isidro,Dermatología,2022-07-12,71
+P1734,Lucía Rojas,81,F,Surco,Ginecología,2021-05-12,205
+P1735,Carlos Rojas,75,F,Callao,Pediatría,2024-07-13,270
+P1736,Carlos Castro,44,M,Surco,Cardiología,2021-02-08,249
+P1737,Carmen Ramírez,40,F,Lince,Cardiología,2024-08-15,109
+P1738,Carlos Díaz,74,M,Callao,Pediatría,2025-06-30,164
+P1739,Miguel Cabrera,22,F,Callao,Ginecología,2023-02-21,160
+P1740,Lucía Díaz,83,M,Cajamarca,Ginecología,2024-01-30,370
+P1741,Luis Gómez,32,F,Jesús María,Cardiología,2025-08-02,136
+P1742,Sofía Torres,47,F,Callao,Traumatología,2024-07-04,267
+P1743,Miguel Pérez,17,M,Surco,Ginecología,2020-01-19,306
+P1744,María Gómez,79,M,Callao,Cardiología,2024-04-21,92
+P1745,Carmen Fernández,24,F,Callao,Pediatría,2024-03-06,301
+P1746,Sofía Pérez,81,M,Jesús María,Traumatología,2024-04-19,352
+P1747,Andrés Fernández,38,F,Lince,Cardiología,2025-10-30,246
+P1748,Andrés Pérez,39,F,La Molina,Pediatría,2025-03-30,281
+P1749,Ana Rojas,48,F,La Molina,Cardiología,2021-01-05,181
+P1750,Lucía Gómez,1,F,Callao,Traumatología,2025-11-30,445
+P1751,Lucía Díaz,71,M,Lince,Traumatología,2023-07-01,183
+P1752,Carmen Castro,80,M,Callao,Oftalmología,2024-10-11,209
+P1753,María Cabrera,4,M,San Isidro,Oftalmología,2023-04-29,463
+P1754,Carmen Cabrera,81,M,San Isidro,Oftalmología,2023-07-23,295
+P1755,Lucía Torres,59,M,Cajamarca,Traumatología,2022-06-25,105
+P1756,Miguel Rojas,32,F,Surco,Ginecología,2024-07-14,209
+P1757,Carlos Fernández,37,F,Miraflores,Cardiología,2024-10-11,399
+P1758,Carlos Ramírez,55,M,Surco,Cardiología,2023-05-31,111
+P1759,Sofía Salazar,60,M,La Molina,Traumatología,2023-12-18,419
+P1760,José Cabrera,43,M,San Isidro,Dermatología,2024-10-25,180
+P1761,Carmen Gómez,12,M,Surco,Pediatría,2025-01-25,280
+P1762,Luis Rojas,25,M,La Molina,Cardiología,2022-09-04,361
+P1763,María Díaz,27,F,Callao,Dermatología,2020-03-18,378
+P1764,José Rojas,73,M,Miraflores,Ginecología,2025-01-09,244
+P1765,Andrés Ramírez,25,F,Callao,Oftalmología,2021-02-24,225
+P1766,Miguel Gómez,63,M,Miraflores,Dermatología,2025-06-13,481
+P1767,Sofía Ramírez,90,M,Miraflores,Traumatología,2020-09-06,250
+P1768,Ana Gómez,83,F,Miraflores,Cardiología,2020-02-22,214
+P1769,Carlos Pérez,18,F,Callao,Dermatología,2023-12-06,162
+P1770,Luis Fernández,89,F,Lince,Cardiología,2025-11-23,385
+P1771,Carmen Díaz,12,F,Cajamarca,Pediatría,2024-10-27,113
+P1772,Carlos Díaz,10,M,Jesús María,Pediatría,2021-04-19,494
+P1773,Luis Gómez,90,M,Surco,Traumatología,2024-12-09,491
+P1774,Ana Gómez,55,M,Cajamarca,Ginecología,2023-06-15,377
+P1775,María Cabrera,37,M,San Isidro,Traumatología,2025-07-12,116
+P1776,Carlos Cabrera,85,M,La Molina,Dermatología,2025-01-26,321
+P1777,Sofía Fernández,19,F,Surco,Oftalmología,2024-09-08,54
+P1778,Ana Torres,81,F,Callao,Odontología,2024-11-02,326
+P1779,Carlos Cabrera,83,F,Jesús María,Traumatología,2024-02-13,234
+P1780,Lucía Cabrera,45,M,Cajamarca,Cardiología,2022-04-27,329
+P1781,María Torres,37,M,Miraflores,Ginecología,2025-05-27,173
+P1782,José Torres,84,F,Cajamarca,Cardiología,2022-10-09,444
+P1783,Andrés Rojas,57,F,Cajamarca,Dermatología,2020-03-01,395
+P1784,Sofía Pérez,7,M,Cajamarca,Cardiología,2025-05-23,497
+P1785,Sofía Pérez,28,M,Cajamarca,Oftalmología,2025-10-26,348
+P1786,Luis Cabrera,73,M,Jesús María,Oftalmología,2025-07-29,57
+P1787,Carlos Salazar,39,M,Lince,Ginecología,2022-06-08,192
+P1788,Andrés Castro,16,M,Jesús María,Cardiología,2020-11-11,224
+P1789,Andrés Pérez,36,M,Lince,Ginecología,2023-03-27,400
+P1790,Ana Castro,76,F,San Isidro,Cardiología,2022-03-15,412
+P1791,Andrés Fernández,40,F,Jesús María,Oftalmología,2021-08-30,472
+P1792,Sofía Rojas,68,M,Surco,Ginecología,2021-09-17,313
+P1793,Andrés Gómez,57,F,La Molina,Odontología,2025-05-25,323
+P1794,Miguel Salazar,45,M,Cajamarca,Ginecología,2022-05-23,429
+P1795,María Cabrera,40,F,Surco,Ginecología,2024-11-22,177
+P1796,Miguel Cabrera,30,M,Cajamarca,Ginecología,2020-07-19,153
+P1797,Miguel Torres,81,F,Callao,Odontología,2021-08-15,76
+P1798,Luis Ramírez,43,F,Cajamarca,Odontología,2022-02-09,312
+P1799,Miguel Díaz,53,F,Lince,Ginecología,2022-10-15,472
+P1800,Miguel Gómez,15,M,La Molina,Cardiología,2024-10-11,260
+P1801,María Rojas,76,M,Lince,Ginecología,2025-09-27,281
+P1802,Ana Salazar,73,M,La Molina,Ginecología,2021-12-08,117
+P1803,María Cabrera,41,M,Miraflores,Traumatología,2022-08-04,254
+P1804,Carlos Gómez,57,M,Lince,Pediatría,2025-02-12,296
+P1805,Carlos Díaz,39,M,Cajamarca,Ginecología,2022-09-22,330
+P1806,Miguel Torres,29,F,La Molina,Odontología,2023-05-28,472
+P1807,Miguel Rojas,77,F,Cajamarca,Pediatría,2020-09-21,220
+P1808,Carlos Salazar,12,F,Surco,Ginecología,2020-10-22,288
+P1809,Carmen Torres,66,M,Cajamarca,Odontología,2022-03-09,368
+P1810,José Cabrera,63,F,San Isidro,Odontología,2025-09-13,278
+P1811,Carlos Pérez,2,M,Miraflores,Odontología,2023-06-13,164
+P1812,Sofía Torres,7,F,Surco,Odontología,2020-10-27,386
+P1813,Carlos Castro,22,M,Callao,Odontología,2024-06-05,327
+P1814,Carmen Díaz,26,M,Miraflores,Cardiología,2023-05-22,186
+P1815,Lucía Rojas,60,M,San Isidro,Traumatología,2021-08-10,138
+P1816,Andrés Ramírez,22,F,Jesús María,Oftalmología,2022-10-06,101
+P1817,Carmen Cabrera,43,F,Cajamarca,Traumatología,2022-02-20,484
+P1818,José Salazar,86,F,Jesús María,Traumatología,2021-08-22,125
+P1819,José Díaz,88,F,San Isidro,Traumatología,2022-06-17,394
+P1820,Carmen Pérez,4,M,Cajamarca,Pediatría,2024-02-25,247
+P1821,Sofía Pérez,58,F,Cajamarca,Oftalmología,2021-07-23,253
+P1822,Sofía Castro,78,M,San Isidro,Ginecología,2023-07-28,255
+P1823,José Castro,58,F,Jesús María,Pediatría,2020-05-22,174
+P1824,Ana Pérez,49,M,La Molina,Oftalmología,2022-06-11,290
+P1825,José Ramírez,66,F,Jesús María,Odontología,2020-03-06,251
+P1826,Carlos Castro,24,M,Surco,Ginecología,2025-10-15,154
+P1827,Miguel Díaz,54,F,Jesús María,Cardiología,2021-10-25,66
+P1828,Carmen Ramírez,79,M,San Isidro,Oftalmología,2021-01-02,394
+P1829,Miguel Pérez,14,F,Cajamarca,Dermatología,2020-10-31,259
+P1830,Andrés Fernández,72,F,San Isidro,Pediatría,2020-03-04,113
+P1831,Ana Pérez,78,M,Callao,Pediatría,2023-01-31,57
+P1832,Miguel Cabrera,70,M,Miraflores,Ginecología,2020-06-22,214
+P1833,Lucía Castro,41,M,Lince,Dermatología,2020-10-23,215
+P1834,María Gómez,55,M,Callao,Oftalmología,2025-04-09,75
+P1835,Lucía Ramírez,8,M,Lince,Oftalmología,2022-11-15,500
+P1836,Ana Díaz,12,M,Lince,Odontología,2021-06-21,489
+P1837,Carmen Torres,53,F,San Isidro,Odontología,2023-04-09,148
+P1838,María Gómez,5,M,Cajamarca,Traumatología,2025-02-08,299
+P1839,Luis Ramírez,19,F,Miraflores,Traumatología,2024-08-26,95
+P1840,Sofía Torres,74,M,Jesús María,Odontología,2022-06-18,261
+P1841,Luis Cabrera,64,M,Cajamarca,Pediatría,2022-03-17,68
+P1842,Andrés Díaz,24,M,La Molina,Cardiología,2023-07-11,119
+P1843,Miguel Gómez,48,F,Cajamarca,Pediatría,2022-09-12,129
+P1844,Lucía Castro,38,M,Lince,Cardiología,2023-02-14,202
+P1845,Carlos Díaz,55,F,Lince,Dermatología,2022-12-13,208
+P1846,José Pérez,15,F,La Molina,Cardiología,2025-08-25,408
+P1847,Andrés Gómez,52,M,Callao,Dermatología,2024-04-02,237
+P1848,José Cabrera,58,F,San Isidro,Oftalmología,2022-11-05,276
+P1849,Luis Díaz,55,F,Lince,Pediatría,2022-02-25,62
+P1850,Andrés Salazar,14,F,Callao,Ginecología,2020-09-07,374
+P1851,Andrés Salazar,45,F,Cajamarca,Traumatología,2022-08-14,314
+P1852,Carlos Fernández,28,F,Callao,Traumatología,2021-08-19,317
+P1853,María Gómez,85,F,Miraflores,Traumatología,2023-06-28,500
+P1854,Lucía Rojas,7,F,Cajamarca,Traumatología,2022-05-12,158
+P1855,María Pérez,73,F,La Molina,Oftalmología,2021-07-13,243
+P1856,Ana Rojas,73,F,Lince,Odontología,2023-07-25,71
+P1857,Carlos Rojas,21,M,Lince,Pediatría,2022-12-17,273
+P1858,Andrés Ramírez,90,M,La Molina,Ginecología,2022-04-06,78
+P1859,Lucía Fernández,89,M,Miraflores,Ginecología,2021-06-04,190
+P1860,Carlos Cabrera,15,F,Lince,Pediatría,2021-07-14,454
+P1861,Ana Gómez,51,F,Callao,Odontología,2021-01-11,480
+P1862,Carmen Fernández,2,M,Jesús María,Pediatría,2020-06-22,411
+P1863,Ana Castro,21,F,Jesús María,Pediatría,2021-09-26,346
+P1864,José Fernández,27,M,Surco,Pediatría,2022-07-28,368
+P1865,Sofía Cabrera,11,F,Cajamarca,Oftalmología,2024-10-27,67
+P1866,Sofía Rojas,30,M,Callao,Odontología,2022-02-28,106
+P1867,Carmen Ramírez,6,M,San Isidro,Pediatría,2025-03-19,235
+P1868,Carmen Cabrera,47,M,Miraflores,Ginecología,2020-06-26,100
+P1869,Sofía Salazar,25,M,Cajamarca,Odontología,2020-05-14,217
+P1870,Andrés Cabrera,30,M,Surco,Oftalmología,2023-12-06,489
+P1871,Lucía Cabrera,65,F,La Molina,Pediatría,2020-08-07,464
+P1872,José Castro,79,F,Jesús María,Odontología,2020-07-24,203
+P1873,José Gómez,64,M,Jesús María,Cardiología,2025-08-13,299
+P1874,Andrés Pérez,72,F,Callao,Cardiología,2024-06-16,304
+P1875,Sofía Pérez,41,M,Cajamarca,Pediatría,2023-03-27,335
+P1876,José Fernández,47,M,Lince,Cardiología,2025-03-20,146
+P1877,Luis Torres,47,M,Lince,Traumatología,2024-05-30,418
+P1878,Andrés Díaz,77,M,Jesús María,Pediatría,2024-09-17,205
+P1879,Luis Castro,59,M,San Isidro,Cardiología,2020-08-06,141
+P1880,Sofía Ramírez,15,F,Callao,Dermatología,2022-08-07,190
+P1881,Miguel Gómez,90,F,Callao,Dermatología,2025-11-24,115
+P1882,José Rojas,18,F,Jesús María,Traumatología,2023-05-19,374
+P1883,Andrés Torres,63,M,Lince,Pediatría,2021-05-28,192
+P1884,Andrés Pérez,85,M,Miraflores,Cardiología,2020-10-08,285
+P1885,Andrés Salazar,31,M,San Isidro,Pediatría,2024-01-23,116
+P1886,Carmen Torres,46,M,Surco,Odontología,2020-06-25,325
+P1887,Luis Gómez,75,F,Cajamarca,Pediatría,2023-09-12,214
+P1888,María Fernández,9,M,San Isidro,Ginecología,2024-09-11,114
+P1889,Ana Gómez,58,M,Miraflores,Odontología,2020-11-11,102
+P1890,Luis Salazar,90,F,Surco,Traumatología,2023-05-24,213
+P1891,María Salazar,56,F,Cajamarca,Cardiología,2023-01-08,86
+P1892,Carlos Torres,72,M,Jesús María,Oftalmología,2025-05-09,111
+P1893,Luis Ramírez,31,M,La Molina,Odontología,2020-08-17,423
+P1894,María Gómez,90,M,Callao,Odontología,2022-01-24,450
+P1895,Miguel Salazar,61,M,Callao,Odontología,2020-12-19,173
+P1896,Ana Pérez,89,M,Lince,Pediatría,2020-02-26,222
+P1897,Carmen Cabrera,82,F,La Molina,Pediatría,2023-10-04,79
+P1898,Luis Díaz,2,F,Miraflores,Cardiología,2021-07-19,245
+P1899,Miguel Rojas,75,M,Miraflores,Oftalmología,2020-06-14,60
+P1900,Carlos Pérez,54,M,San Isidro,Odontología,2024-07-11,478
+P1901,Miguel Fernández,67,F,Jesús María,Cardiología,2022-02-25,143
+P1902,José Torres,44,M,Jesús María,Cardiología,2024-11-07,131
+P1903,Carlos Pérez,5,F,La Molina,Traumatología,2024-02-01,176
+P1904,Luis Torres,28,F,Lince,Oftalmología,2025-08-11,116
+P1905,Ana Gómez,81,F,Surco,Oftalmología,2021-01-30,326
+P1906,María Díaz,86,M,Surco,Traumatología,2024-03-05,205
+P1907,Carmen Díaz,58,F,Jesús María,Cardiología,2022-01-21,90
+P1908,Ana Cabrera,5,F,Callao,Oftalmología,2024-10-09,279
+P1909,Miguel Rojas,80,F,Jesús María,Dermatología,2020-07-05,381
+P1910,Sofía Torres,10,M,Surco,Traumatología,2022-01-15,448
+P1911,Luis Cabrera,85,M,Callao,Odontología,2020-11-16,398
+P1912,Ana Ramírez,12,F,Jesús María,Dermatología,2023-02-19,328
+P1913,Sofía Castro,81,F,Cajamarca,Ginecología,2021-01-23,210
+P1914,Andrés Castro,44,M,Surco,Traumatología,2021-06-04,366
+P1915,Ana Salazar,44,M,Lince,Traumatología,2020-01-18,168
+P1916,Andrés Gómez,30,M,Cajamarca,Cardiología,2025-08-18,481
+P1917,Sofía Pérez,75,F,Jesús María,Cardiología,2022-05-05,478
+P1918,Carlos Díaz,17,F,Lince,Odontología,2020-09-14,466
+P1919,María Díaz,82,M,Lince,Pediatría,2021-06-21,165
+P1920,Ana Torres,38,F,Lince,Traumatología,2025-10-08,390
+P1921,Sofía Pérez,85,F,La Molina,Traumatología,2025-08-09,296
+P1922,Ana Rojas,57,M,Callao,Odontología,2025-03-13,303
+P1923,Andrés Rojas,50,F,La Molina,Cardiología,2023-07-25,401
+P1924,Miguel Díaz,5,M,Lince,Odontología,2025-04-12,495
+P1925,María Salazar,56,F,Lince,Ginecología,2024-01-29,218
+P1926,Luis Rojas,78,M,Jesús María,Odontología,2021-08-27,493
+P1927,Andrés Gómez,5,M,Jesús María,Oftalmología,2020-06-07,417
+P1928,Ana Gómez,33,F,La Molina,Dermatología,2022-09-14,283
+P1929,Luis Castro,14,F,San Isidro,Dermatología,2025-11-15,152
+P1930,José Torres,10,M,Callao,Dermatología,2024-04-19,482
+P1931,Miguel Torres,65,F,Surco,Traumatología,2024-04-19,316
+P1932,Lucía Salazar,24,F,Jesús María,Ginecología,2023-01-01,428
+P1933,Sofía Castro,85,F,Callao,Dermatología,2022-10-12,224
+P1934,Luis Pérez,47,F,La Molina,Oftalmología,2021-03-07,165
+P1935,Luis Gómez,55,M,Lince,Pediatría,2025-04-01,463
+P1936,Andrés Castro,28,F,Cajamarca,Dermatología,2023-09-17,156
+P1937,Andrés Cabrera,49,F,San Isidro,Pediatría,2021-09-29,159
+P1938,Lucía Salazar,57,F,La Molina,Ginecología,2020-07-07,107
+P1939,María Salazar,2,M,Lince,Ginecología,2024-05-31,433
+P1940,Carmen Cabrera,19,M,Jesús María,Traumatología,2022-11-11,238
+P1941,Luis Pérez,34,F,Lince,Cardiología,2025-02-21,407
+P1942,Miguel Cabrera,50,M,La Molina,Dermatología,2023-03-19,343
+P1943,Luis Fernández,38,F,La Molina,Cardiología,2024-11-22,481
+P1944,Lucía Díaz,12,F,Lince,Ginecología,2024-06-30,410
+P1945,María Pérez,60,F,Surco,Traumatología,2025-06-29,108
+P1946,Ana Gómez,80,F,Surco,Traumatología,2022-10-29,90
+P1947,Carlos Pérez,86,M,Lince,Odontología,2023-09-23,156
+P1948,María Rojas,10,M,Cajamarca,Ginecología,2022-06-23,358
+P1949,Carmen Castro,31,M,Callao,Pediatría,2024-06-29,429
+P1950,María Rojas,85,F,Jesús María,Oftalmología,2020-03-12,418
+P1951,María Gómez,48,F,Miraflores,Cardiología,2023-03-28,344
+P1952,Luis Fernández,6,M,Lince,Traumatología,2020-06-21,57
+P1953,Andrés Rojas,89,F,Jesús María,Odontología,2023-09-08,396
+P1954,Sofía Fernández,81,M,Cajamarca,Ginecología,2024-08-30,272
+P1955,Carlos Torres,15,M,Lince,Pediatría,2020-08-08,158
+P1956,Ana Gómez,50,M,Cajamarca,Cardiología,2020-05-12,346
+P1957,Sofía Castro,32,M,Miraflores,Ginecología,2021-04-16,355
+P1958,María Rojas,26,M,Lince,Cardiología,2022-06-27,51
+P1959,Andrés Castro,33,M,Surco,Pediatría,2025-09-27,235
+P1960,María Torres,24,F,Surco,Odontología,2021-12-07,265
+P1961,José Salazar,77,F,San Isidro,Ginecología,2020-04-17,393
+P1962,Lucía Díaz,81,M,Miraflores,Odontología,2025-08-06,107
+P1963,María Fernández,21,F,La Molina,Oftalmología,2024-11-26,482
+P1964,Ana Rojas,77,F,Surco,Traumatología,2022-04-02,365
+P1965,Miguel Gómez,60,F,San Isidro,Ginecología,2022-05-31,480
+P1966,Sofía Díaz,24,M,Miraflores,Oftalmología,2021-07-01,440
+P1967,Carlos Ramírez,59,F,Cajamarca,Ginecología,2022-01-16,122
+P1968,Carlos Ramírez,38,M,Lince,Ginecología,2022-01-19,233
+P1969,Sofía Torres,42,F,Surco,Pediatría,2025-11-18,493
+P1970,José Díaz,11,F,Callao,Cardiología,2025-08-15,182
+P1971,María Díaz,73,M,San Isidro,Odontología,2020-12-10,399
+P1972,José Díaz,58,M,La Molina,Dermatología,2020-04-11,500
+P1973,Andrés Torres,77,M,La Molina,Pediatría,2022-10-02,223
+P1974,Carlos Díaz,22,M,Cajamarca,Pediatría,2023-07-12,233
+P1975,José Cabrera,8,F,Miraflores,Ginecología,2025-12-28,114
+P1976,Luis Salazar,62,M,Callao,Dermatología,2025-09-12,108
+P1977,Carlos Gómez,74,M,San Isidro,Dermatología,2023-06-29,434
+P1978,Lucía Fernández,58,M,Callao,Odontología,2023-06-29,307
+P1979,Andrés Fernández,39,F,Miraflores,Oftalmología,2023-09-14,202
+P1980,Carmen Pérez,71,M,Lince,Ginecología,2023-08-24,362
+P1981,Miguel Torres,36,F,San Isidro,Ginecología,2020-02-24,140
+P1982,Carlos Torres,73,F,Callao,Pediatría,2021-12-24,339
+P1983,Carmen Salazar,55,F,Cajamarca,Pediatría,2020-11-28,243
+P1984,Luis Rojas,39,M,Callao,Cardiología,2020-07-09,386
+P1985,Lucía Pérez,57,M,Lince,Cardiología,2020-11-27,467
+P1986,Carlos Díaz,12,M,Surco,Dermatología,2021-03-30,114
+P1987,Andrés Fernández,40,F,Miraflores,Odontología,2025-01-03,473
+P1988,Carmen Fernández,55,M,Miraflores,Oftalmología,2021-08-18,219
+P1989,Andrés Pérez,85,F,Lince,Ginecología,2025-04-30,314
+P1990,Lucía Gómez,60,M,Callao,Pediatría,2025-06-13,187
+P1991,Miguel Salazar,10,F,Lince,Oftalmología,2024-01-23,319
+P1992,Miguel Díaz,22,F,Callao,Pediatría,2023-09-08,368
+P1993,María Torres,30,F,San Isidro,Pediatría,2020-06-14,124
+P1994,Miguel Pérez,72,M,Surco,Odontología,2024-12-09,490
+P1995,Sofía Salazar,34,M,Callao,Dermatología,2025-09-28,276
+P1996,Lucía Fernández,84,M,Jesús María,Traumatología,2023-05-08,376
+P1997,Miguel Torres,15,M,Lince,Oftalmología,2024-06-05,410
+P1998,María Rojas,20,F,Cajamarca,Odontología,2024-06-17,263
+P1999,Carlos Gómez,71,F,Surco,Cardiología,2020-05-27,130
+P2000,Sofía Castro,85,M,Surco,Traumatología,2024-02-12,320
+P2001,Lucía Pérez,42,F,Miraflores,Traumatología,2020-12-23,212
+P2002,Ana Ramírez,21,M,La Molina,Dermatología,2021-10-14,427
+P2003,Miguel Cabrera,70,M,San Isidro,Cardiología,2025-04-06,140
+P2004,Ana Gómez,61,M,Surco,Dermatología,2021-08-19,56
+P2005,Lucía Pérez,65,M,Miraflores,Cardiología,2025-05-15,182
+P2006,José Cabrera,43,F,Surco,Pediatría,2020-06-02,478
+P2007,Carmen Gómez,75,F,Jesús María,Dermatología,2025-11-10,137
+P2008,Lucía Díaz,46,M,Cajamarca,Pediatría,2021-02-14,349
+P2009,María Gómez,89,M,Surco,Pediatría,2021-03-25,75
+P2010,Sofía Salazar,54,M,San Isidro,Odontología,2025-03-22,287
+P2011,Andrés Pérez,39,F,Surco,Oftalmología,2023-08-28,366
+P2012,Carlos Díaz,2,M,Cajamarca,Oftalmología,2020-02-27,479
+P2013,Carlos Fernández,41,F,Jesús María,Traumatología,2020-08-12,80
+P2014,Sofía Fernández,60,M,Surco,Dermatología,2021-03-05,425
+P2015,Carlos Díaz,41,F,Miraflores,Traumatología,2023-04-19,281
+P2016,Luis Salazar,6,M,Jesús María,Dermatología,2025-11-10,77
+P2017,Sofía Cabrera,8,M,Jesús María,Cardiología,2022-06-21,330
+P2018,Miguel Díaz,54,F,Cajamarca,Oftalmología,2021-08-13,219
+P2019,José Rojas,85,F,Cajamarca,Pediatría,2022-05-28,479
+P2020,José Rojas,63,F,Surco,Pediatría,2025-09-13,391
+P2021,Carmen Torres,43,M,Callao,Oftalmología,2024-09-13,354
+P2022,Carlos Fernández,80,F,Cajamarca,Odontología,2025-07-06,172
+P2023,Andrés Ramírez,47,F,La Molina,Odontología,2023-12-23,66
+P2024,Carmen Ramírez,63,F,Miraflores,Odontología,2025-04-23,159
+P2025,Sofía Gómez,59,M,La Molina,Pediatría,2024-12-18,326
+P2026,Lucía Fernández,54,F,La Molina,Cardiología,2021-05-07,186
+P2027,Miguel Gómez,81,F,Lince,Ginecología,2023-03-04,435
+P2028,Ana Torres,33,F,Miraflores,Ginecología,2023-01-14,235
+P2029,Carmen Torres,72,F,La Molina,Cardiología,2024-07-28,163
+P2030,María Pérez,40,M,La Molina,Dermatología,2020-12-04,60
+P2031,Ana Castro,80,F,La Molina,Dermatología,2024-10-12,401
+P2032,Carlos Gómez,15,M,Surco,Dermatología,2025-07-07,390
+P2033,Sofía Gómez,86,M,La Molina,Traumatología,2022-01-23,157
+P2034,Luis Castro,63,M,Cajamarca,Cardiología,2023-05-16,212
+P2035,Miguel Cabrera,21,F,La Molina,Odontología,2021-03-26,64
+P2036,Lucía Pérez,6,F,San Isidro,Traumatología,2020-04-22,81
+P2037,Lucía Pérez,60,F,San Isidro,Traumatología,2024-12-18,469
+P2038,Andrés Ramírez,75,M,Cajamarca,Oftalmología,2022-11-03,211
+P2039,Ana Díaz,80,M,Cajamarca,Traumatología,2022-12-15,243
+P2040,Miguel Cabrera,33,M,San Isidro,Odontología,2022-07-06,421
+P2041,Carmen Pérez,64,M,Cajamarca,Odontología,2022-05-02,414
+P2042,Andrés Torres,53,F,Jesús María,Dermatología,2021-07-31,309
+P2043,Luis Fernández,85,M,Surco,Oftalmología,2024-07-19,72
+P2044,Andrés Castro,54,F,Surco,Oftalmología,2024-05-05,215
+P2045,Carmen Rojas,2,F,Miraflores,Traumatología,2024-12-10,286
+P2046,Carlos Fernández,55,F,La Molina,Traumatología,2024-09-08,186
+P2047,Ana Salazar,9,F,Callao,Oftalmología,2025-03-02,493
+P2048,Ana Torres,60,F,Miraflores,Ginecología,2023-06-08,229
+P2049,Carmen Ramírez,77,M,Jesús María,Oftalmología,2024-08-09,224
+P2050,Carlos Díaz,14,M,Surco,Traumatología,2022-01-06,145
+P2051,Lucía Torres,49,M,La Molina,Dermatología,2025-06-07,176
+P2052,Lucía Pérez,56,M,Callao,Traumatología,2025-01-25,203
+P2053,María Díaz,35,F,Jesús María,Odontología,2025-11-26,189
+P2054,Andrés Pérez,72,M,Lince,Oftalmología,2021-06-11,146
+P2055,María Gómez,57,M,Cajamarca,Oftalmología,2023-01-10,381
+P2056,Miguel Rojas,21,F,San Isidro,Odontología,2024-06-03,116
+P2057,Andrés Torres,61,M,Lince,Ginecología,2021-10-07,390
+P2058,María Cabrera,2,M,San Isidro,Dermatología,2021-06-12,390
+P2059,Lucía Cabrera,67,F,Cajamarca,Cardiología,2023-01-20,325
+P2060,Carmen Díaz,16,M,Callao,Odontología,2022-09-11,201
+P2061,Ana Rojas,70,M,Cajamarca,Odontología,2024-08-30,363
+P2062,Carlos Díaz,9,F,Surco,Oftalmología,2022-09-03,477
+P2063,Sofía Cabrera,9,F,Miraflores,Pediatría,2021-10-31,467
+P2064,Andrés Cabrera,28,F,Cajamarca,Dermatología,2025-09-13,287
+P2065,Sofía Gómez,54,M,Cajamarca,Traumatología,2021-04-07,299
+P2066,Sofía Torres,83,F,Lince,Ginecología,2020-12-02,317
+P2067,Carlos Díaz,23,F,Cajamarca,Odontología,2023-03-27,375
+P2068,Ana Cabrera,52,F,San Isidro,Pediatría,2024-02-29,437
+P2069,Sofía Fernández,85,F,La Molina,Oftalmología,2023-02-24,240
+P2070,Andrés Torres,46,F,Jesús María,Ginecología,2024-07-23,326
+P2071,Carmen Díaz,50,M,Cajamarca,Dermatología,2020-07-17,358
+P2072,Carmen Ramírez,70,M,Miraflores,Odontología,2020-08-08,290
+P2073,Miguel Pérez,61,M,Lince,Traumatología,2023-08-19,491
+P2074,Sofía Gómez,33,F,Surco,Odontología,2025-05-11,197
+P2075,Luis Fernández,31,M,Lince,Pediatría,2024-04-01,98
+P2076,Ana Fernández,52,M,La Molina,Cardiología,2025-03-27,471
+P2077,José Ramírez,12,F,Cajamarca,Cardiología,2024-03-11,323
+P2078,Lucía Cabrera,18,F,Lince,Cardiología,2023-10-06,238
+P2079,Carmen Salazar,17,F,Callao,Odontología,2023-05-11,360
+P2080,Andrés Salazar,56,F,Callao,Traumatología,2023-12-24,108
+P2081,Sofía Ramírez,58,M,La Molina,Cardiología,2025-03-09,289
+P2082,Luis Fernández,87,M,Lince,Dermatología,2020-02-04,271
+P2083,Carmen Díaz,57,M,Jesús María,Ginecología,2022-02-18,350
+P2084,Miguel Pérez,22,M,Jesús María,Traumatología,2025-02-18,115
+P2085,Carlos Cabrera,55,M,Surco,Oftalmología,2024-04-17,182
+P2086,José Gómez,63,F,Cajamarca,Oftalmología,2025-11-14,131
+P2087,Ana Rojas,87,M,Miraflores,Oftalmología,2021-05-31,210
+P2088,Lucía Pérez,29,F,La Molina,Oftalmología,2024-05-09,90
+P2089,Carmen Díaz,5,F,Surco,Pediatría,2020-09-19,291
+P2090,Lucía Torres,55,F,Jesús María,Ginecología,2021-02-09,386
+P2091,Carlos Gómez,35,F,Callao,Ginecología,2022-01-04,325
+P2092,Carlos Ramírez,19,F,Lince,Pediatría,2021-02-26,242
+P2093,Carmen Pérez,1,M,Jesús María,Odontología,2022-03-08,480
+P2094,Ana Díaz,28,F,Lince,Pediatría,2022-02-05,352
+P2095,Sofía Gómez,23,M,La Molina,Dermatología,2023-09-30,239
+P2096,Lucía Rojas,60,M,Cajamarca,Dermatología,2024-06-03,224
+P2097,Ana Castro,3,M,Surco,Pediatría,2024-07-13,215
+P2098,Sofía Cabrera,86,M,Cajamarca,Traumatología,2024-11-10,359
+P2099,Miguel Cabrera,29,F,La Molina,Ginecología,2021-11-11,420
+P2100,Luis Salazar,74,F,Lince,Ginecología,2020-07-27,423
+P2101,Luis Díaz,75,F,Cajamarca,Pediatría,2020-08-18,358
+P2102,Sofía Gómez,69,M,Surco,Cardiología,2021-03-10,300
+P2103,Luis Castro,20,F,San Isidro,Odontología,2023-02-26,138
+P2104,Carlos Díaz,48,F,Miraflores,Cardiología,2024-03-22,292
+P2105,Miguel Castro,89,F,Cajamarca,Dermatología,2020-10-05,126
+P2106,Lucía Castro,78,M,La Molina,Odontología,2025-03-04,357
+P2107,Carmen Díaz,62,M,Callao,Odontología,2024-10-18,416
+P2108,Lucía Ramírez,64,M,Cajamarca,Dermatología,2025-08-11,477
+P2109,Miguel Fernández,71,M,Cajamarca,Cardiología,2021-03-09,365
+P2110,Carmen Torres,48,M,Miraflores,Ginecología,2022-07-17,395
+P2111,María Rojas,1,M,Miraflores,Oftalmología,2023-11-16,397
+P2112,Ana Salazar,28,F,Callao,Oftalmología,2023-07-29,399
+P2113,José Pérez,77,F,Cajamarca,Oftalmología,2023-04-27,415
+P2114,Carlos Gómez,2,M,San Isidro,Pediatría,2020-07-12,484
+P2115,María Rojas,89,F,Callao,Dermatología,2024-04-07,309
+P2116,Sofía Rojas,67,M,La Molina,Dermatología,2020-10-29,224
+P2117,Carlos Castro,37,F,Lince,Oftalmología,2023-03-17,227
+P2118,Carmen Cabrera,85,F,San Isidro,Pediatría,2022-01-07,198
+P2119,Sofía Salazar,88,M,Cajamarca,Ginecología,2022-04-20,189
+P2120,María Cabrera,88,M,La Molina,Dermatología,2021-08-25,109
+P2121,Andrés Castro,56,F,Surco,Ginecología,2021-01-17,299
+P2122,Ana Rojas,66,M,Cajamarca,Pediatría,2022-07-06,217
+P2123,Sofía Cabrera,4,F,Surco,Odontología,2020-11-14,96
+P2124,María Ramírez,49,M,Cajamarca,Pediatría,2024-05-29,256
+P2125,Miguel Fernández,38,F,Lince,Oftalmología,2025-06-27,411
+P2126,Carmen Díaz,30,M,Callao,Cardiología,2022-01-16,174
+P2127,Sofía Torres,46,F,Jesús María,Ginecología,2024-11-07,393
+P2128,Carlos Rojas,21,M,Surco,Cardiología,2020-04-23,176
+P2129,Miguel Gómez,70,M,San Isidro,Odontología,2024-11-12,225
+P2130,Ana Salazar,58,M,San Isidro,Traumatología,2021-10-03,91
+P2131,María Díaz,88,F,Lince,Ginecología,2020-07-30,313
+P2132,Miguel Rojas,66,F,Miraflores,Ginecología,2021-12-24,141
+P2133,Carmen Díaz,2,M,Callao,Dermatología,2024-04-02,483
+P2134,Lucía Cabrera,29,F,Cajamarca,Oftalmología,2022-03-27,356
+P2135,Carlos Cabrera,57,F,Callao,Ginecología,2020-06-24,169
+P2136,María Rojas,87,F,Lince,Oftalmología,2024-01-16,359
+P2137,Luis Torres,47,F,La Molina,Ginecología,2023-11-08,358
+P2138,José Castro,17,F,La Molina,Traumatología,2020-09-07,80
+P2139,José Castro,36,F,Cajamarca,Cardiología,2022-01-26,471
+P2140,Carlos Castro,54,M,Lince,Traumatología,2023-10-03,169
+P2141,Luis Salazar,56,F,Callao,Traumatología,2023-12-08,394
+P2142,Carmen Gómez,89,F,Jesús María,Dermatología,2025-12-20,404
+P2143,Carmen Salazar,19,F,Callao,Pediatría,2021-10-02,208
+P2144,Miguel Rojas,55,M,Miraflores,Traumatología,2025-08-08,255
+P2145,María Torres,24,M,Miraflores,Pediatría,2024-05-02,328
+P2146,Miguel Salazar,67,M,Miraflores,Cardiología,2025-02-01,356
+P2147,Ana Cabrera,16,F,Callao,Traumatología,2020-07-26,375
+P2148,José Rojas,80,F,San Isidro,Ginecología,2023-04-13,159
+P2149,Lucía Cabrera,73,F,Callao,Odontología,2021-04-10,500
+P2150,José Pérez,53,F,Jesús María,Odontología,2024-11-13,329
+P2151,Lucía Ramírez,15,M,San Isidro,Pediatría,2024-09-14,208
+P2152,Carmen Rojas,28,M,Callao,Traumatología,2021-10-14,432
+P2153,Luis Díaz,70,M,Miraflores,Pediatría,2025-09-26,249
+P2154,Andrés Ramírez,22,F,Jesús María,Dermatología,2021-01-28,305
+P2155,Carmen Castro,23,M,Callao,Odontología,2024-05-14,162
+P2156,Miguel Fernández,77,F,Miraflores,Ginecología,2022-09-28,320
+P2157,Ana Salazar,17,F,Cajamarca,Cardiología,2024-01-22,399
+P2158,Lucía Pérez,89,F,Miraflores,Cardiología,2025-04-01,224
+P2159,Miguel Díaz,54,F,Lince,Dermatología,2023-04-28,282
+P2160,Luis Torres,4,F,Miraflores,Ginecología,2020-11-04,367
+P2161,Miguel Salazar,15,F,Callao,Ginecología,2025-11-25,434
+P2162,Luis Fernández,84,F,La Molina,Traumatología,2025-02-11,331
+P2163,Miguel Fernández,23,M,La Molina,Cardiología,2025-03-10,293
+P2164,Sofía Díaz,58,F,Miraflores,Pediatría,2020-02-18,294
+P2165,Lucía Castro,21,F,Lince,Dermatología,2025-07-03,168
+P2166,María Torres,80,M,Cajamarca,Ginecología,2020-05-02,265
+P2167,Miguel Ramírez,39,F,Lince,Oftalmología,2024-12-05,144
+P2168,José Castro,23,M,Lince,Cardiología,2024-01-21,144
+P2169,Sofía Castro,39,F,Miraflores,Pediatría,2021-01-12,268
+P2170,María Rojas,12,M,Miraflores,Cardiología,2020-08-05,484
+P2171,Ana Torres,82,M,La Molina,Pediatría,2020-08-30,132
+P2172,Luis Rojas,37,M,Jesús María,Oftalmología,2025-11-28,419
+P2173,Luis Cabrera,77,F,Jesús María,Ginecología,2023-03-10,219
+P2174,Carmen Torres,61,F,Jesús María,Pediatría,2022-05-16,434
+P2175,Miguel Rojas,14,F,Lince,Oftalmología,2025-08-20,239
+P2176,Andrés Cabrera,66,F,Surco,Traumatología,2021-03-13,301
+P2177,José Fernández,19,F,Jesús María,Odontología,2025-02-10,272
+P2178,Miguel Rojas,18,M,Lince,Dermatología,2021-01-19,347
+P2179,Sofía Salazar,6,M,Surco,Ginecología,2023-08-17,395
+P2180,Lucía Salazar,30,F,Callao,Ginecología,2020-12-31,185
+P2181,Lucía Salazar,54,M,Lince,Odontología,2020-06-13,152
+P2182,María Rojas,46,M,Miraflores,Dermatología,2022-01-24,251
+P2183,Luis Cabrera,48,M,Jesús María,Traumatología,2020-08-13,387
+P2184,Luis Ramírez,83,M,Surco,Cardiología,2024-08-03,229
+P2185,Andrés Salazar,51,M,Miraflores,Traumatología,2025-04-25,439
+P2186,Ana Castro,33,M,Jesús María,Pediatría,2024-09-07,461
+P2187,Sofía Fernández,24,M,Jesús María,Odontología,2021-09-12,211
+P2188,Luis Cabrera,82,M,Cajamarca,Ginecología,2021-01-10,90
+P2189,Sofía Díaz,30,M,San Isidro,Ginecología,2020-04-01,111
+P2190,Lucía Ramírez,49,M,Jesús María,Dermatología,2020-04-27,115
+P2191,Miguel Díaz,31,F,Miraflores,Traumatología,2022-07-20,359
+P2192,José Ramírez,1,F,Callao,Oftalmología,2023-09-04,152
+P2193,Luis Castro,40,F,Callao,Cardiología,2022-06-21,112
+P2194,María Fernández,14,M,Surco,Odontología,2024-05-31,434
+P2195,Andrés Cabrera,17,M,Miraflores,Ginecología,2022-12-12,361
+P2196,Sofía Ramírez,21,M,Callao,Traumatología,2020-01-01,355
+P2197,María Torres,24,F,Callao,Pediatría,2023-11-10,70
+P2198,Ana Torres,11,M,Miraflores,Traumatología,2023-12-05,227
+P2199,Luis Rojas,65,M,San Isidro,Oftalmología,2022-09-11,227
+P2200,José Díaz,41,F,Cajamarca,Cardiología,2022-02-15,73
+P2201,María Gómez,77,F,Cajamarca,Cardiología,2020-02-03,438
+P2202,Andrés Ramírez,44,F,Surco,Traumatología,2021-10-27,141
+P2203,Ana Gómez,1,F,Callao,Odontología,2023-11-29,296
+P2204,José Salazar,40,F,San Isidro,Dermatología,2021-08-09,472
+P2205,Luis Gómez,10,M,La Molina,Cardiología,2025-07-07,359
+P2206,María Castro,37,M,La Molina,Traumatología,2025-12-01,356
+P2207,Luis Cabrera,72,M,Lince,Dermatología,2022-07-13,476
+P2208,Miguel Cabrera,22,M,Callao,Oftalmología,2020-07-13,311
+P2209,Andrés Pérez,83,F,La Molina,Cardiología,2023-04-05,305
+P2210,José Ramírez,44,F,Callao,Traumatología,2022-10-09,348
+P2211,José Ramírez,17,F,Surco,Pediatría,2023-02-09,86
+P2212,Ana Ramírez,8,M,La Molina,Oftalmología,2023-05-20,450
+P2213,José Gómez,27,F,Miraflores,Pediatría,2021-04-30,78
+P2214,Andrés Díaz,22,F,La Molina,Ginecología,2024-06-03,430
+P2215,Lucía Cabrera,41,M,Callao,Ginecología,2023-01-24,240
+P2216,Luis Castro,76,M,Cajamarca,Cardiología,2022-11-13,231
+P2217,Ana Ramírez,34,M,Miraflores,Traumatología,2024-09-21,150
+P2218,Carlos Pérez,42,F,Surco,Dermatología,2025-02-27,413
+P2219,Luis Gómez,21,M,Jesús María,Cardiología,2023-12-08,308
+P2220,Carmen Díaz,32,F,Surco,Pediatría,2022-12-20,427
+P2221,Luis Rojas,13,F,Lince,Ginecología,2020-04-26,167
+P2222,María Castro,44,M,Surco,Pediatría,2022-08-15,416
+P2223,Carlos Gómez,51,M,Jesús María,Pediatría,2020-10-18,102
+P2224,Carlos Gómez,51,M,Callao,Oftalmología,2022-08-29,57
+P2225,Miguel Fernández,71,F,Callao,Traumatología,2020-04-19,155
+P2226,María Torres,45,M,Cajamarca,Traumatología,2020-05-08,137
+P2227,Lucía Torres,62,F,Miraflores,Ginecología,2025-07-28,466
+P2228,María Fernández,30,F,Surco,Traumatología,2023-07-07,331
+P2229,Miguel Díaz,51,M,Miraflores,Oftalmología,2022-10-17,185
+P2230,Luis Salazar,51,F,San Isidro,Ginecología,2020-01-07,297
+P2231,Andrés Castro,21,F,Cajamarca,Odontología,2020-04-23,363
+P2232,Andrés Pérez,20,M,Surco,Cardiología,2023-09-17,265
+P2233,Ana Fernández,50,M,Surco,Oftalmología,2024-05-06,62
+P2234,Lucía Castro,41,M,Callao,Cardiología,2023-09-03,414
+P2235,Lucía Rojas,85,M,San Isidro,Pediatría,2020-06-24,305
+P2236,Miguel Castro,69,M,La Molina,Ginecología,2023-03-03,222
+P2237,Lucía Cabrera,18,F,La Molina,Cardiología,2022-03-28,115
+P2238,Luis Torres,72,F,Surco,Odontología,2020-10-04,234
+P2239,Ana Gómez,8,M,Jesús María,Ginecología,2021-07-04,472
+P2240,Ana Díaz,16,M,La Molina,Ginecología,2025-07-21,89
+P2241,Lucía Rojas,28,M,Callao,Odontología,2023-04-27,134
+P2242,María Torres,78,F,San Isidro,Pediatría,2021-07-31,489
+P2243,Luis Pérez,74,F,Lince,Cardiología,2020-08-12,205
+P2244,Andrés Castro,67,F,Surco,Oftalmología,2023-01-15,258
+P2245,José Díaz,32,F,Jesús María,Traumatología,2022-09-05,402
+P2246,José Castro,45,M,Cajamarca,Cardiología,2020-07-09,86
+P2247,Carmen Rojas,7,M,Callao,Dermatología,2024-12-06,450
+P2248,Luis Torres,29,M,La Molina,Ginecología,2024-07-06,297
+P2249,Luis Pérez,7,F,Jesús María,Pediatría,2025-09-29,446
+P2250,Carmen Fernández,50,M,San Isidro,Dermatología,2023-11-18,279
+P2251,José Ramírez,54,F,San Isidro,Pediatría,2025-03-13,133
+P2252,Lucía Díaz,72,M,Jesús María,Pediatría,2020-01-07,89
+P2253,María Salazar,16,M,San Isidro,Oftalmología,2021-04-26,256
+P2254,Carmen Castro,9,M,Callao,Oftalmología,2024-02-28,475
+P2255,Ana Fernández,54,M,Surco,Cardiología,2020-04-25,74
+P2256,María Castro,29,M,Lince,Odontología,2024-07-14,171
+P2257,Lucía Torres,39,M,Cajamarca,Odontología,2020-07-15,133
+P2258,Carlos Gómez,89,F,Jesús María,Ginecología,2023-10-25,153
+P2259,Luis Castro,43,M,Callao,Odontología,2025-08-06,162
+P2260,María Cabrera,75,F,Jesús María,Traumatología,2023-09-26,74
+P2261,Carmen Cabrera,23,F,San Isidro,Ginecología,2024-06-26,69
+P2262,Ana Torres,56,F,Jesús María,Traumatología,2020-02-26,104
+P2263,Ana Ramírez,14,M,Callao,Odontología,2022-12-14,240
+P2264,Sofía Díaz,41,M,Cajamarca,Oftalmología,2021-10-31,358
+P2265,Ana Pérez,36,M,Cajamarca,Traumatología,2023-04-20,182
+P2266,Lucía Ramírez,73,F,Surco,Cardiología,2023-08-29,413
+P2267,Sofía Fernández,12,M,San Isidro,Cardiología,2022-01-14,192
+P2268,Miguel Cabrera,46,M,Callao,Traumatología,2025-05-23,437
+P2269,José Gómez,86,F,La Molina,Oftalmología,2021-01-07,169
+P2270,Lucía Pérez,36,M,Lince,Pediatría,2022-09-19,416
+P2271,Sofía Rojas,38,F,Jesús María,Pediatría,2022-07-26,122
+P2272,Carlos Salazar,83,M,Miraflores,Odontología,2022-10-01,206
+P2273,Andrés Rojas,36,M,San Isidro,Traumatología,2022-08-20,315
+P2274,Miguel Díaz,4,F,Cajamarca,Pediatría,2020-02-23,168
+P2275,María Díaz,36,M,Jesús María,Pediatría,2020-11-26,435
+P2276,María Ramírez,27,F,Jesús María,Ginecología,2021-06-08,194
+P2277,Carlos Rojas,86,F,Miraflores,Dermatología,2020-01-24,215
+P2278,María Salazar,18,M,Callao,Dermatología,2025-03-05,141
+P2279,Sofía Díaz,38,F,Jesús María,Cardiología,2024-02-08,375
+P2280,Ana Fernández,6,F,San Isidro,Oftalmología,2024-12-05,289
+P2281,Miguel Cabrera,34,M,Cajamarca,Cardiología,2021-06-19,167
+P2282,Lucía Gómez,50,M,Jesús María,Traumatología,2023-09-11,353
+P2283,Sofía Pérez,57,M,Surco,Pediatría,2022-03-26,239
+P2284,María Salazar,86,M,La Molina,Pediatría,2021-04-28,484
+P2285,María Fernández,56,F,Surco,Dermatología,2022-01-16,96
+P2286,Carmen Fernández,9,F,Surco,Ginecología,2023-09-24,172
+P2287,Sofía Gómez,3,M,Cajamarca,Dermatología,2024-10-01,225
+P2288,María Díaz,68,F,Callao,Pediatría,2025-03-27,74
+P2289,Andrés Cabrera,31,F,Miraflores,Oftalmología,2024-05-09,302
+P2290,Sofía Cabrera,75,F,Lince,Ginecología,2024-12-14,193
+P2291,Sofía Rojas,39,M,Callao,Traumatología,2024-03-16,416
+P2292,Carmen Rojas,28,F,Miraflores,Odontología,2020-07-04,317
+P2293,Carmen Ramírez,66,F,Cajamarca,Cardiología,2020-01-11,101
+P2294,Carmen Salazar,12,M,Miraflores,Odontología,2023-11-11,86
+P2295,Carmen Castro,24,F,Surco,Dermatología,2022-08-28,463
+P2296,María Díaz,80,F,Callao,Odontología,2021-09-22,464
+P2297,Carlos Salazar,10,F,Lince,Ginecología,2023-11-12,172
+P2298,Luis Castro,74,M,Jesús María,Dermatología,2023-02-18,271
+P2299,Miguel Salazar,21,F,Surco,Oftalmología,2023-03-22,228
+P2300,Lucía Salazar,26,F,Jesús María,Odontología,2023-10-03,113
+P2301,Andrés Salazar,16,M,Jesús María,Ginecología,2023-08-05,317
+P2302,Carmen Gómez,54,F,Callao,Traumatología,2024-06-25,461
+P2303,Carmen Ramírez,30,M,Cajamarca,Dermatología,2023-12-12,367
+P2304,Miguel Cabrera,53,F,Jesús María,Dermatología,2025-05-11,499
+P2305,Carmen Pérez,66,M,Jesús María,Pediatría,2024-06-22,428
+P2306,Sofía Pérez,13,F,Surco,Ginecología,2024-02-19,124
+P2307,José Salazar,63,M,Jesús María,Cardiología,2024-11-22,175
+P2308,Carmen Pérez,29,M,La Molina,Oftalmología,2024-12-17,72
+P2309,Andrés Pérez,21,F,Callao,Ginecología,2025-08-01,402
+P2310,Carmen Gómez,44,F,Lince,Pediatría,2025-10-20,324
+P2311,Miguel Pérez,35,M,Cajamarca,Pediatría,2021-01-29,272
+P2312,José Gómez,40,M,Miraflores,Ginecología,2020-06-22,222
+P2313,José Rojas,77,M,Jesús María,Dermatología,2020-09-27,228
+P2314,Andrés Ramírez,77,M,Jesús María,Pediatría,2024-02-14,157
+P2315,José Salazar,29,F,Surco,Traumatología,2025-03-11,137
+P2316,Luis Rojas,45,F,Jesús María,Dermatología,2025-05-21,83
+P2317,Sofía Rojas,86,M,Jesús María,Cardiología,2022-06-18,290
+P2318,Sofía Ramírez,76,F,La Molina,Traumatología,2025-02-25,430
+P2319,Carmen Fernández,55,F,Surco,Traumatología,2022-05-07,68
+P2320,Lucía Díaz,23,F,La Molina,Oftalmología,2023-07-13,260
+P2321,Andrés Cabrera,89,M,Surco,Dermatología,2022-11-19,209
+P2322,Carmen Cabrera,58,F,Surco,Oftalmología,2020-01-26,340
+P2323,Miguel Gómez,30,F,Jesús María,Odontología,2021-12-16,260
+P2324,Carlos Salazar,50,F,Miraflores,Dermatología,2022-11-11,119
+P2325,José Díaz,89,M,Miraflores,Cardiología,2020-09-08,146
+P2326,Carmen Ramírez,69,F,Jesús María,Oftalmología,2021-03-03,295
+P2327,Carmen Pérez,73,F,Cajamarca,Odontología,2022-03-05,156
+P2328,Luis Pérez,4,F,Lince,Oftalmología,2025-05-17,159
+P2329,Ana Salazar,48,M,Miraflores,Ginecología,2020-06-19,128
+P2330,Miguel Salazar,26,F,Surco,Pediatría,2023-01-05,435
+P2331,José Gómez,22,F,Cajamarca,Ginecología,2024-12-26,472
+P2332,Carlos Rojas,81,F,Lince,Traumatología,2023-11-01,209
+P2333,Lucía Salazar,24,F,Lince,Odontología,2024-11-05,459
+P2334,Carmen Salazar,77,M,Surco,Pediatría,2020-08-29,294
+P2335,Carmen Pérez,53,F,Miraflores,Odontología,2025-04-27,496
+P2336,Carmen Salazar,73,M,Lince,Traumatología,2021-10-28,84
+P2337,Miguel Rojas,46,F,Cajamarca,Traumatología,2020-12-29,295
+P2338,Carmen Ramírez,18,M,Callao,Traumatología,2021-12-23,104
+P2339,Carlos Gómez,50,F,Callao,Dermatología,2021-06-28,357
+P2340,Carmen Torres,59,M,Callao,Cardiología,2025-04-12,167
+P2341,Lucía Gómez,85,F,Lince,Traumatología,2025-07-15,365
+P2342,Miguel Rojas,25,M,Jesús María,Traumatología,2024-07-27,453
+P2343,Carlos Ramírez,43,M,Miraflores,Oftalmología,2023-06-22,68
+P2344,María Castro,18,M,Surco,Cardiología,2022-08-22,426
+P2345,María Pérez,90,F,Miraflores,Ginecología,2024-01-19,417
+P2346,José Ramírez,57,M,Lince,Ginecología,2023-07-29,322
+P2347,Andrés Ramírez,21,M,Lince,Cardiología,2020-09-15,89
+P2348,María Castro,34,M,Lince,Pediatría,2021-02-13,370
+P2349,Luis Torres,28,F,La Molina,Ginecología,2022-06-19,452
+P2350,Carmen Ramírez,73,F,La Molina,Oftalmología,2021-12-30,261
+P2351,Miguel Pérez,54,M,San Isidro,Traumatología,2021-10-04,418
+P2352,José Díaz,13,F,Callao,Dermatología,2023-10-26,301
+P2353,Luis Castro,26,M,Surco,Cardiología,2021-11-11,167
+P2354,María Pérez,20,M,San Isidro,Oftalmología,2024-11-10,408
+P2355,María Torres,78,M,Callao,Cardiología,2020-10-23,359
+P2356,Sofía Castro,73,F,Surco,Traumatología,2023-10-01,163
+P2357,Sofía Castro,29,M,La Molina,Ginecología,2020-07-01,120
+P2358,Carmen Salazar,85,F,La Molina,Cardiología,2021-12-12,59
+P2359,Ana Pérez,54,F,Lince,Pediatría,2023-02-09,148
+P2360,Carmen Rojas,63,F,Surco,Oftalmología,2023-08-13,77
+P2361,Carmen Pérez,80,M,Callao,Oftalmología,2024-09-26,74
+P2362,Andrés Torres,63,M,Jesús María,Pediatría,2021-09-10,164
+P2363,María Fernández,88,M,Callao,Pediatría,2022-11-01,402
+P2364,Lucía Castro,89,F,Jesús María,Dermatología,2025-06-17,217
+P2365,Andrés Ramírez,75,M,Miraflores,Oftalmología,2022-10-01,282
+P2366,María Pérez,21,F,La Molina,Odontología,2022-04-03,309
+P2367,Carmen Fernández,44,M,La Molina,Cardiología,2022-02-06,457
+P2368,Andrés Ramírez,83,M,Jesús María,Odontología,2020-01-13,418
+P2369,María Fernández,50,M,Jesús María,Ginecología,2022-04-02,384
+P2370,Andrés Rojas,5,F,San Isidro,Dermatología,2021-05-01,188
+P2371,Andrés Pérez,35,F,San Isidro,Traumatología,2025-10-11,69
+P2372,Sofía Cabrera,78,M,Jesús María,Dermatología,2023-08-07,216
+P2373,Miguel Torres,84,F,San Isidro,Odontología,2020-12-19,445
+P2374,Luis Cabrera,87,M,La Molina,Oftalmología,2021-11-09,457
+P2375,Miguel Salazar,73,F,La Molina,Oftalmología,2024-02-01,281
+P2376,José Pérez,12,F,Surco,Odontología,2025-09-09,421
+P2377,Carlos Castro,81,F,Callao,Dermatología,2023-05-23,407
+P2378,Andrés Ramírez,67,F,La Molina,Pediatría,2020-01-06,92
+P2379,Luis Castro,2,F,Surco,Cardiología,2022-10-29,449
+P2380,Sofía Castro,75,M,Jesús María,Odontología,2021-05-29,142
+P2381,José Rojas,84,M,Miraflores,Pediatría,2025-02-23,167
+P2382,María Díaz,34,F,San Isidro,Traumatología,2025-09-02,114
+P2383,Miguel Ramírez,78,M,Cajamarca,Oftalmología,2021-10-12,272
+P2384,María Salazar,89,F,Callao,Ginecología,2025-04-01,237
+P2385,Luis Fernández,64,M,Surco,Cardiología,2024-08-20,421
+P2386,Carmen Torres,32,F,San Isidro,Dermatología,2021-04-16,74
+P2387,Miguel Gómez,58,F,La Molina,Odontología,2025-03-17,343
+P2388,Miguel Salazar,77,M,Callao,Dermatología,2023-12-19,365
+P2389,Lucía Castro,8,F,Jesús María,Odontología,2023-08-09,204
+P2390,Carlos Cabrera,75,F,San Isidro,Pediatría,2023-04-14,245
+P2391,José Díaz,48,F,Surco,Odontología,2025-02-09,193
+P2392,Carlos Pérez,11,F,Jesús María,Ginecología,2025-11-08,429
+P2393,Luis Cabrera,81,F,La Molina,Traumatología,2023-01-19,142
+P2394,Lucía Fernández,38,M,Jesús María,Cardiología,2025-04-07,444
+P2395,Andrés Fernández,82,M,Jesús María,Traumatología,2023-04-04,271
+P2396,Ana Fernández,69,M,Lince,Odontología,2024-10-16,83
+P2397,Carmen Torres,46,F,Surco,Traumatología,2025-08-01,116
+P2398,Andrés Fernández,3,M,La Molina,Odontología,2023-11-25,210
+P2399,Carmen Cabrera,36,M,Callao,Oftalmología,2025-06-17,499
+P2400,Andrés Torres,41,F,Surco,Cardiología,2025-09-11,178
+P2401,Ana Pérez,26,M,Surco,Odontología,2021-02-04,237
+P2402,Lucía Cabrera,71,M,Miraflores,Pediatría,2022-12-23,67
+P2403,Lucía Torres,62,M,Callao,Dermatología,2023-05-03,496
+P2404,Carlos Ramírez,45,F,Miraflores,Pediatría,2024-09-27,248
+P2405,Sofía Díaz,78,M,San Isidro,Dermatología,2025-05-28,219
+P2406,Miguel Díaz,30,F,Callao,Dermatología,2020-07-15,458
+P2407,Ana Salazar,2,M,Surco,Ginecología,2023-01-14,433
+P2408,Andrés Torres,67,F,Cajamarca,Traumatología,2022-12-11,467
+P2409,Lucía Pérez,44,M,La Molina,Ginecología,2021-04-13,67
+P2410,María Salazar,7,F,San Isidro,Ginecología,2022-07-07,342
+P2411,Sofía Díaz,3,F,Jesús María,Oftalmología,2021-06-24,205
+P2412,Ana Cabrera,46,F,La Molina,Pediatría,2025-11-22,68
+P2413,Andrés Salazar,47,F,San Isidro,Cardiología,2022-09-27,438
+P2414,Carlos Gómez,35,M,Surco,Oftalmología,2022-11-04,289
+P2415,Lucía Rojas,79,M,Callao,Pediatría,2022-11-11,346
+P2416,Lucía Ramírez,36,M,Lince,Odontología,2020-09-12,297
+P2417,Carlos Gómez,13,F,Jesús María,Cardiología,2020-01-19,364
+P2418,Carlos Castro,83,M,Cajamarca,Ginecología,2023-10-28,139
+P2419,Sofía Castro,49,F,Callao,Cardiología,2024-11-11,345
+P2420,Andrés Cabrera,38,M,San Isidro,Ginecología,2022-12-25,410
+P2421,José Fernández,35,M,Callao,Pediatría,2021-07-23,409
+P2422,Miguel Torres,20,M,Lince,Cardiología,2021-02-28,490
+P2423,Ana Díaz,51,M,Cajamarca,Ginecología,2024-10-31,499
+P2424,José Cabrera,57,F,Cajamarca,Oftalmología,2020-06-11,169
+P2425,Andrés Rojas,15,F,Callao,Ginecología,2025-10-28,216
+P2426,José Fernández,30,M,Miraflores,Odontología,2020-08-10,79
+P2427,Andrés Torres,6,M,Callao,Odontología,2021-10-01,355
+P2428,Luis Gómez,55,M,Callao,Odontología,2023-03-31,236
+P2429,Carlos Ramírez,62,F,Surco,Dermatología,2020-07-20,296
+P2430,Sofía Salazar,11,M,Jesús María,Pediatría,2020-12-03,108
+P2431,Ana Pérez,68,M,Cajamarca,Odontología,2021-03-17,176
+P2432,Lucía Pérez,44,M,Miraflores,Odontología,2024-04-06,342
+P2433,José Gómez,54,F,San Isidro,Ginecología,2025-03-25,296
+P2434,Carlos Ramírez,22,M,Jesús María,Ginecología,2025-09-14,238
+P2435,María Pérez,18,F,Lince,Oftalmología,2021-03-23,476
+P2436,Carmen Salazar,86,M,Lince,Dermatología,2022-09-24,143
+P2437,Sofía Castro,80,M,Surco,Cardiología,2022-01-02,286
+P2438,Luis Salazar,52,F,Jesús María,Ginecología,2021-06-01,131
+P2439,Sofía Pérez,51,M,Surco,Odontología,2020-10-05,353
+P2440,Carmen Ramírez,85,F,Jesús María,Pediatría,2024-04-18,403
+P2441,Andrés Ramírez,22,M,Lince,Ginecología,2024-12-16,230
+P2442,Luis Gómez,9,F,Surco,Oftalmología,2020-11-23,202
+P2443,Lucía Pérez,31,F,Lince,Traumatología,2020-05-03,151
+P2444,José Cabrera,89,M,San Isidro,Traumatología,2020-01-29,96
+P2445,Luis Castro,86,F,Surco,Odontología,2024-06-03,297
+P2446,Luis Pérez,19,F,Lince,Traumatología,2025-04-15,479
+P2447,Andrés Cabrera,22,F,San Isidro,Pediatría,2023-09-11,412
+P2448,Miguel Rojas,61,F,Lince,Ginecología,2024-09-01,243
+P2449,Carmen Castro,50,F,San Isidro,Traumatología,2021-04-26,281
+P2450,Carmen Díaz,19,F,San Isidro,Dermatología,2024-03-27,486
+P2451,Carlos Salazar,68,M,Callao,Cardiología,2022-03-01,144
+P2452,Lucía Fernández,40,F,Jesús María,Oftalmología,2021-04-28,139
+P2453,María Ramírez,56,M,Lince,Dermatología,2025-12-08,327
+P2454,José Pérez,86,F,Surco,Ginecología,2022-07-25,386
+P2455,Luis Díaz,77,F,Callao,Ginecología,2024-06-24,57
+P2456,Andrés Gómez,50,F,Lince,Dermatología,2023-03-11,52
+P2457,Sofía Pérez,71,F,Miraflores,Dermatología,2025-12-16,399
+P2458,Miguel Torres,1,M,Lince,Oftalmología,2023-04-14,417
+P2459,Ana Díaz,42,F,Lince,Cardiología,2025-01-18,374
+P2460,Carlos Díaz,21,M,Cajamarca,Cardiología,2024-10-16,282
+P2461,Andrés Rojas,80,F,Callao,Traumatología,2022-11-24,319
+P2462,Andrés Pérez,9,M,Miraflores,Dermatología,2023-06-26,64
+P2463,José Rojas,90,F,Lince,Pediatría,2023-10-10,469
+P2464,José Rojas,53,M,Callao,Ginecología,2021-07-23,265
+P2465,Luis Gómez,15,F,Jesús María,Cardiología,2020-07-22,376
+P2466,Carmen Castro,54,F,Lince,Oftalmología,2021-03-23,161
+P2467,Luis Salazar,86,M,La Molina,Oftalmología,2023-05-23,282
+P2468,Andrés Rojas,90,M,San Isidro,Ginecología,2025-09-21,187
+P2469,Carmen Rojas,7,M,La Molina,Cardiología,2025-10-01,389
+P2470,Andrés Gómez,73,F,Surco,Dermatología,2025-11-02,138
+P2471,María Gómez,84,M,Lince,Ginecología,2021-07-20,207
+P2472,José Pérez,37,F,La Molina,Dermatología,2021-10-23,211
+P2473,Lucía Castro,6,M,La Molina,Oftalmología,2020-04-29,404
+P2474,Sofía Díaz,35,F,Surco,Odontología,2023-06-24,65
+P2475,Andrés Salazar,11,F,Miraflores,Traumatología,2020-07-17,229
+P2476,Miguel Fernández,44,M,La Molina,Oftalmología,2024-07-02,451
+P2477,Luis Castro,77,M,San Isidro,Dermatología,2022-04-05,377
+P2478,Lucía Castro,87,F,Miraflores,Cardiología,2023-10-02,127
+P2479,Lucía Díaz,54,M,Surco,Pediatría,2020-12-28,380
+P2480,Carlos Cabrera,76,F,Miraflores,Cardiología,2021-09-08,239
+P2481,Miguel Torres,45,F,Surco,Ginecología,2023-09-13,373
+P2482,Lucía Díaz,53,F,Callao,Cardiología,2024-05-25,216
+P2483,Carmen Castro,89,F,Cajamarca,Oftalmología,2023-01-31,394
+P2484,Sofía Torres,3,F,Surco,Pediatría,2024-09-25,414
+P2485,Carmen Torres,78,F,Miraflores,Traumatología,2020-02-21,218
+P2486,Luis Castro,38,M,Miraflores,Pediatría,2023-11-13,420
+P2487,Carmen Fernández,70,F,Lince,Odontología,2020-01-10,244
+P2488,Miguel Cabrera,84,M,Callao,Oftalmología,2024-07-04,456
+P2489,Sofía Gómez,59,F,Callao,Cardiología,2023-07-08,342
+P2490,Ana Gómez,4,F,Miraflores,Cardiología,2020-01-20,351
+P2491,Andrés Cabrera,80,M,Jesús María,Cardiología,2021-02-12,81
+P2492,Sofía Gómez,82,F,San Isidro,Traumatología,2024-05-01,463
+P2493,Miguel Gómez,10,F,San Isidro,Traumatología,2021-07-16,319
+P2494,Andrés Fernández,17,M,Surco,Traumatología,2022-09-10,95
+P2495,José Gómez,3,M,La Molina,Ginecología,2020-06-11,381
+P2496,María Fernández,79,F,Surco,Pediatría,2021-03-04,447
+P2497,Andrés Díaz,76,F,San Isidro,Odontología,2025-04-07,151
+P2498,Sofía Ramírez,22,F,Cajamarca,Pediatría,2024-12-10,348
+P2499,Carlos Salazar,12,F,Lince,Dermatología,2020-01-12,70
+P2500,Andrés Pérez,21,F,Lince,Ginecología,2025-10-08,218
+P2501,Carmen Gómez,76,M,Cajamarca,Ginecología,2024-05-25,152
+P2502,Andrés Rojas,20,F,San Isidro,Ginecología,2022-04-21,294
+P2503,Miguel Fernández,70,F,Cajamarca,Odontología,2020-02-24,315
+P2504,Carlos Cabrera,48,F,Callao,Traumatología,2024-06-27,194
+P2505,Carlos Castro,64,M,La Molina,Odontología,2025-06-09,327
+P2506,Lucía Gómez,58,M,Jesús María,Traumatología,2024-12-17,400
+P2507,Sofía Cabrera,53,M,La Molina,Oftalmología,2023-08-27,149
+P2508,Ana Fernández,53,F,Jesús María,Traumatología,2024-06-29,319
+P2509,Ana Gómez,90,M,Cajamarca,Pediatría,2022-01-18,292
+P2510,Andrés Fernández,51,F,Miraflores,Dermatología,2025-05-01,179
+P2511,Ana Torres,76,F,Jesús María,Cardiología,2025-12-19,463
+P2512,Carlos Castro,51,M,Miraflores,Cardiología,2025-11-05,489
+P2513,José Fernández,80,M,Miraflores,Dermatología,2024-01-10,272
+P2514,Luis Ramírez,43,F,Surco,Cardiología,2025-09-27,256
+P2515,Carmen Castro,7,F,Miraflores,Ginecología,2022-08-29,478
+P2516,María Salazar,70,F,Surco,Pediatría,2022-01-26,192
+P2517,Ana Castro,51,M,Miraflores,Oftalmología,2024-04-25,455
+P2518,Miguel Pérez,13,M,Callao,Pediatría,2022-12-30,215
+P2519,Carlos Cabrera,41,M,Jesús María,Traumatología,2024-12-29,233
+P2520,Carmen Salazar,33,M,Surco,Traumatología,2024-12-20,199
+P2521,José Rojas,47,F,San Isidro,Cardiología,2020-12-12,168
+P2522,Ana Castro,69,M,Miraflores,Cardiología,2024-03-26,131
+P2523,Lucía Rojas,50,F,Lince,Cardiología,2023-06-11,109
+P2524,José Fernández,31,M,Miraflores,Traumatología,2021-11-03,114
+P2525,Lucía Cabrera,46,F,Jesús María,Oftalmología,2022-04-19,104
+P2526,Miguel Castro,70,M,San Isidro,Oftalmología,2025-01-01,438
+P2527,Andrés Castro,61,F,Miraflores,Pediatría,2022-10-18,140
+P2528,Andrés Ramírez,64,M,La Molina,Ginecología,2022-01-18,226
+P2529,María Castro,44,F,Surco,Traumatología,2024-06-12,348
+P2530,Lucía Castro,68,M,Jesús María,Cardiología,2020-01-28,496
+P2531,María Pérez,16,F,Jesús María,Cardiología,2021-08-18,236
+P2532,Carmen Gómez,24,M,Callao,Ginecología,2020-04-12,448
+P2533,María Pérez,22,F,Lince,Oftalmología,2020-10-20,265
+P2534,Miguel Fernández,67,M,Cajamarca,Odontología,2024-08-01,299
+P2535,Carlos Rojas,52,M,San Isidro,Pediatría,2024-01-06,296
+P2536,Luis Torres,52,M,Lince,Cardiología,2022-08-11,158
+P2537,Miguel Ramírez,23,F,La Molina,Dermatología,2023-10-08,410
+P2538,Lucía Ramírez,19,M,Lince,Cardiología,2021-11-16,211
+P2539,José Gómez,85,F,La Molina,Oftalmología,2021-12-02,239
+P2540,Miguel Pérez,54,M,Cajamarca,Pediatría,2023-02-16,83
+P2541,Carmen Castro,78,F,San Isidro,Traumatología,2022-02-25,436
+P2542,José Salazar,47,M,Callao,Traumatología,2024-02-18,189
+P2543,Carlos Gómez,59,M,Surco,Odontología,2023-03-20,270
+P2544,María Fernández,46,M,Cajamarca,Pediatría,2024-05-28,302
+P2545,José Rojas,60,M,San Isidro,Traumatología,2020-09-11,64
+P2546,Ana Ramírez,64,F,Cajamarca,Ginecología,2025-08-19,435
+P2547,José Pérez,80,F,La Molina,Odontología,2022-07-08,443
+P2548,Miguel Cabrera,7,F,La Molina,Pediatría,2022-10-13,348
+P2549,Miguel Díaz,70,M,Surco,Cardiología,2021-05-12,402
+P2550,Ana Rojas,6,F,Surco,Dermatología,2021-12-04,471
+P2551,Lucía Pérez,15,M,Jesús María,Dermatología,2022-12-11,261
+P2552,Luis Ramírez,49,F,Miraflores,Dermatología,2022-03-20,251
+P2553,Sofía Torres,2,F,La Molina,Ginecología,2021-10-23,422
+P2554,José Ramírez,13,F,Callao,Traumatología,2025-04-21,365
+P2555,Carmen Gómez,14,F,Miraflores,Oftalmología,2023-03-12,146
+P2556,Sofía Gómez,2,F,San Isidro,Ginecología,2022-11-10,500
+P2557,José Ramírez,31,M,Cajamarca,Cardiología,2023-12-11,117
+P2558,Lucía Pérez,84,F,San Isidro,Pediatría,2022-03-24,141
+P2559,Ana Díaz,77,F,Miraflores,Odontología,2024-05-23,196
+P2560,Ana Fernández,43,M,Miraflores,Odontología,2023-03-17,350
+P2561,Andrés Díaz,19,F,Surco,Ginecología,2023-04-30,76
+P2562,Ana Castro,53,M,Lince,Pediatría,2021-07-01,199
+P2563,Lucía Fernández,47,M,San Isidro,Cardiología,2022-04-20,303
+P2564,Ana Cabrera,62,M,Jesús María,Dermatología,2024-06-23,72
+P2565,Carlos Ramírez,85,M,Miraflores,Pediatría,2025-02-07,327
+P2566,Carmen Castro,30,M,Lince,Odontología,2022-04-30,289
+P2567,José Castro,10,M,Surco,Pediatría,2020-10-26,99
+P2568,Ana Castro,4,M,Jesús María,Pediatría,2020-05-16,341
+P2569,Carlos Gómez,89,F,Cajamarca,Oftalmología,2020-01-27,336
+P2570,Andrés Castro,12,M,San Isidro,Ginecología,2020-08-22,488
+P2571,Luis Rojas,82,M,Lince,Ginecología,2023-11-12,108
+P2572,Ana Rojas,15,F,San Isidro,Odontología,2020-12-04,152
+P2573,Miguel Cabrera,36,F,Jesús María,Dermatología,2024-06-25,293
+P2574,Ana Castro,79,F,Cajamarca,Oftalmología,2020-09-18,349
+P2575,José Cabrera,84,F,Cajamarca,Oftalmología,2022-01-01,156
+P2576,José Castro,81,M,San Isidro,Dermatología,2024-03-13,96
+P2577,Sofía Pérez,12,F,San Isidro,Oftalmología,2020-03-21,185
+P2578,Lucía Díaz,14,M,Cajamarca,Dermatología,2022-10-09,278
+P2579,Miguel Salazar,87,F,Callao,Dermatología,2023-03-20,217
+P2580,Carmen Ramírez,12,M,San Isidro,Dermatología,2024-06-26,78
+P2581,Lucía Rojas,63,M,Miraflores,Oftalmología,2023-08-11,311
+P2582,María Pérez,13,F,Callao,Pediatría,2021-06-30,445
+P2583,Carlos Fernández,81,M,Jesús María,Ginecología,2024-03-31,411
+P2584,Ana Pérez,48,M,San Isidro,Dermatología,2025-10-02,363
+P2585,Carmen Gómez,87,F,La Molina,Ginecología,2020-04-08,455
+P2586,Carlos Cabrera,73,M,Callao,Ginecología,2025-09-30,244
+P2587,Luis Ramírez,41,M,Jesús María,Dermatología,2024-12-26,433
+P2588,José Castro,5,M,Surco,Cardiología,2020-09-24,55
+P2589,Sofía Pérez,35,M,Miraflores,Odontología,2024-04-22,436
+P2590,Miguel Ramírez,54,M,Surco,Odontología,2023-11-11,414
+P2591,Carmen Gómez,70,M,Surco,Traumatología,2022-10-05,100
+P2592,Luis Fernández,11,F,San Isidro,Traumatología,2024-11-08,336
+P2593,Miguel Cabrera,72,M,San Isidro,Pediatría,2021-03-17,469
+P2594,Luis Fernández,41,F,Lince,Oftalmología,2022-10-16,202
+P2595,María Cabrera,29,F,Jesús María,Pediatría,2021-12-27,71
+P2596,María Rojas,85,F,Cajamarca,Ginecología,2021-08-06,428
+P2597,Miguel Ramírez,79,F,Lince,Pediatría,2022-05-16,159
+P2598,Lucía Salazar,26,M,Miraflores,Ginecología,2022-11-30,305
+P2599,Sofía Gómez,39,M,Surco,Odontología,2020-08-03,402
+P2600,Ana Torres,72,F,Surco,Traumatología,2020-12-02,113
+P2601,Carmen Cabrera,32,F,Lince,Ginecología,2020-07-25,258
+P2602,Carmen Rojas,45,M,Jesús María,Odontología,2020-07-03,118
+P2603,María Gómez,19,F,San Isidro,Odontología,2021-10-30,278
+P2604,Carlos Rojas,18,M,Miraflores,Cardiología,2020-11-17,98
+P2605,José Salazar,27,M,San Isidro,Oftalmología,2020-05-19,495
+P2606,Sofía Salazar,56,F,Miraflores,Cardiología,2021-01-27,68
+P2607,José Castro,47,F,Jesús María,Odontología,2022-11-29,319
+P2608,José Cabrera,83,F,San Isidro,Ginecología,2024-08-17,425
+P2609,Andrés Gómez,38,F,Surco,Odontología,2024-09-04,123
+P2610,Lucía Torres,65,F,Callao,Dermatología,2024-08-19,348
+P2611,Carmen Castro,42,M,Cajamarca,Dermatología,2021-08-14,181
+P2612,Carmen Cabrera,34,F,Cajamarca,Ginecología,2025-06-12,223
+P2613,María Gómez,23,M,Lince,Pediatría,2022-10-16,336
+P2614,Andrés Gómez,63,F,San Isidro,Traumatología,2021-06-23,387
+P2615,Andrés Fernández,86,F,Lince,Traumatología,2020-12-07,203
+P2616,Carlos Castro,66,M,Surco,Pediatría,2020-09-21,311
+P2617,José Cabrera,35,M,Cajamarca,Odontología,2020-06-16,52
+P2618,Lucía Rojas,22,F,Jesús María,Odontología,2022-07-29,82
+P2619,Carmen Pérez,81,F,La Molina,Cardiología,2025-02-26,419
+P2620,Miguel Castro,33,M,La Molina,Cardiología,2024-05-05,378
+P2621,María Pérez,63,F,Surco,Dermatología,2020-03-01,290
+P2622,Carlos Pérez,34,F,Surco,Pediatría,2025-04-03,400
+P2623,Luis Rojas,67,M,Jesús María,Oftalmología,2025-09-24,303
+P2624,Carlos Salazar,67,M,Miraflores,Oftalmología,2024-08-21,139
+P2625,Miguel Castro,24,F,Cajamarca,Odontología,2022-01-28,259
+P2626,Carmen Rojas,64,M,La Molina,Pediatría,2022-10-08,413
+P2627,Sofía Fernández,12,F,Lince,Odontología,2025-06-23,497
+P2628,Carmen Cabrera,1,F,Lince,Ginecología,2020-08-19,371
+P2629,Carmen Fernández,39,F,Lince,Oftalmología,2023-06-28,182
+P2630,Sofía Díaz,41,M,Surco,Dermatología,2021-06-05,222
+P2631,Ana Fernández,24,M,Callao,Oftalmología,2025-07-05,96
+P2632,Miguel Torres,69,F,San Isidro,Cardiología,2022-06-08,381
+P2633,Luis Pérez,74,F,Callao,Traumatología,2020-07-20,364
+P2634,Carmen Castro,82,M,La Molina,Ginecología,2023-07-09,406
+P2635,Lucía Fernández,24,F,Lince,Cardiología,2023-03-20,70
+P2636,Lucía Rojas,72,F,Lince,Oftalmología,2020-07-20,118
+P2637,Luis Torres,37,M,La Molina,Pediatría,2022-07-18,87
+P2638,José Díaz,47,F,Lince,Dermatología,2024-03-27,103
+P2639,María Díaz,57,F,Miraflores,Ginecología,2022-03-16,89
+P2640,Carmen Castro,28,M,Miraflores,Dermatología,2024-02-18,463
+P2641,María Gómez,42,F,La Molina,Oftalmología,2023-06-06,302
+P2642,Miguel Gómez,62,F,Cajamarca,Odontología,2025-11-12,94
+P2643,María Rojas,74,M,Miraflores,Ginecología,2023-08-14,196
+P2644,Ana Díaz,43,F,Miraflores,Oftalmología,2020-08-25,223
+P2645,Andrés Díaz,15,F,Callao,Dermatología,2020-04-25,475
+P2646,José Ramírez,68,M,Surco,Pediatría,2025-03-11,271
+P2647,María Gómez,72,M,La Molina,Odontología,2020-02-22,347
+P2648,Miguel Ramírez,64,F,La Molina,Ginecología,2020-12-15,481
+P2649,Lucía Gómez,15,M,Jesús María,Odontología,2024-06-24,196
+P2650,Lucía Fernández,60,F,Cajamarca,Dermatología,2020-10-22,457
+P2651,Sofía Fernández,19,M,Miraflores,Ginecología,2020-12-05,340
+P2652,María Cabrera,80,M,Lince,Oftalmología,2023-05-10,89
+P2653,Luis Pérez,54,M,Jesús María,Traumatología,2020-05-21,465
+P2654,María Ramírez,6,M,San Isidro,Odontología,2024-10-22,463
+P2655,Carmen Torres,4,M,Lince,Odontología,2020-03-07,381
+P2656,Ana Gómez,63,M,San Isidro,Oftalmología,2024-01-03,497
+P2657,María Torres,28,M,Lince,Dermatología,2024-02-10,308
+P2658,María Fernández,35,F,Jesús María,Cardiología,2024-10-22,425
+P2659,Sofía Cabrera,79,M,Callao,Traumatología,2023-02-01,426
+P2660,Ana Díaz,11,M,Jesús María,Dermatología,2024-03-06,277
+P2661,Carmen Ramírez,89,M,Miraflores,Ginecología,2021-07-25,448
+P2662,María Pérez,72,F,Miraflores,Traumatología,2022-02-22,333
+P2663,Luis Pérez,43,M,Jesús María,Odontología,2021-06-09,298
+P2664,María Fernández,73,F,San Isidro,Ginecología,2020-03-14,151
+P2665,José Torres,21,F,Miraflores,Odontología,2020-03-18,324
+P2666,Sofía Rojas,5,F,Lince,Traumatología,2022-01-09,272
+P2667,Lucía Salazar,87,F,Cajamarca,Dermatología,2023-08-05,231
+P2668,Luis Cabrera,16,M,Callao,Traumatología,2021-01-02,272
+P2669,María Díaz,66,M,Miraflores,Pediatría,2025-09-22,148
+P2670,Carmen Torres,25,F,San Isidro,Ginecología,2020-06-26,477
+P2671,Luis Cabrera,87,F,San Isidro,Cardiología,2021-08-11,55
+P2672,Miguel Ramírez,72,F,Jesús María,Ginecología,2020-08-19,393
+P2673,Andrés Cabrera,4,M,Callao,Cardiología,2021-02-27,382
+P2674,María Castro,29,F,Surco,Traumatología,2024-12-29,52
+P2675,Carlos Pérez,3,F,Callao,Odontología,2020-04-30,355
+P2676,Lucía Salazar,38,M,Lince,Cardiología,2022-05-03,398
+P2677,Ana Castro,25,F,San Isidro,Ginecología,2022-12-05,251
+P2678,Ana Ramírez,3,F,Miraflores,Ginecología,2021-02-23,96
+P2679,Andrés Pérez,75,M,Surco,Traumatología,2025-06-15,464
+P2680,Luis Cabrera,53,M,Miraflores,Pediatría,2024-08-02,90
+P2681,María Ramírez,80,M,La Molina,Ginecología,2022-12-04,179
+P2682,María Ramírez,4,M,San Isidro,Dermatología,2020-11-06,74
+P2683,Luis Salazar,49,F,Miraflores,Pediatría,2025-01-15,273
+P2684,Ana Pérez,75,F,La Molina,Ginecología,2022-10-07,142
+P2685,Luis Salazar,33,M,Callao,Odontología,2020-08-24,363
+P2686,Lucía Gómez,46,F,La Molina,Dermatología,2023-08-15,359
+P2687,Luis Pérez,86,M,La Molina,Traumatología,2020-07-09,77
+P2688,Ana Castro,23,M,Jesús María,Ginecología,2020-10-27,369
+P2689,Carlos Gómez,49,F,Callao,Traumatología,2022-08-16,50
+P2690,Sofía Pérez,55,M,Jesús María,Traumatología,2023-02-10,414
+P2691,Sofía Salazar,17,M,Jesús María,Traumatología,2021-09-15,92
+P2692,María Castro,19,F,Miraflores,Odontología,2022-03-31,445
+P2693,Luis Torres,16,M,Lince,Pediatría,2023-03-21,498
+P2694,María Rojas,85,M,Cajamarca,Pediatría,2020-11-14,124
+P2695,Andrés Fernández,17,M,Jesús María,Oftalmología,2020-12-07,252
+P2696,Luis Gómez,3,F,Cajamarca,Oftalmología,2023-08-06,353
+P2697,Ana Cabrera,19,M,San Isidro,Dermatología,2025-06-02,224
+P2698,Carmen Ramírez,21,F,Surco,Oftalmología,2022-04-03,254
+P2699,Andrés Castro,84,F,Jesús María,Odontología,2023-04-03,188
+P2700,Luis Rojas,16,F,Cajamarca,Oftalmología,2020-09-21,148
+P2701,Lucía Fernández,40,F,Callao,Ginecología,2024-11-21,411
+P2702,Ana Cabrera,61,F,La Molina,Ginecología,2020-10-07,107
+P2703,Miguel Gómez,47,M,La Molina,Oftalmología,2020-09-13,283
+P2704,Carlos Rojas,1,F,Surco,Dermatología,2025-02-11,225
+P2705,Ana Castro,40,M,Lince,Ginecología,2020-07-07,314
+P2706,Carmen Díaz,50,M,La Molina,Oftalmología,2022-08-14,263
+P2707,Lucía Salazar,22,F,Miraflores,Cardiología,2021-09-04,415
+P2708,Sofía Ramírez,90,F,Jesús María,Traumatología,2025-06-24,188
+P2709,Ana Rojas,34,F,La Molina,Cardiología,2024-05-27,350
+P2710,Carmen Rojas,9,M,Jesús María,Pediatría,2025-02-21,157
+P2711,Carmen Gómez,65,F,La Molina,Cardiología,2025-10-26,405
+P2712,Lucía Fernández,19,F,Miraflores,Ginecología,2022-07-02,433
+P2713,Sofía Gómez,23,F,Cajamarca,Dermatología,2020-10-28,276
+P2714,Carmen Ramírez,52,F,San Isidro,Ginecología,2025-05-11,495
+P2715,Andrés Rojas,56,F,Jesús María,Pediatría,2021-11-27,61
+P2716,María Cabrera,64,F,Surco,Traumatología,2020-11-21,375
+P2717,Ana Rojas,37,M,Jesús María,Dermatología,2020-02-13,329
+P2718,María Pérez,41,F,Jesús María,Ginecología,2021-04-15,119
+P2719,Carlos Castro,87,F,Surco,Ginecología,2021-11-05,220
+P2720,Miguel Castro,90,F,Callao,Ginecología,2025-05-08,88
+P2721,Carlos Salazar,54,F,La Molina,Dermatología,2020-02-08,78
+P2722,María Díaz,42,F,La Molina,Dermatología,2023-03-07,203
+P2723,Ana Pérez,7,F,La Molina,Cardiología,2023-08-21,412
+P2724,María Gómez,77,M,Lince,Dermatología,2023-10-15,379
+P2725,Miguel Rojas,22,M,Jesús María,Pediatría,2022-01-05,423
+P2726,Carmen Rojas,24,M,Jesús María,Pediatría,2020-11-13,213
+P2727,José Díaz,69,M,Cajamarca,Dermatología,2022-10-17,143
+P2728,José Torres,7,F,Lince,Ginecología,2023-08-03,138
+P2729,Lucía Castro,88,M,Jesús María,Dermatología,2021-11-28,124
+P2730,Carmen Torres,62,M,San Isidro,Cardiología,2020-01-06,462
+P2731,Lucía Fernández,29,M,Cajamarca,Dermatología,2022-03-26,371
+P2732,Ana Pérez,24,F,Callao,Odontología,2023-01-17,221
+P2733,Carmen Rojas,58,F,Jesús María,Dermatología,2021-03-13,492
+P2734,Ana Castro,74,M,Lince,Oftalmología,2020-06-08,324
+P2735,María Gómez,77,M,Lince,Cardiología,2021-04-30,57
+P2736,José Torres,63,F,Callao,Oftalmología,2025-04-13,379
+P2737,Carlos Ramírez,39,F,La Molina,Oftalmología,2022-07-28,62
+P2738,Carlos Torres,37,M,Jesús María,Ginecología,2025-08-17,384
+P2739,Lucía Ramírez,62,F,Cajamarca,Dermatología,2021-03-22,341
+P2740,Miguel Ramírez,88,M,Jesús María,Ginecología,2023-03-01,113
+P2741,Luis Castro,88,M,La Molina,Dermatología,2023-09-05,140
+P2742,Ana Salazar,72,F,Surco,Odontología,2022-10-18,225
+P2743,Lucía Cabrera,53,M,Cajamarca,Cardiología,2022-05-01,246
+P2744,Sofía Díaz,43,F,La Molina,Oftalmología,2024-09-25,499
+P2745,Lucía Díaz,32,F,Miraflores,Oftalmología,2025-03-18,245
+P2746,Andrés Ramírez,38,M,Callao,Dermatología,2021-05-15,204
+P2747,Miguel Díaz,67,M,Cajamarca,Odontología,2023-05-29,267
+P2748,Miguel Torres,76,M,Lince,Odontología,2021-11-01,222
+P2749,Andrés Cabrera,84,F,Surco,Odontología,2021-12-28,229
+P2750,Miguel Fernández,73,F,Callao,Traumatología,2025-03-02,345
+P2751,María Castro,53,F,San Isidro,Pediatría,2024-12-11,385
+P2752,Carlos Ramírez,23,M,Cajamarca,Oftalmología,2021-03-06,339
+P2753,Ana Díaz,78,F,La Molina,Traumatología,2020-04-03,416
+P2754,Ana Gómez,65,F,Cajamarca,Ginecología,2021-01-13,269
+P2755,José Gómez,13,F,Cajamarca,Oftalmología,2021-03-06,384
+P2756,José Torres,24,M,Jesús María,Dermatología,2021-02-23,79
+P2757,Ana Gómez,10,F,Cajamarca,Oftalmología,2020-09-15,492
+P2758,Carmen Ramírez,23,F,Miraflores,Odontología,2023-01-27,140
+P2759,Carmen Ramírez,29,F,La Molina,Pediatría,2023-03-10,236
+P2760,Carmen Castro,82,F,La Molina,Odontología,2022-04-14,280
+P2761,Andrés Cabrera,43,M,Surco,Dermatología,2025-04-28,496
+P2762,Carmen Salazar,43,F,Lince,Oftalmología,2025-09-03,369
+P2763,José Pérez,19,F,Surco,Dermatología,2020-11-03,131
+P2764,José Fernández,75,M,Lince,Ginecología,2021-03-08,244
+P2765,José Torres,19,F,Jesús María,Pediatría,2020-08-29,331
+P2766,María Castro,8,F,Callao,Oftalmología,2022-05-20,95
+P2767,Lucía Salazar,58,F,Miraflores,Ginecología,2020-10-04,220
+P2768,Ana Cabrera,24,M,La Molina,Oftalmología,2024-08-10,112
+P2769,Ana Torres,31,M,La Molina,Cardiología,2024-07-10,282
+P2770,Miguel Díaz,2,M,Jesús María,Dermatología,2023-07-28,416
+P2771,Carmen Gómez,45,F,Lince,Pediatría,2020-04-22,103
+P2772,Luis Ramírez,68,F,Callao,Traumatología,2022-03-04,109
+P2773,Lucía Castro,48,M,Cajamarca,Ginecología,2024-05-17,328
+P2774,María Pérez,10,M,San Isidro,Odontología,2020-10-23,435
+P2775,Carlos Rojas,19,F,Lince,Oftalmología,2020-08-07,227
+P2776,Carmen Castro,3,M,La Molina,Oftalmología,2023-12-02,187
+P2777,Andrés Castro,19,F,Miraflores,Odontología,2023-03-23,209
+P2778,Ana Rojas,59,M,Jesús María,Pediatría,2025-02-10,286
+P2779,Andrés Cabrera,15,F,La Molina,Traumatología,2022-09-12,350
+P2780,Andrés Díaz,57,F,Jesús María,Cardiología,2023-03-27,468
+P2781,Carlos Ramírez,58,F,Cajamarca,Pediatría,2022-12-20,160
+P2782,José Salazar,19,M,Cajamarca,Dermatología,2025-10-22,497
+P2783,Carmen Díaz,70,F,Lince,Oftalmología,2022-10-09,185
+P2784,José Cabrera,70,M,Cajamarca,Oftalmología,2020-04-24,335
+P2785,Lucía Torres,34,M,Miraflores,Oftalmología,2022-06-05,336
+P2786,Andrés Torres,83,F,Miraflores,Oftalmología,2020-07-02,432
+P2787,María Rojas,20,M,La Molina,Oftalmología,2023-10-10,123
+P2788,Miguel Gómez,18,M,La Molina,Traumatología,2024-05-19,267
+P2789,Sofía Castro,12,F,Jesús María,Dermatología,2025-08-02,406
+P2790,Miguel Ramírez,50,F,La Molina,Odontología,2022-03-25,212
+P2791,José Cabrera,85,M,San Isidro,Oftalmología,2020-05-13,169
+P2792,José Fernández,29,M,Cajamarca,Traumatología,2022-09-19,88
+P2793,Sofía Cabrera,25,F,Jesús María,Oftalmología,2025-01-26,263
+P2794,Carlos Díaz,69,M,Cajamarca,Pediatría,2020-09-13,225
+P2795,Lucía Díaz,22,M,Cajamarca,Ginecología,2024-05-26,56
+P2796,Lucía Díaz,1,M,Jesús María,Cardiología,2024-11-18,368
+P2797,Sofía Torres,81,F,Jesús María,Ginecología,2020-07-22,368
+P2798,Lucía Ramírez,78,F,Lince,Odontología,2023-01-30,98
+P2799,María Díaz,36,M,Lince,Cardiología,2022-09-08,460
+P2800,Miguel Díaz,60,F,San Isidro,Cardiología,2025-01-05,70
+P2801,Ana Rojas,5,F,Cajamarca,Cardiología,2021-04-29,484
+P2802,Carmen Castro,59,M,Surco,Traumatología,2025-09-06,61
+P2803,Carmen Torres,16,F,Cajamarca,Oftalmología,2023-04-13,211
+P2804,Carmen Castro,21,F,Lince,Oftalmología,2023-11-25,383
+P2805,Miguel Torres,78,F,Surco,Dermatología,2023-07-04,414
+P2806,Carmen Pérez,55,F,Jesús María,Cardiología,2025-04-19,218
+P2807,Sofía Cabrera,26,M,San Isidro,Traumatología,2025-03-26,280
+P2808,Lucía Ramírez,80,M,Jesús María,Odontología,2025-07-12,275
+P2809,Lucía Ramírez,89,F,Callao,Traumatología,2025-04-03,492
+P2810,Carmen Torres,87,M,Jesús María,Dermatología,2023-07-03,304
+P2811,Lucía Ramírez,2,F,Jesús María,Oftalmología,2022-07-11,103
+P2812,Carmen Torres,60,F,Surco,Ginecología,2021-04-25,331
+P2813,Luis Cabrera,54,F,Callao,Oftalmología,2022-12-06,217
+P2814,Carmen Salazar,22,M,Callao,Odontología,2020-03-24,324
+P2815,José Salazar,55,M,Cajamarca,Oftalmología,2024-03-10,114
+P2816,Andrés Salazar,74,F,Callao,Ginecología,2020-11-03,253
+P2817,José Salazar,81,F,Surco,Dermatología,2020-03-06,86
+P2818,Lucía Gómez,46,F,Jesús María,Dermatología,2022-04-22,495
+P2819,Ana Fernández,14,F,Callao,Traumatología,2020-08-08,280
+P2820,José Rojas,42,F,La Molina,Odontología,2021-02-14,446
+P2821,Carmen Pérez,82,M,Callao,Pediatría,2021-03-09,429
+P2822,Luis Salazar,82,M,Cajamarca,Oftalmología,2025-08-13,313
+P2823,José Salazar,78,M,Jesús María,Oftalmología,2025-07-13,199
+P2824,Miguel Gómez,18,F,La Molina,Dermatología,2021-04-13,423
+P2825,Carmen Gómez,14,M,Lince,Traumatología,2020-01-10,359
+P2826,Ana Ramírez,3,M,Callao,Odontología,2021-08-25,434
+P2827,Carmen Rojas,43,M,Miraflores,Dermatología,2021-01-02,333
+P2828,Miguel Castro,46,F,San Isidro,Traumatología,2022-03-18,218
+P2829,Miguel Ramírez,75,M,San Isidro,Dermatología,2020-12-23,246
+P2830,Lucía Ramírez,72,F,Surco,Odontología,2021-07-05,126
+P2831,José Fernández,18,F,La Molina,Traumatología,2020-01-11,265
+P2832,Luis Díaz,10,F,Jesús María,Odontología,2021-05-12,60
+P2833,Andrés Cabrera,64,M,Callao,Oftalmología,2022-11-26,251
+P2834,Sofía Pérez,62,F,Jesús María,Odontología,2025-11-30,108
+P2835,Andrés Pérez,61,F,Callao,Cardiología,2021-08-29,289
+P2836,Luis Torres,50,F,Surco,Odontología,2022-04-10,291
+P2837,Lucía Rojas,83,F,Surco,Dermatología,2023-10-25,249
+P2838,José Rojas,14,F,Callao,Oftalmología,2021-06-14,148
+P2839,María Castro,90,F,Jesús María,Ginecología,2020-06-22,101
+P2840,Carmen Castro,74,M,Surco,Traumatología,2022-11-07,419
+P2841,Andrés Pérez,41,F,Callao,Traumatología,2021-02-18,76
+P2842,Andrés Rojas,46,M,Jesús María,Odontología,2021-09-17,422
+P2843,Ana Castro,33,M,Callao,Dermatología,2025-01-05,313
+P2844,Sofía Ramírez,3,M,Miraflores,Traumatología,2022-01-20,173
+P2845,José Rojas,90,F,San Isidro,Oftalmología,2020-05-11,78
+P2846,Lucía Gómez,5,M,Miraflores,Odontología,2020-01-15,182
+P2847,Ana Díaz,13,M,Jesús María,Ginecología,2025-04-01,59
+P2848,Carmen Fernández,1,F,Miraflores,Traumatología,2021-12-09,117
+P2849,Carlos Ramírez,15,M,La Molina,Oftalmología,2024-04-13,282
+P2850,Carmen Ramírez,75,F,Miraflores,Cardiología,2021-04-12,454
+P2851,Carlos Castro,17,F,La Molina,Cardiología,2023-09-28,161
+P2852,Miguel Torres,41,F,Cajamarca,Traumatología,2023-03-09,475
+P2853,José Gómez,27,M,Surco,Traumatología,2021-07-15,215
+P2854,Carlos Torres,47,F,Callao,Cardiología,2025-01-06,80
+P2855,José Fernández,17,F,Cajamarca,Pediatría,2022-02-17,187
+P2856,Lucía Díaz,79,F,Lince,Traumatología,2025-08-22,77
+P2857,Carlos Rojas,75,F,Miraflores,Ginecología,2025-12-10,80
+P2858,Luis Castro,42,M,Jesús María,Ginecología,2025-09-23,426
+P2859,Miguel Pérez,19,F,La Molina,Oftalmología,2025-11-15,65
+P2860,Ana Pérez,89,F,San Isidro,Oftalmología,2024-02-15,221
+P2861,Sofía Gómez,59,M,Callao,Dermatología,2022-03-08,325
+P2862,Luis Cabrera,46,F,Surco,Pediatría,2022-12-08,374
+P2863,Miguel Castro,84,F,La Molina,Oftalmología,2023-04-18,327
+P2864,Carmen Ramírez,50,F,Jesús María,Traumatología,2020-07-22,117
+P2865,Carlos Díaz,45,F,Surco,Oftalmología,2021-11-17,123
+P2866,Ana Fernández,3,F,Miraflores,Oftalmología,2021-11-19,377
+P2867,Lucía Díaz,37,M,Cajamarca,Traumatología,2024-06-04,104
+P2868,Lucía Ramírez,73,F,Miraflores,Oftalmología,2025-01-29,401
+P2869,Carlos Cabrera,65,F,Callao,Pediatría,2020-04-15,282
+P2870,Andrés Ramírez,45,F,La Molina,Traumatología,2024-09-21,293
+P2871,José Cabrera,25,F,Lince,Oftalmología,2025-01-13,183
+P2872,Lucía Torres,13,F,Cajamarca,Oftalmología,2025-06-20,493
+P2873,Andrés Ramírez,10,M,La Molina,Cardiología,2023-11-19,68
+P2874,María Fernández,12,M,La Molina,Oftalmología,2021-11-23,352
+P2875,Carmen Rojas,36,F,Jesús María,Ginecología,2020-07-31,385
+P2876,Lucía Fernández,46,F,Jesús María,Odontología,2025-02-17,110
+P2877,Carlos Salazar,65,M,Callao,Ginecología,2021-04-26,217
+P2878,Carmen Pérez,37,F,San Isidro,Dermatología,2022-01-29,494
+P2879,José Salazar,64,M,Cajamarca,Oftalmología,2023-11-04,478
+P2880,Miguel Pérez,69,M,Callao,Dermatología,2020-01-07,335
+P2881,Carlos Torres,52,M,Surco,Oftalmología,2021-10-20,146
+P2882,Sofía Salazar,41,M,La Molina,Odontología,2022-07-29,109
+P2883,María Rojas,85,M,Surco,Odontología,2025-01-11,240
+P2884,Sofía Ramírez,59,M,San Isidro,Ginecología,2020-06-13,163
+P2885,María Fernández,40,M,Callao,Odontología,2023-08-24,483
+P2886,Lucía Rojas,3,F,Lince,Pediatría,2022-12-04,230
+P2887,Sofía Cabrera,41,M,Lince,Traumatología,2025-02-22,140
+P2888,María Gómez,42,F,Miraflores,Odontología,2024-05-24,365
+P2889,Lucía Rojas,29,M,La Molina,Odontología,2021-11-25,233
+P2890,Ana Castro,30,F,Surco,Pediatría,2023-08-18,470
+P2891,Andrés Castro,72,M,Miraflores,Oftalmología,2024-01-31,473
+P2892,Luis Cabrera,46,F,Cajamarca,Dermatología,2021-02-01,94
+P2893,Carlos Ramírez,68,M,La Molina,Traumatología,2025-05-05,392
+P2894,José Pérez,49,F,Callao,Ginecología,2025-11-14,101
+P2895,Luis Castro,75,F,San Isidro,Odontología,2023-02-25,185
+P2896,José Fernández,9,M,Callao,Ginecología,2023-01-26,61
+P2897,Carmen Rojas,61,F,Cajamarca,Cardiología,2024-11-08,107
+P2898,Ana Pérez,75,F,Surco,Ginecología,2022-01-07,53
+P2899,Andrés Fernández,41,F,Cajamarca,Odontología,2020-11-28,380
+P2900,Carmen Salazar,74,F,Cajamarca,Traumatología,2020-05-24,280
+P2901,Miguel Fernández,87,M,Miraflores,Ginecología,2023-12-26,326
+P2902,José Torres,12,M,La Molina,Pediatría,2021-05-01,367
+P2903,Miguel Gómez,89,F,La Molina,Odontología,2024-02-05,436
+P2904,Carlos Rojas,65,F,Callao,Odontología,2021-05-21,304
+P2905,Luis Pérez,87,F,Callao,Ginecología,2020-04-09,384
+P2906,Luis Pérez,52,F,San Isidro,Odontología,2022-11-10,84
+P2907,Sofía Rojas,36,F,Callao,Oftalmología,2025-07-28,301
+P2908,Sofía Pérez,24,F,Callao,Dermatología,2023-02-27,486
+P2909,Lucía Rojas,64,F,Miraflores,Dermatología,2025-12-17,452
+P2910,José Cabrera,25,M,La Molina,Pediatría,2025-06-10,277
+P2911,Miguel Díaz,80,F,Surco,Traumatología,2022-09-30,273
+P2912,Andrés Salazar,46,M,Lince,Pediatría,2025-08-10,299
+P2913,Carlos Castro,8,F,La Molina,Pediatría,2021-05-26,297
+P2914,Luis Fernández,66,M,Callao,Oftalmología,2023-03-14,72
+P2915,Miguel Fernández,80,F,San Isidro,Pediatría,2025-05-17,394
+P2916,Sofía Díaz,41,M,San Isidro,Odontología,2023-04-18,123
+P2917,José Cabrera,88,M,Lince,Ginecología,2022-11-07,65
+P2918,Lucía Fernández,75,F,La Molina,Odontología,2020-09-18,417
+P2919,Carlos Torres,77,M,Surco,Ginecología,2024-11-16,448
+P2920,José Díaz,2,M,La Molina,Cardiología,2020-04-25,423
+P2921,Carlos Ramírez,44,M,Lince,Odontología,2021-07-14,253
+P2922,Lucía Salazar,65,M,Surco,Oftalmología,2023-12-26,447
+P2923,Miguel Torres,75,M,Miraflores,Odontología,2020-08-22,51
+P2924,Sofía Torres,40,F,Lince,Cardiología,2021-05-09,250
+P2925,José Díaz,66,M,Lince,Traumatología,2020-01-20,198
+P2926,María Cabrera,23,F,Jesús María,Pediatría,2025-08-02,271
+P2927,Carmen Torres,85,F,Miraflores,Pediatría,2023-06-06,424
+P2928,Carmen Díaz,84,F,Cajamarca,Ginecología,2024-01-29,500
+P2929,Ana Cabrera,79,F,San Isidro,Oftalmología,2020-12-13,68
+P2930,Ana Díaz,4,M,Jesús María,Cardiología,2022-11-07,321
+P2931,Carmen Pérez,6,F,Jesús María,Dermatología,2025-01-31,187
+P2932,Carlos Pérez,25,M,Miraflores,Oftalmología,2022-08-17,183
+P2933,Luis Díaz,43,F,Surco,Traumatología,2025-10-10,141
+P2934,José Rojas,62,F,Cajamarca,Ginecología,2024-05-09,164
+P2935,Andrés Pérez,71,F,Miraflores,Dermatología,2022-05-25,283
+P2936,Sofía Fernández,47,F,Jesús María,Odontología,2020-07-12,219
+P2937,Andrés Castro,33,M,Miraflores,Traumatología,2022-10-02,386
+P2938,María Pérez,32,F,Callao,Cardiología,2020-04-11,492
+P2939,Carlos Gómez,65,F,Lince,Cardiología,2022-04-13,403
+P2940,Miguel Fernández,40,M,Jesús María,Cardiología,2022-08-26,135
+P2941,Carmen Ramírez,28,F,San Isidro,Ginecología,2020-03-26,480
+P2942,Andrés Pérez,23,M,Cajamarca,Traumatología,2024-04-19,448
+P2943,María Rojas,34,F,Jesús María,Odontología,2025-07-01,376
+P2944,Sofía Torres,23,M,Jesús María,Ginecología,2023-07-24,317
+P2945,María Díaz,33,M,Jesús María,Odontología,2020-11-17,380
+P2946,Lucía Cabrera,30,M,La Molina,Cardiología,2024-12-09,164
+P2947,Sofía Gómez,25,F,La Molina,Traumatología,2025-03-24,311
+P2948,Miguel Ramírez,82,M,Callao,Traumatología,2020-11-19,418
+P2949,Sofía Gómez,3,M,San Isidro,Ginecología,2020-07-29,346
+P2950,José Gómez,45,M,San Isidro,Cardiología,2024-01-29,335
+P2951,Luis Díaz,77,F,Lince,Dermatología,2024-02-14,471
+P2952,Ana Cabrera,2,F,Jesús María,Ginecología,2020-05-08,107
+P2953,Miguel Fernández,50,M,San Isidro,Traumatología,2023-04-12,374
+P2954,Ana Castro,18,M,Lince,Pediatría,2022-09-07,311
+P2955,Ana Ramírez,72,F,Lince,Dermatología,2025-11-03,58
+P2956,María Castro,40,M,Callao,Pediatría,2020-09-18,274
+P2957,José Ramírez,33,F,La Molina,Oftalmología,2025-01-12,437
+P2958,Luis Gómez,27,M,Lince,Cardiología,2020-03-02,106
+P2959,Miguel Rojas,17,M,Jesús María,Odontología,2024-12-03,57
+P2960,María Castro,47,M,Lince,Oftalmología,2024-09-22,108
+P2961,María Fernández,16,M,Cajamarca,Dermatología,2023-05-22,181
+P2962,José Cabrera,74,F,Miraflores,Cardiología,2025-11-17,331
+P2963,Carmen Castro,56,M,Callao,Dermatología,2020-11-24,180
+P2964,Miguel Salazar,38,M,Jesús María,Traumatología,2022-10-03,277
+P2965,Carlos Ramírez,2,F,Lince,Traumatología,2020-11-10,462
+P2966,Ana Díaz,20,M,Surco,Traumatología,2022-08-24,253
+P2967,Lucía Cabrera,66,F,Lince,Traumatología,2021-10-07,239
+P2968,Carmen Fernández,71,M,San Isidro,Traumatología,2021-02-19,117
+P2969,Carmen Cabrera,16,F,Surco,Pediatría,2020-10-18,273
+P2970,Miguel Gómez,40,M,San Isidro,Odontología,2023-06-23,298
+P2971,María Cabrera,36,M,Callao,Cardiología,2023-09-13,413
+P2972,José Ramírez,3,M,Cajamarca,Dermatología,2022-03-13,188
+P2973,Carlos Ramírez,45,F,Jesús María,Odontología,2022-02-13,368
+P2974,Luis Rojas,40,M,Cajamarca,Dermatología,2024-12-25,470
+P2975,Carmen Cabrera,65,M,Lince,Oftalmología,2023-02-27,340
+P2976,Carmen Gómez,65,F,Cajamarca,Traumatología,2020-07-02,176
+P2977,Ana Fernández,61,F,San Isidro,Dermatología,2025-07-16,103
+P2978,Sofía Fernández,77,F,San Isidro,Ginecología,2020-04-17,500
+P2979,Carmen Castro,67,F,Jesús María,Dermatología,2024-06-30,230
+P2980,Sofía Díaz,63,M,Callao,Traumatología,2023-06-01,342
+P2981,Carmen Cabrera,70,M,Callao,Traumatología,2021-11-26,443
+P2982,Lucía Pérez,83,F,Callao,Ginecología,2021-02-18,371
+P2983,Andrés Rojas,38,F,San Isidro,Ginecología,2025-02-20,335
+P2984,Carlos Gómez,21,M,Lince,Pediatría,2022-07-02,257
+P2985,María Salazar,28,F,Jesús María,Cardiología,2025-10-05,206
+P2986,José Pérez,64,F,San Isidro,Odontología,2024-03-18,288
+P2987,Carlos Torres,29,F,Cajamarca,Dermatología,2022-03-11,258
+P2988,Carmen Rojas,50,F,Lince,Traumatología,2025-08-12,53
+P2989,Ana Ramírez,82,F,Miraflores,Dermatología,2022-12-03,130
+P2990,Sofía Cabrera,4,F,La Molina,Cardiología,2025-12-16,235
+P2991,Lucía Rojas,78,M,Jesús María,Oftalmología,2020-07-19,231
+P2992,José Cabrera,17,F,Jesús María,Cardiología,2022-06-02,250
+P2993,Andrés Rojas,42,F,Surco,Oftalmología,2021-12-29,359
+P2994,Miguel Salazar,25,M,La Molina,Traumatología,2020-09-05,322
+P2995,Luis Fernández,83,F,Cajamarca,Cardiología,2024-06-26,198
+P2996,María Pérez,13,M,San Isidro,Traumatología,2024-04-09,277
+P2997,Carlos Cabrera,86,M,Surco,Oftalmología,2021-02-04,64
+P2998,María Rojas,33,M,La Molina,Ginecología,2025-09-25,133
+P2999,Sofía Salazar,10,M,Surco,Odontología,2021-12-20,205
+P3000,Carlos Ramírez,76,F,Jesús María,Ginecología,2025-10-15,276
